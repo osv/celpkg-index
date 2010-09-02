@@ -1,0 +1,8 @@
+This is ports of packages for celpkg ( http://github.com/osv/celpkg ).
+
+Celpkg will load all "*.index" files.
+
+Please add following line at begin of your index file:
+
+  # -*- coding: utf-8; mode: tcl -*-
+
