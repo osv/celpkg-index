@@ -4,6 +4,7 @@ $description Setup fonts for different languages.
 $version 1.0
 $category configure
 $author Osprey
+$maintainer Osprey
 $created 2010-06-07
 $modified 2010-09-02
 $choice {"lang" "Русский" "Target language font" {"Українська" "Русский" "Български" "日本語" "中文" "English \"clean\" font"}}

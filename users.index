@@ -3,8 +3,8 @@ $USER {
     Osprey {
 	-mail {"olexandr_syd \[ at \] users.sourceforge.net"}
 	-www {http://osprey.bplaced.net}
-	-info {"Olexandr Sydorchuk
-Initial author of celpkg"}
+	-info {"Olexandr Sydorchuk"
+	    "Initial author of celpkg"}
     }
     granthutchison {
 	-mail {"grant.celestia@xemaps.com"}

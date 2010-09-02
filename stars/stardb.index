@@ -2,7 +2,7 @@
 $addon "Star Database A"
 $version 2.1
 $author granthutchison "Pascal Hartmann"
-$committer Osprey
+$maintainer Osprey
 $category Extrasolar/Stars
 $description Star database that contains 1016382 stars.
 Depending on the speed and graphics capabilities of your machine, these add-ons can create quite a bit of overhead!
@@ -20,7 +20,7 @@ $copy {tmp/starsdb2.1A_1.4.0/stars.dat data/stars.dat}
 $addon "Star Database C"
 $version 2.1
 $author granthutchison "Pascal Hartmann"
-$committer Osprey
+$maintainer Osprey
 $category Extrasolar/Stars
 $description Star database that contains 2072867 stars.
 Depending on the speed and graphics capabilities of your machine, these add-ons can create quite a bit of overhead!
