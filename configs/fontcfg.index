@@ -1,0 +1,74 @@
+# -*- coding: utf-8; mode: tcl -*-
+$addon "Font Configure"
+$description Setup fonts for different languages.
+$version 1.0
+$category configure
+$author Osprey
+$created 2010-06-07
+$modified 2010-09-02
+$choice {"lang" "Русский" "Target language font" {"Українська" "Русский" "Български" "日本語" "中文" "English \"clean\" font"}}
+$options {bigfont
+    yes "Prefer big fonts instead small"}
+# title font
+$xpatch {if {$opt(lang) == "Українська"}} {
+    { -file celestia.cfg -body {script variable {Configuration TitleFont} set {"sansbold20_uk.txf"}} } }
+$xpatch {if {$opt(lang) == "Русский"}} {
+    { -file celestia.cfg -body {script variable {Configuration TitleFont} set {"sansbold20_ru.txf"}} } }
+$xpatch {if {$opt(lang) == "Български"}} {
+    { -file celestia.cfg -body {script variable {Configuration TitleFont} set {"sansbold20_bg.txf"}} } }
+$xpatch {if {$opt(lang) == "日本語"}} {
+    { -file celestia.cfg -body {script variable {Configuration TitleFont} set {"sansbold20_ja.txf"}} } }
+$xpatch {if {$opt(lang) == "中文"}} {
+    { -file celestia.cfg -body {script variable {Configuration TitleFont} set {"sansbold20_zh_CN.txf"}} } }
+$xpatch {if {$opt(lang) == "English \"clean\" font"}} {
+    { -file celestia.cfg -body {script variable {Configuration TitleFont} set {"cleanbold16.txf"}} } }
+# small font
+$xpatch {if {!$opt(bigfont) && $opt(lang) == "Українська"}} {
+    { -file celestia.cfg -body {script variable {Configuration Font} set {"sans12_uk.txf"}} }
+    { -file celestia.cfg -body {script variable {Configuration LabelFont} set {"sans12_uk.txf"}} }
+}
+$xpatch {if {!$opt(bigfont) && $opt(lang) == "Русский"}} {
+    { -file celestia.cfg -body {script variable {Configuration Font} set {"sans12_ru.txf"}} }
+    { -file celestia.cfg -body {script variable {Configuration LabelFont} set {"sans12_ru.txf"}} }
+}
+$xpatch {if {!$opt(bigfont) && $opt(lang) == "Български"}} {
+    { -file celestia.cfg -body {script variable {Configuration Font} set {"sans12_bg.txf"}} }
+    { -file celestia.cfg -body {script variable {Configuration LabelFont} set {"sans12_bg.txf"}} }
+}
+$xpatch {if {!$opt(bigfont) && $opt(lang) == "日本語"}} {
+    { -file celestia.cfg -body {script variable {Configuration Font} set {"sans12_ja.txf"}} }
+    { -file celestia.cfg -body {script variable {Configuration LabelFont} set {"sans12_ja.txf"}} }
+}
+$xpatch {if {!$opt(bigfont) && $opt(lang) == "中文"}} {
+    { -file celestia.cfg -body {script variable {Configuration Font} set {"sans12_zh_CN.txf"}} }
+    { -file celestia.cfg -body {script variable {Configuration LabelFont} set {"sans12_zh_CN.txf"}} }
+}
+$xpatch {if {!$opt(bigfont) && $opt(lang) == "English \"clean\" font"}} {
+    { -file celestia.cfg -body {script variable {Configuration Font} set {"clean12.txf"}} }
+    { -file celestia.cfg -body {script variable {Configuration LabelFont} set {"clean12.txf"}} }
+}
+# font big
+$xpatch {if {$opt(bigfont) && $opt(lang) == "Українська"}} {
+    { -file celestia.cfg -body {script variable {Configuration Font} set {"sans14_uk.txf"}} }
+    { -file celestia.cfg -body {script variable {Configuration LabelFont} set {"sans14_uk.txf"}} }
+}
+$xpatch {if {$opt(bigfont) && $opt(lang) == "Русский"}} {
+    { -file celestia.cfg -body {script variable {Configuration Font} set {"sans14_ru.txf"}} }
+    { -file celestia.cfg -body {script variable {Configuration LabelFont} set {"sans14_ru.txf"}} }
+}
+$xpatch {if {$opt(bigfont) && $opt(lang) == "Български"}} {
+    { -file celestia.cfg -body {script variable {Configuration Font} set {"sans14_bg.txf"}} }
+    { -file celestia.cfg -body {script variable {Configuration LabelFont} set {"sans14_bg.txf"}} }
+}
+$xpatch {if {$opt(bigfont) && $opt(lang) == "日本語"}} {
+    { -file celestia.cfg -body {script variable {Configuration Font} set {"sans14_ja.txf"}} }
+    { -file celestia.cfg -body {script variable {Configuration LabelFont} set {"sans14_ja.txf"}} }
+}
+$xpatch {if {$opt(bigfont) && $opt(lang) == "中文"}} {
+    { -file celestia.cfg -body {script variable {Configuration Font} set {"sans14_zh_CN.txf"}} }
+    { -file celestia.cfg -body {script variable {Configuration LabelFont} set {"sans14_zh_CN.txf"}} }
+}
+$xpatch {if {$opt(bigfont) && $opt(lang) == "English \"clean\" font"}} {
+    { -file celestia.cfg -body {script variable {Configuration Font} set {"clean16.txf"}} }
+    { -file celestia.cfg -body {script variable {Configuration LabelFont} set {"clean16.txf"}} }
+}

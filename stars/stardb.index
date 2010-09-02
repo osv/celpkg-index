@@ -1,0 +1,36 @@
+# -*-coding: utf-8; mode: tcl -*-
+$addon "Star Database A"
+$version 2.1
+$author granthutchison "Pascal Hartmann"
+$committer Osprey
+$category Extrasolar/Stars
+$description Star database that contains 1016382 stars.
+Depending on the speed and graphics capabilities of your machine, these add-ons can create quite a bit of overhead!
+NOTE: As discussed on the Celestia forum, these databases may contain some location errors.
+$distfile { -name starsdb2.1A_1.4.0.zip -size 17892479 -md5 e60e5e41301e1cfdc4350e665be91d69
+    -url http://www.celestiamotherlode.net/creators/p_hartmann/starsdb2.1A_1.4.0.zip
+}
+$created 2008-02-07
+$modified 2009-04-13
+$install {* -skip}
+$unpack {-type zip -file starsdb2.1A_1.4.0.zip -dir tmp}
+$backup data/stars.dat
+$copy {tmp/starsdb2.1A_1.4.0/stars.dat data/stars.dat}
+
+$addon "Star Database C"
+$version 2.1
+$author granthutchison "Pascal Hartmann"
+$committer Osprey
+$category Extrasolar/Stars
+$description Star database that contains 2072867 stars.
+Depending on the speed and graphics capabilities of your machine, these add-ons can create quite a bit of overhead!
+NOTE: As discussed on the Celestia forum, these databases may contain some location errors.
+$created 2008-02-07
+$modified 2009-04-13
+$distfile { -name starsdb2.1C_1.4.0.zip -size 36723662 -md5 26c04fdb4f9470cf7ef8c1d6f301816d
+    -url http://www.celestiamotherlode.net/creators/p_hartmann/starsdb2.1C_1.4.0.zip
+}
+$install {* -skip}
+$unpack {-type zip -file starsdb2.1C_1.4.0.zip -dir tmp}
+$backup data/stars.dat
+$copy {tmp/starsdb2.1C_1.4.0/stars.dat data/stars.dat}
