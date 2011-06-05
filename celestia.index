@@ -1,0 +1,33 @@
+# -*- coding: utf-8; mode: tcl -*-
+$addon "Celestia 1.6"
+$version 1
+$created 2010-09-02
+$modified 2010-09-02
+$maintainer Osprey
+$category Celestia
+$description Data files for celestia version 1.6.x
+
+$distfile { -name celestia-r5055.tar.gz
+    -size 33791965
+    -url http://osprey.bplaced.net/download/celestia/celestia-r5055.tar.gz
+    -md5 3daf07a670d4a0b8d967233461d1f98c
+    -sha256 10b30a41dae5f751e701208201eeadbde0eac3360e5302a40c2e8598aa01e9b9
+}
+$depend "Celestia data files 1.6"
+$unpack {-type tar -file celestia-r5055.tar.gz}
+
+$addon "Celestia data files 1.6"
+$version 5055
+$created 2010-09-02
+$modified 2010-09-02
+$maintainer Osprey
+$category Celestia/Misc
+$description data/* files for celestia v1.6x
+# data/ svn r 5055
+$distfile { -name celestia-data-r5055.tar.gz
+    -size 6176329
+    -url http://osprey.bplaced.net/download/celestia/celestia-data-r5055.tar.gz
+    -md5 41a04c36988e6ce482918de82e3f42aa
+    -sha256 1a6b8564ef7bfbc23647703cf67960612745077ebb0b84eac0e8f240c1878381
+}
+$unpack {-type tar -file celestia-data-r5055.tar.gz}

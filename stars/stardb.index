@@ -12,10 +12,11 @@ $distfile { -name starsdb2.1A_1.4.0.zip -size 17892479 -md5 e60e5e41301e1cfdc435
 }
 $created 2008-02-07
 $modified 2009-04-13
-$install {* -skip}
-$unpack {-type zip -file starsdb2.1A_1.4.0.zip -dir tmp}
+$install {.dat}
+$unpack {-type zip -file starsdb2.1A_1.4.0.zip}
 $backup data/stars.dat
-$copy {tmp/starsdb2.1A_1.4.0/stars.dat data/stars.dat}
+$renamework {starsdb2.1A_1.4.0 data}
+$depend "Celestia 1.6"
 
 $addon "Star Database C"
 $version 2.1
@@ -30,7 +31,8 @@ $modified 2009-04-13
 $distfile { -name starsdb2.1C_1.4.0.zip -size 36723662 -md5 26c04fdb4f9470cf7ef8c1d6f301816d
     -url http://www.celestiamotherlode.net/creators/p_hartmann/starsdb2.1C_1.4.0.zip
 }
-$install {* -skip}
-$unpack {-type zip -file starsdb2.1C_1.4.0.zip -dir tmp}
+$install {*.dat}
+$unpack {-type zip -file starsdb2.1C_1.4.0.zip}
 $backup data/stars.dat
-$copy {tmp/starsdb2.1C_1.4.0/stars.dat data/stars.dat}
+$renamework {starsdb2.1C_1.4.0 data}
+$depend "Celestia 1.6"
