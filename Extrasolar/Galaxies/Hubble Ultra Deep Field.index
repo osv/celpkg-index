@@ -1,0 +1,24 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Hubble Ultra Deep Field"
+$category {Extrasolar/Galaxies} {Experimental/Robot/Extrasolar/Galaxies}
+# default version!
+$version 1.0
+$created 2004-11-04
+$modified 2008-01-22
+$description The Hubble Ultra Deep Field image represented via a 1K Billboard.
+$description This add-on displays the over-10,000 galaxies seen in the Hubble Ultra Deep Field images. Extract this package to a temporary directory, then copy the Hubble UDF folder to your Celestia\extras directory. Use the ENTER-TYPE NAME-Enter method to type <B>Hubble Ultra Deep Field</B> into Celestia in order to locate and view this add-on.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=541"
+$license "unknown"
+$author {Frank Gregorio} 
+$distfile {
+    -name "Hubble_UDF.zip" -size 741875 -md5 8ab399fddbaf6a0f77ac5eb08a9973bf
+    -url http://www.celestiamotherlode.net/creators/fsgregs/Hubble_UDF.zip }
+$unpack {
+    -file "Hubble_UDF.zip" -type zip}
+# linux dir fix
+$renamework {Extras extras}
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/extrasolar/Hubble_Ultra_Deep_Field__FrankG.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/extrasolar/Hubble_Ultra_Deep_Field__FrankG.jpg }
+$end

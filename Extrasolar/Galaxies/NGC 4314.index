@@ -1,0 +1,25 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "NGC 4314"
+$category {Extrasolar/Galaxies} {Experimental/Robot/Extrasolar/Galaxies}
+$version {1.0}
+$created 2009-02-25
+$modified 2009-02-25
+$description NGC 4314 Galaxy Model for Celestia 1.5.1
+$conflicts NGC4314
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1296"
+$license "not given"
+$author {starry} 
+$distfile {
+    -name "NGC4314_151.zip" -size 305753 -md5 6fcc9320899deb3addf820304c9ca0da
+    -url http://www.celestiamotherlode.net/creators/starry/NGC4314_151.zip }
+$unpack {
+    -file "NGC4314_151.zip" -type zip
+    -dir "extras/NGC 4314" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/galaxies_NGC_4314_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/galaxies_NGC_4314_1__.jpg }
+$install
+    {"~" -skip}
+    {}
+$end

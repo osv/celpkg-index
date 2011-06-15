@@ -1,0 +1,28 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "M108 NGC 3556"
+$category {Extrasolar/Galaxies} {Experimental/Robot/Extrasolar/Galaxies}
+# default version!
+$version 1.0
+$created 2004-11-04
+$modified 2008-01-19
+$description M108 Galaxy 2K Billboard.
+$conflicts M108 NGC3556
+$description This add-on was designed for OLDER versions of Celestia. The latest releases of our favorite program already include a much more realistic representation of this galaxy. It won't hurt anything to install, but is really unnecessary as of Celestia 1.4.1. Also, this add-on utilizes a Billboard 2D model in order to display Celestia's now built-in 3D version of the galaxy. Please note also that you will see TWO different renderings of the Galaxy if you install this add-on. One is the representation shown here, and the other is Celestia's internal representation. Not recommended unless you have other reasons to install.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=531"
+$license "Unknown."
+$author {MindToAsk} 
+$distfile {
+    -name "M108.zip" -size 86085 -md5 859c145848670081b56b2a2a4e223f69
+    -url http://www.celestiamotherlode.net/creators/mindtoask/M108.zip }
+$unpack {
+    -file "M108.zip" -type zip
+    -dir "extras" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/extrasolar/M_108_NGC3556__MindToAsk.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/extrasolar/M_108_NGC3556__MindToAsk.jpg }
+$install
+    {"~" -skip}
+    {"Thumbs.db" -skip}
+    {}
+$end

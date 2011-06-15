@@ -1,0 +1,29 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Hubble Ultra Deep Field Galaxies"
+$category {Extrasolar/Galaxies} {Experimental/Robot/Extrasolar/Galaxies}
+$version {1.0}
+$created 2011-03-21
+$modified 2011-03-21
+$description This add-on provides the DSC file containing the references for some galaxies discovered in the Hubble Ultra Deep Field.
+$description The rev. 1.0 is the very first revision of this add-on, and provides data just of the two farthest galaxies discovered as of January 2011.
+- UDFj-39546284: this is a compact galaxy of blue stars that existed as we see it 13.2 billion years ago, around 480 million years after the Big Bang. It is the oldest galaxy found as of 26 January 2011.
+- UDFy-38135539: this is a galaxy which has been calculated (as of October 2010) to have a light travel time of 13.1 billion years with a present comoving distance of around 30 billion light-years. UDFy-38135539 is still the most distant object spectroscopically confirmed.
+
+References:
+
+- http://en.wikipedia.org/wiki/UDFj-39546284
+- http://en.wikipedia.org/wiki/UDFy-38135539
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1546"
+$license "Public domain"
+$author {Luigi C.} 
+$distfile {
+    -name "Hubble_Ultra_Deep_Field.zip" -size 1631 -md5 41867ac602d171b3f5dc3487c03366f4
+    -url http://www.celestiamotherlode.net/creators/luigi_c/Hubble_Ultra_Deep_Field.zip }
+$unpack {
+    -file "Hubble_Ultra_Deep_Field.zip" -type zip
+    -dir "extras" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/galaxies_Hubble_Ultra_Deep_Field_1__Luigi_C.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/galaxies_Hubble_Ultra_Deep_Field_1__Luigi_C.jpg }
+$end

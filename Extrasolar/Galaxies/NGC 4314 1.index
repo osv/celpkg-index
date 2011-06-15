@@ -1,0 +1,27 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "NGC 4314 1"
+$category {Extrasolar/Galaxies} {Experimental/Robot/Extrasolar/Galaxies}
+# default version!
+$version 1.0
+$created 2004-11-04
+$modified 2008-01-19
+$description NGC 4314 Galaxy Model.
+$conflicts NGC4314
+$description This add-on was designed for OLDER versions of Celestia. The latest releases of our favorite program already include a much more realistic representation of this galaxy. It won't hurt anything to install, but is really unnecessary as of Celestia 1.4.1. Also, this add-on utilizes a 3D model (with depth-sorting problems) in order to display Celestia's now built-in (and fully correct) 3D version of the galaxy. Please note also that you will see TWO different renderings of the galaxy if you install this add-on. One is the representation shown here, and the other is Celestia's internal representation. Not recommended unless you have other reasons to install. See the second screen shot below for more information.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=535"
+$license "Unknown."
+$author {Dave Mc} 
+$distfile {
+    -name "NGC4314.zip" -size 308888 -md5 ca3dbeb8a00d7fb8add9bfdb61a9a7f1
+    -url http://www.celestiamotherlode.net/creators/davemc/NGC4314.zip }
+$unpack {
+    -file "NGC4314.zip" -type zip
+    -dir "extras/NGC 4314 1" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/extrasolar/NGC_4314__DaveMc.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/extrasolar/NGC_4314__DaveMc.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/galaxies_NGC4314_1__Dave_Mc.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/galaxies_NGC4314_1__Dave_Mc.jpg }
+$end

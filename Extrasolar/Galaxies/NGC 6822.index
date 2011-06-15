@@ -1,0 +1,26 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "NGC 6822"
+$category {Extrasolar/Galaxies} {Experimental/Robot/Extrasolar/Galaxies}
+$version {1.0}
+$created 2009-02-25
+$modified 2009-02-25
+$description Galaxy NGC 6822 - image insert into 3D model.
+$conflicts NGC6822
+$description This is corrected for the Celestia 1.5.1 add-on originally made by MindToAsk for Celestia's older version to match location in newer release. You will no longer see duplicate objects. Flat 2D image interferes with 3D model though what definitely makes it look not natural but at least gives a better idea of how this object really looks like as seen from National Optical Astronomy Observatory's telescope. It shows colorful nebula structure within galaxy, which lacks 3D model.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1297"
+$license "Not given."
+$author {starry} 
+$distfile {
+    -name "NGC6822_151.zip" -size 929070 -md5 4439c797478a7f15927df5267b8ab523
+    -url http://www.celestiamotherlode.net/creators/starry/NGC6822_151.zip }
+$unpack {
+    -file "NGC6822_151.zip" -type zip
+    -dir "extras/NGC 6822" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/galaxies_NGC_6822_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/galaxies_NGC_6822_1__.jpg }
+$install
+    {"Thumbs.db" -skip}
+    {}
+$end

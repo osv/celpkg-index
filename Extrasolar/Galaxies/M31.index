@@ -1,0 +1,35 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "M31"
+$category {Extrasolar/Galaxies} {Experimental/Robot/Extrasolar/Galaxies}
+# default version!
+$version 1.0
+$created 2009-03-14
+$modified 2010-03-15
+$description The Andromeda Galaxy M31 for Celestia 1.5.1.
+$description This is modified version of the original add-on by Jestr. Adapted for Celestia 1.5.1, the location and size of the object matches this in newer releases of Celestia.
+If you replace the old add-on with this one, you will no longer see TWO different renderings of the Galaxy. The image from the Hubble Telescope superimposed on the Celestia 3D model gives pretty much a cool effect in this particular case, better than with some other similar add-ons and it seems to work well with this respect.
+To select the original Celestia model type "M 31" in the ENTER-TYPE NAME-ENTER dialog.
+To select this add-on object, type "+M31" in the dialog.
+
+Please note, this add-on requires manual tweaking to work on Linux since some file names have the wrong cases, and the add-on utilizes a Billboard 2D model in order to display Celestia's now built-in 3D version of the galaxy.
+
+Created by: Jestr
+Modified by: Starry (Tomasz Malyszek)
+$conflicts M31
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1302"
+$license "Public Domain"
+$author {starry} 
+$distfile {
+    -name "M31_C151.zip" -size 921489 -md5 ffacdf400e58e08078b7db6216f49d23
+    -url http://www.celestiamotherlode.net/creators/starry/M31_C151.zip }
+$unpack {
+    -file "M31_C151.zip" -type zip
+    -dir "extras" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/galaxies_M31_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/galaxies_M31_1__.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/galaxies_M31_2__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/galaxies_M31_2__.jpg }
+$end

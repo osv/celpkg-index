@@ -1,0 +1,30 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "NGC 6822 1"
+$category {Extrasolar/Galaxies} {Experimental/Robot/Extrasolar/Galaxies}
+# default version!
+$version 1.0
+$created 2004-11-04
+$modified 2008-01-19
+$description NGC 6822 Galaxy 4K Billboard.
+$conflicts NGC6822
+$description This add-on was designed for OLDER versions of Celestia. The latest releases of our favorite program already include a much more realistic representation of this galaxy. It won't hurt anything to install, but is really unnecessary as of Celestia 1.4.1. The add-on utilizes a Billboard 2D model in order to display Celestia's now built-in 3D version of the galaxy. Please note also that you will see TWO different renderings of the Galaxy if you install this add-on. One is the representation shown here, and the other is Celestia's internal representation. Not recommended unless you have other reasons to install. Please see the second screen shot below for more information. In this image, the galaxy shown on the left is Celestia's 3D representation, and the galaxy shown at the right is this 2D Billboard image.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=538"
+$license "Unknown."
+$author {MindToAsk} 
+$distfile {
+    -name "NGC6822.zip" -size 926333 -md5 7283d1bd4902859b7699553169f2fa5f
+    -url http://www.celestiamotherlode.net/creators/mindtoask/NGC6822.zip }
+$unpack {
+    -file "NGC6822.zip" -type zip
+    -dir "extras/NGC 6822 1" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/extrasolar/NGC_6822__mindtoask.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/extrasolar/NGC_6822__mindtoask.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/galaxies_NGC_6822_1__MindToAsk.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/galaxies_NGC_6822_1__MindToAsk.jpg }
+$install
+    {"Thumbs.db" -skip}
+    {}
+$end

@@ -1,0 +1,26 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "NGC 4414 Galaxy"
+$category {Extrasolar/Galaxies} {Experimental/Robot/Extrasolar/Galaxies}
+$version {2}
+$created 2006-01-25
+$modified 2008-01-19
+$description NGC 4414 Galaxy Billboard for Celestia 1.4.0 or 1.4.1.
+$conflicts NGC4414
+$description This add-on actually enhances the display of the galaxy NGC 4414 in Celestia 1.4.0 or 1.4.1. Even though Celestia represents galaxies via its own 3D rendering, the addition of this add-on creates a visually stunning display of the galaxy. You can view many more details and still see the general galactic characteristics by installing Jestr's work here. To install, please view Jestr's ReadMe.txt file which is included in this package. Please note that this does NOT currently work correctly in Celestia 1.5 or later. The reason this works at all is because Jestr's add-on places the Billboard exactly where it should be shown in Celestia, and the result combines both Celestia's internal galaxy rendering with Jestr's billboard to present the galaxy in good detail.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=910"
+$license "Public Domain."
+$author {Jestr} 
+$distfile {
+    -name "ngc_4414_v2.zip" -size 3256046 -md5 b37b98f01c3c5b83d219a90fb9ce97a9
+    -url http://celestiamotherlode.net/creators/jestr/ngc_4414_v2.zip }
+$unpack {
+    -file "ngc_4414_v2.zip" -type zip
+    -dir "extras/NGC 4414 Galaxy" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/galaxies_NGC_4414_v2_1__Jestr.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/galaxies_NGC_4414_v2_1__Jestr.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/galaxies_NGC_4414_V2_1__Jestr.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/galaxies_NGC_4414_V2_1__Jestr.jpg }
+$end

@@ -1,0 +1,28 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "NGC 2207   IC 2163"
+$category {Extrasolar/Galaxies} {Experimental/Robot/Extrasolar/Galaxies}
+# default version!
+$version 1.0
+$created 2004-11-04
+$modified 2008-01-19
+$description NGC 2207/IC 2163 Merging Galaxies 2K Billboard.
+$conflicts NGC2207 IC2163
+$description This add-on was designed for OLDER versions of Celestia. The latest releases of our favorite program already include a much more realistic representation of these galaxies. It won't hurt anything to install, but is really unnecessary as of Celestia 1.4.1. Also, this add-on utilizes a Billboard 2D model in order to display Celestia's now built-in 3D version of the galaxies. Please note also that you will see TWO different renderings of these galaxies if you install this add-on. One is the representation shown here, and the other is Celestia's internal representation. Not recommended unless you have other reasons to install.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=533"
+$license "unknown"
+$author {Jestr} 
+$distfile {
+    -name "NGC2207-IC2163.zip" -size 3073525 -md5 a8a410b29f9e57102ed5485a1f4049c7
+    -url http://celestiamotherlode.net/creators/jestr/NGC2207-IC2163.zip }
+$unpack {
+    -file "NGC2207-IC2163.zip" -type zip
+    -dir "extras/NGC 2207   IC 2163" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/galaxies_NGC_2207__38_IC_2163_1__Jestr.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/galaxies_NGC_2207__38_IC_2163_1__Jestr.jpg }
+$install
+    {"~" -skip}
+    {"Thumbs.db" -skip}
+    {}
+$end

@@ -1,0 +1,25 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Scream"
+$category {Extrasolar/Galaxies} {Experimental/Robot/Extrasolar/Galaxies}
+$version {1.0}
+$created 2009-10-01
+$modified 2009-10-01
+$description A very unusual group of galaxies.
+$description This group of galaxies (that resembles the painting "The Scream" hence the name) was found in SDSS imagery (image source for this addon) in 2008. It was discovered by a project classifying galaxies called Galaxy Zoo. (They also discovered the voorwerp that is on the Nebulae page.)
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1360"
+$license "This addon is free to use. Please email me if you want to use it for another addon  or commercial purpose."
+$author {Michael} 
+$distfile {
+    -name "Scream.zip" -size 23460 -md5 3b9850e1e9c1bfb056ae407ba5df4551
+    -url http://www.celestiamotherlode.net/creators/michael/Scream.zip }
+$unpack {
+    -file "Scream.zip" -type zip
+    -dir "extras/Scream" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/galaxies_Scream_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/galaxies_Scream_1__.jpg }
+$install
+    {"Thumbs.db" -skip}
+    {}
+$end
