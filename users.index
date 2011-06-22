@@ -2,7 +2,7 @@
 $USER {
     Osprey {
 	-mail {"olexandr_syd \[ at \] users.sourceforge.net"}
-	-www {http://osprey.bplaced.net}
+	-www {http://celpkg.sf.net}
 	-info {"Olexandr Sydorchuk"
 	    "Initial author of celpkg"}
     }

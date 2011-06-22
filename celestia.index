@@ -1,33 +1,100 @@
 # -*- coding: utf-8; mode: tcl -*-
-$addon "Celestia 1.6"
-$version 1
-$created 2010-09-02
-$modified 2010-09-02
+$addon "celestia current"
+$category {Celestia/All} {Celestia/Current} 
+$version cur1.6.1
+$created 2011-05-13
+$modified 2011-06-16
 $maintainer Osprey
-$category Celestia
-$description Data files for celestia version 1.6.x
-
-$distfile { -name celestia-r5055.tar.gz
-    -size 33791965
-    -url http://osprey.bplaced.net/download/celestia/celestia-r5055.tar.gz
-    -md5 3daf07a670d4a0b8d967233461d1f98c
-    -sha256 10b30a41dae5f751e701208201eeadbde0eac3360e5302a40c2e8598aa01e9b9
+$author "Celestia Development Team"
+$description Core files for celestia. This version celestia is from svn.
+$depend "celestia current data files"
+$distfile { -name celestia-current-r5163.tar.gz -size 34550566
+    -md5 06f46b63f23654ad55242be735da6b38
+    -sha256 6a35b4f2e07c9f16f8606c6f3e40d2c4a550d12025259138110264d9f3f58390
+    -url http://sourceforge.net/projects/celpkg/files/celcore/current/celestia-current-r5163.tar.gz/download
 }
-$depend "Celestia data files 1.6"
-$unpack {-type tar -file celestia-r5055.tar.gz}
+$unpack {-type tar -file celestia-current-r5163.tar.gz}
+$provide celestia.cfg extras fonts
 
-$addon "Celestia data files 1.6"
-$version 5055
-$created 2010-09-02
-$modified 2010-09-02
+$addon "celestia current data files"
+$category {Celestia/} {Celestia/Current}
+$version cur1.6.1
+$created 2011-05-13
+$modified 2011-06-16
 $maintainer Osprey
-$category Celestia/Misc
-$description data/* files for celestia v1.6x
-# data/ svn r 5055
-$distfile { -name celestia-data-r5055.tar.gz
-    -size 6176329
-    -url http://osprey.bplaced.net/download/celestia/celestia-data-r5055.tar.gz
-    -md5 41a04c36988e6ce482918de82e3f42aa
-    -sha256 1a6b8564ef7bfbc23647703cf67960612745077ebb0b84eac0e8f240c1878381
+$author "Celestia Development Team"
+$description Data files for celestia. This version celestia is from svn.
+$distfile {-name celestia-data-current-r5163.tar.gz -size 6176808
+    -md5 9e88357367b1a1cc5122b45ca38336ba
+    -sha256 0bec165252c044aeb80616148d5fd393044aebac2e427002e690dc3c14a1a015
+    -url http://sourceforge.net/projects/celpkg/files/celcore/current/celestia-data-current-r5163.tar.gz/download
 }
-$unpack {-type tar -file celestia-data-r5055.tar.gz}
+$unpack {-type tar -file celestia-data-current-r5163.tar.gz}
+$provide data
+# ------------------------------------------------
+$addon "celestia 1.6"
+$category {Celestia/All} {Celestia/Stable}
+$version 1.6.1
+$created 2011-05-09
+$modified 2011-06-16
+$maintainer Osprey
+$author "Celestia Development Team"
+$description Core files for celestia. Stable version of celestia.
+$depend "celestia 1.6 data files"
+$distfile { -name celestia-161-r5162.tar.gz -size 34646242
+    -md5 31490b53b249d7b0f4764eb5ffa70acb
+    -sha256 b04647375a8631aea0d11e5d977d12f4c2450946ecc88f19f1d4e1770bc4f7c8
+    -url http://sourceforge.net/projects/celpkg/files/celcore/r16/celestia-161-r5162.tar.gz/download
+}
+$unpack {-type tar -file celestia-161-r5162.tar.gz}
+$provide celestia.cfg extras fonts
+
+$addon "celestia 1.6 data files"
+$category {Celestia/All} {Celestia/Stable}
+$version 1.6.1
+$created 2011-05-09
+$modified 2011-06-16
+$maintainer Osprey
+$author "Celestia Development Team"
+$description Data files for celestia. Stable version of celestia.
+$distfile {-name celestia-data-161-r5162.tar.gz -size 6173170
+    -md5 496d397740a866e7c9323ad54fd4c950
+    -sha256 e06b06616e85762755e80c493bc1260453bfd87657fdfd1f3d27414efcffce7c
+    -url http://sourceforge.net/projects/celpkg/files/celcore/r16/celestia-data-161-r5162.tar.gz/download
+}
+$unpack {-type tar -file celestia-data-161-r5162.tar.gz}
+$provide data
+# ------------------------------------------------
+$addon "celestia 1.5"
+$category {Celestia/All} {Celestia/Stable}
+$version 1.5.1
+$created 2008-04-13
+$modified 2011-06-16
+$maintainer Osprey
+$author "Celestia Development Team"
+$description Core files for celestia. Stable version of celestia.
+$depend "celestia 1.5 data files"
+$distfile { -name celestia-151-r4269.tar.gz -size 23098482
+    -md5 a5945507a2e58ab90ec21ac823eb6131
+    -sha256 c6c66f176e367fa30a7640330a9d08671c65ce9b05cf364f8cfd2297aa8a9b20
+    -url http://sourceforge.net/projects/celpkg/files/celcore/r15/celestia-151-r4269.tar.gz/download
+}
+$unpack {-type tar -file celestia-151-r4269.tar.gz}
+$provide celestia.cfg extras fonts
+
+$addon "celestia 1.5 data files"
+$category {Celestia/All} {Celestia/Stable}
+$version 1.5.1
+$created 2008-04-14
+$modified 2011-06-16
+$maintainer Osprey
+$author "Celestia Development Team"
+$description Data files for celestia. Stable version of celestia.
+$distfile {-name celestia-data-151-r4269.tar.gz -size 6118841
+    -md5 664d43ac0e024e16700b877118519f8f
+    -sha256 fb0dcf5df3167e3b3dd2109c8aabd7dc893cdb57f99ed2303e1075430beb5985
+    -url http://sourceforge.net/projects/celpkg/files/celcore/r15/celestia-data-151-r4269.tar.gz/download
+}
+$unpack {-type tar -file celestia-data-151-r4269.tar.gz}
+$provide data
+$end
