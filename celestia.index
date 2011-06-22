@@ -17,7 +17,7 @@ $unpack {-type tar -file celestia-current-r5163.tar.gz}
 $provide celestia.cfg extras fonts
 
 $addon "celestia current data files"
-$category {Celestia/} {Celestia/Current}
+$category {Celestia/All} {Celestia/Current}
 $version cur1.6.1
 $created 2011-05-13
 $modified 2011-06-16
