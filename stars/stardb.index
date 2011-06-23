@@ -16,7 +16,7 @@ $install {.dat}
 $unpack {-type zip -file starsdb2.1A_1.4.0.zip}
 $backup data/stars.dat
 $renamework {starsdb2.1A_1.4.0 data}
-$depend "Celestia 1.6"
+$require data
 
 $addon "Star Database C"
 $version 2.1
@@ -35,4 +35,5 @@ $install {*.dat}
 $unpack {-type zip -file starsdb2.1C_1.4.0.zip}
 $backup data/stars.dat
 $renamework {starsdb2.1C_1.4.0 data}
-$depend "Celestia 1.6"
+$require data
+$end
