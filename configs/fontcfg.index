@@ -7,6 +7,7 @@ $author Osprey
 $maintainer Osprey
 $created 2010-06-07
 $modified 2010-09-02
+$require celestia.cfg
 $choice {"lang" "Русский" "Target language font" {"Українська" "Русский" "Български" "日本語" "中文" "English \"clean\" font"}}
 $options {bigfont
     yes "Prefer big fonts instead small"}
