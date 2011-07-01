@@ -1,0 +1,33 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "M-dwarf-Brown dwarf binary NLTT 41135"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.0}
+$created 2010-07-28
+$modified 2010-07-30
+$description This is the eclipsing M-dwarf+Brown dwarf binary system NLTT 41135, discovered by MEarth survey, the same who has detected GJ 1214 b transiting exoplanet.
+The system appears as a hierarchical triple, with two red dwarfs widely separated (55 AUs) and a brown dwarf in tight (0.022 AUs) orbit around secondary star (NLTT 41135, dM5; 'NLTT 41136' is the primary, a dM4 star).
+Curiously this system has three very close and bright neighboring star: Unukalhai (Alpha Serpentis) at 2.42 Light Years and Epsilon Serpentis at 3.98 Ly, and Sigma Serpentis at 20.5.
+$conflicts GJ1214
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1502"
+$license "This add-on may be freely used for Celestia."
+$author {Edasich} 
+$distfile {
+    -name "NLTT_41135.zip" -size 1841357 -md5 1e97703636331e2d9b88f4303921c41b
+    -url http://www.celestiamotherlode.net/creators/edasich/NLTT_41135.zip }
+$unpack {
+    -file "NLTT_41135.zip" -type zip
+    -dir "extras/M-dwarf-Brown dwarf binary NLTT 41135" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_M_dwarf_Brown_dwarf_bina_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_M_dwarf_Brown_dwarf_bina_1__.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_M_dwarf_Brown_dwarf_bina_2__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_M_dwarf_Brown_dwarf_bina_2__.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_M_dwarf_Brown_dwarf_bina_3__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_M_dwarf_Brown_dwarf_bina_3__.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_M_dwarf_Brown_dwarf_bina_4__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_M_dwarf_Brown_dwarf_bina_4__.jpg }
+$end

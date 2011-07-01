@@ -1,0 +1,27 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Sculptor Stars"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.0}
+$created 2009-05-18
+$modified 2009-05-19
+$description This add-on places 20,000 fictional stars in Sculptor dpsh, for Celestia 1.6+
+With the releases of Celestia 1.6 SVN versions at the forum, Celestia is now able to render stars BEYOND the 16 Kilo Light Year boundary.
+This add-on places 20,000 fictional stars inside the Sculptor dsph galaxy.
+Please read the author's readme.txt file for installation and usage information.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1326"
+$license "This file may be freely used for Celestia"
+$author {gradius_fanatic} 
+$distfile {
+    -name "sculptor_stars.zip" -size 753404 -md5 feb5f5b8e90acb6d9ab5e5c5c733432f
+    -url http://www.celestiamotherlode.net/creators/gradius_fanatic/sculptor_stars.zip }
+$unpack {
+    -file "sculptor_stars.zip" -type zip
+    -dir "extras/Sculptor Stars" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Sculptor_Stars_2__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Sculptor_Stars_2__.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Sculptor_Stars_3__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Sculptor_Stars_3__.jpg }
+$end

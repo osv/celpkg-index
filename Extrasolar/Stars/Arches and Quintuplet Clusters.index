@@ -1,0 +1,24 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Arches and Quintuplet Clusters"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.0}
+$created 2009-04-30
+$modified 2009-08-22
+$description Two star clusters near the center of the galaxy.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1318"
+$license "Freeware"
+$author {Friendship7} 
+$distfile {
+    -name "Arches-Quintuplet.zip" -size 38044 -md5 a29bcc530e4af095bb7d5f03d5d1190a
+    -url http://www.celestiamotherlode.net/creators/friendship7/Arches-Quintuplet.zip }
+$unpack {
+    -file "Arches-Quintuplet.zip" -type zip
+    -dir "extras/Arches and Quintuplet Clusters" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Arches_and_Quintuplet_Cl_2__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Arches_and_Quintuplet_Cl_2__.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Arches_and_Quintuplet_Cl_3__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Arches_and_Quintuplet_Cl_3__.jpg }
+$end

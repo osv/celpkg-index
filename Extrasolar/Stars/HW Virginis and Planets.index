@@ -1,0 +1,25 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "HW Virginis and Planets"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.0}
+$created 2010-04-20
+$modified 2010-04-26
+$description The sdB+M dwarf eclipsing binary HW Virginis and its substellar companions.
+$description The sdB+M dwarf eclipsing binary HW Virginis and its substellar companions (gas giant+brown dwarf).
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1463"
+$license "© Edasich 2010"
+$author {Edasich} 
+$distfile {
+    -name "HW_Virginis_and_Planets.zip" -size 5693712 -md5 bdd605f601575041cd2ee7110eef8004
+    -url http://www.celestiamotherlode.net/creators/edasich/HW_Virginis_and_Planets.zip }
+$unpack {
+    -file "HW_Virginis_and_Planets.zip" -type zip
+    -dir "extras/HW Virginis and Planets" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_HW_Virginis_and_Planets_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_HW_Virginis_and_Planets_1__.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_HW_Virginis_and_Planets_2__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_HW_Virginis_and_Planets_2__.jpg }
+$end

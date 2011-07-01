@@ -1,0 +1,34 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Kepler Transiting Planets (Feb 2011)"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {2.0}
+$created 2011-02-08
+$modified 2011-03-09
+$description Updated (Feb 2011) stc and ssc files on exoplanets discovered by the Kepler mission.
+This add-on contains a bunch of stars and relevant transiting exoplanets candidates discovered by the Kepler mission.
+This work is based on the Edasich work and the data provided by the Kepler researchers.
+
+The stellar distances of Kepler-5, Kepler-6 and Kepler-7 have not been provided and these are inferred from apparent magnitude estimated by Kepler researchers.
+
+The planet Kepler-10c is not reported in the Kepler list of the confirmed planets, but the relevant data has been taken from http://exoplanet.eu/planet.php?p1=Kepler-10&p2=c.
+
+The textures provided in the folder textures\medres are the Edasich's original ones, I have not added, deleted or edited anything.
+
+Thanks to Edasich for his precious work.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1534"
+$license "Public domain"
+$author {Luigi C.} 
+$distfile {
+    -name "Kepler_planets_LC_2_0.zip" -size 5101047 -md5 d164a0c2f87cddb0b6796960559c89e9
+    -url http://www.celestiamotherlode.net/creators/luigi_c/Kepler_planets_LC_2_0.zip }
+$unpack {
+    -file "Kepler_planets_LC_2_0.zip" -type zip
+    -dir "extras/Kepler Transiting Planets (Feb 2011)" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Kepler_Transiting_Planet_3__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Kepler_Transiting_Planet_3__.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Kepler_Transiting_Planet_4__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Kepler_Transiting_Planet_4__.jpg }
+$end

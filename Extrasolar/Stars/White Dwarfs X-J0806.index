@@ -1,0 +1,29 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "White Dwarfs X-J0806"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+# default version!
+$version 1.0
+$created 2005-06-18
+$modified 2009-04-13
+$description This is a "fictional" representation of two real white dwarfs located at about 1600 LY from our Sun.
+$description These stars are rotating at a fast rate (5 min 30 sec) around their common barycenter. They are called RX J0806.3+1527. Their accretion disk is the source of some intense X-ray radiation. I made this add-on from the information found on the following http://chandra.harvard.edu/photo/2005/j0806/index.html Seek out the nice animation there, which is showing the gravitational waves emitted by the system.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=777"
+$license "This add-on is completely free of charges and may be edited as you wish, but only if it's related to Celestia and to education. You may NOT use my texture or the model for any commercial purposes."
+$author {Cham} 
+$distfile {
+    -name "X-J0806.zip" -size 1069767 -md5 6890e7163055b469854fe4703d3e0975
+    -url http://www.celestiamotherlode.net/creators/cham/X-J0806.zip }
+$unpack {
+    -file "X-J0806.zip" -type zip
+    -dir "extras/White Dwarfs X-J0806" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_White_Dwarfs_X_J0806_1__Cham.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_White_Dwarfs_X_J0806_1__Cham.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_White_Dwarfs_X_J0806_2__Cham.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_White_Dwarfs_X_J0806_2__Cham.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_White_Dwarfs_X_J0806_3__Cham.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_White_Dwarfs_X_J0806_3__Cham.jpg }
+$end

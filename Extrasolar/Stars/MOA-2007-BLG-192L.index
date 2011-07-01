@@ -1,0 +1,32 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "MOA-2007-BLG-192L"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.0}
+$created 2008-07-09
+$modified 2008-07-10
+$description The newly-discovered planet MOA-2007-BLG-192Lb, which orbits the brown dwarf MOA-2007-BLG-192L.
+This system is 3000 +-400 ly from our sun. MOA-2007-BLG-192L is estimated to be about six percent of our sun's mass, which is just below the mass needed to trigger and sustain nuclear fusion in its core, making it a brown dwarf.
+This also marks the lowest mass star yet found to hold a planet, with "MOA-2007-BLG-192Lb" coming in at approximately 20% of the star’s mass.
+It orbits at about the same distance as Venus from our sun, but the star is so dim (anywhere from 3,000 to a million times fainter than our sun) that from just solar heating alone the planet’s atmosphere would likely be colder than the surface of Pluto.
+Astrophysicists studying the MOA-2007-BLG-192L system have crunched the numbers and offered the optimistic suggestion that the planet not only holds a thick atmosphere, but that it has a surface covered by a deep ocean heated from inside by radioactive decay. This interior heating could give the planet a surface temperature as balmy (in the astronomical sense) as Earth. On the flip side of the coin, MOA-2007-BLG-192Lb could just be a giant rock and ice version of Mercury.
+This discovery is very exciting because it implies Earth-mass planets can form around low-mass stars, which are very common.
+So, I created a fictional earth-like planet, which is nearly covered by an ocean. The planet has a distance of 0.62 AU from the parent star.
+MOA-2007-BLG-192Lb was first mentioned in the "The Astrophysical Journal" in May 30 2008.
+NOTE: Please view Fugazi's read me file for instructions concerning the installation and usage of this add-on.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1216"
+$license "Free for non-commercial use."
+$author {Fugazi} 
+$distfile {
+    -name "moa_2007_blg_192l.zip" -size 5692243 -md5 80a0b52d276550f6ed2efa766e3fd4a2
+    -url http://www.celestiamotherlode.net/creators/fugazi/moa_2007_blg_192l.zip }
+$unpack {
+    -file "moa_2007_blg_192l.zip" -type zip
+    -dir "extras/MOA-2007-BLG-192L" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_MOA_2007_BLG_192L_1__Fugazi.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_MOA_2007_BLG_192L_1__Fugazi.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_MOA_2007_BLG_192L_2__Fugazi.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_MOA_2007_BLG_192L_2__Fugazi.jpg }
+$end

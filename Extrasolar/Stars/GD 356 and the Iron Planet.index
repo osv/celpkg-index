@@ -1,0 +1,22 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "GD 356 and the Iron Planet"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.0}
+$created 2010-04-09
+$modified 2010-04-17
+$description Iron-based terrestrial planet orbiting the white dwarf GD 356.
+$description An iron-based terrestrial planet orbiting the white dwarf GD 356 as inferred by Wickramasinghe et al. (2010) -> http://arxiv.org/abs/1002.1761
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1458"
+$license "This add-on may be freely used by Celestia users."
+$author {Edasich} 
+$distfile {
+    -name "GD_356.zip" -size 278993 -md5 db22c0323283c2b70db576c53945bc1d
+    -url http://www.celestiamotherlode.net/creators/edasich/GD_356.zip }
+$unpack {
+    -file "GD_356.zip" -type zip
+    -dir "extras/GD 356 and the Iron Planet" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_GD_356_and_the_Iron_Plan_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_GD_356_and_the_Iron_Plan_1__.jpg }
+$end

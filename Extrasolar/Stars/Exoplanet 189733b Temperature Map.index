@@ -1,0 +1,26 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Exoplanet 189733b Temperature Map"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.0}
+$created 2009-08-02
+$modified 2009-08-02
+$description Alternate surface for HD189733b. Temperature map created from NASA/JLP-Caltech research.
+$conflicts HD189733B
+$description HD 189733b is a Jupiter-sized planet much hotter than our solar system's ruling gas giant. This planet's temperature variation map has been modified to work with Celestia (v1.4+).
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1343"
+$license "Free for non-commercial use."
+$author {Eric Anderson} 
+$distfile {
+    -name "exoplanet_189733b.zip" -size 8744 -md5 ac65386f2df0ac0b111a7393129448b0
+    -url http://www.celestiamotherlode.net/creators/ericanderson/exoplanet_189733b.zip }
+$unpack {
+    -file "exoplanet_189733b.zip" -type zip
+    -dir "extras/Exoplanet 189733b Temperature Map" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Exoplanet_189733b_Temper_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Exoplanet_189733b_Temper_1__.jpg }
+$install
+    {"Thumbs.db" -skip}
+    {}
+$end

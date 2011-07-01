@@ -1,0 +1,32 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Castor - a sextuple star system"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.0}
+$created 2009-01-11
+$modified 2009-01-11
+$description The six stars (3 binary pairs) of Castor in their orbits.
+In standard Celestia, Castor is only represented as a single star. In fact, Castor is a sextuple star system comprised of three different binary stars.
+The add-on provides the six stars (3 binary pairs of Castor in their orbits - as far as they are known.) It also provides a script which will take the novice user of Celestia on a short guided tour of the Castor system.
+It will work with 1.4.x versions of Celestia, however it is highly recommended that you install Celestia v1.5.1 or later before installing this add-on.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1281"
+$author {Chuft-Captain} 
+$distfile {
+    -name "ccCastor01.zip" -size 5989 -md5 4a1535da4fe0e8cb7ad89f38eddadbf5
+    -url http://www.celestiamotherlode.net/creators/chuft-captain/ccCastor01.zip }
+$unpack {
+    -file "ccCastor01.zip" -type zip
+}
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Castor__a_sextuple_star_2__Chuft_Captain.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Castor__a_sextuple_star_2__Chuft_Captain.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Castor__a_sextuple_star_3__Chuft_Captain.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Castor__a_sextuple_star_3__Chuft_Captain.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Castor__a_sextuple_star_4__Chuft_Captain.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Castor__a_sextuple_star_4__Chuft_Captain.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Castor__a_sextuple_star_1__Chuft_Captain.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Castor__a_sextuple_star_1__Chuft_Captain.jpg }
+$end

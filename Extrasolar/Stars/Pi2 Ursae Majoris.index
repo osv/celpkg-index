@@ -1,0 +1,22 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Pi2 Ursae Majoris"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.0}
+$created 2010-01-01
+$modified 2010-01-03
+$description The giant star Pi2(4)Ursae Majoris and a newly discovered planetary companion.
+$description The giant star Pi2(4)Ursae Majoris and its extrasolar planetary companion is a gas giant 7 times more massive than Jupiter. It is 0.87 AU from its luminous evolved host. It's host is 111.7 times more luminous than our Sun.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1381"
+$license "© Edasich"
+$author {Edasich} 
+$distfile {
+    -name "Pi2_Ursae_Majoris.zip" -size 2701667 -md5 08f31e60048de83ced59d13c32964cec
+    -url http://www.celestiamotherlode.net/creators/edasich/Pi2_Ursae_Majoris.zip }
+$unpack {
+    -file "Pi2_Ursae_Majoris.zip" -type zip
+    -dir "extras/Pi2 Ursae Majoris" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Pi2_Ursae_Majoris_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Pi2_Ursae_Majoris_1__.jpg }
+$end

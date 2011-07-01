@@ -1,0 +1,23 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "OGLE-2006-BLG-109 & Exoplanets"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.0}
+$created 2010-03-24
+$modified 2010-03-26
+$description Star OGLE-2006-BLG-109L and it's two known exoplanets.
+$conflicts OGLE2006-BLG-109 OGLE2006-BLG-109L
+$description OGLE-2006-BLG-109L (where 'L' stands for lens) is a dim magnitude 17 unclassified galactic bulge star approximately 4,920 light-years away in the constellation of Sagittarius. In 2008, two extrasolar planets were discovered around the star using gravitational microlensing. The two planets are at a distance from their star that make them suspected analogs of Jupiter and Saturn.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1448"
+$license "Public Domain"
+$author {Brad} 
+$distfile {
+    -name "OGLE-2006-BLG-109L.zip" -size 2094 -md5 e5db405d1286edcfdb3a7e7ff3143308
+    -url http://www.celestiamotherlode.net/creators/Brad/OGLE-2006-BLG-109L.zip }
+$unpack {
+    -file "OGLE-2006-BLG-109L.zip" -type zip
+    -dir "extras/OGLE-2006-BLG-109 & Exoplanets" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_OGLE_2006_BLG_109__Exop_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_OGLE_2006_BLG_109__Exop_1__.jpg }
+$end

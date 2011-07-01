@@ -1,0 +1,21 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "HAT-P-13"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.0}
+$created 2010-04-02
+$modified 2010-04-17
+$description Star HAT-P-13 and it's two known exoplanets.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1452"
+$license "Public Domain"
+$author {Brad} 
+$distfile {
+    -name "HAT-P-13.zip" -size 1882 -md5 f547ae766a1854277f8b637b9b090ede
+    -url http://www.celestiamotherlode.net/creators/Brad/HAT-P-13.zip }
+$unpack {
+    -file "HAT-P-13.zip" -type zip
+    -dir "extras/HAT-P-13" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_HAT_P_13_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_HAT_P_13_1__.jpg }
+$end

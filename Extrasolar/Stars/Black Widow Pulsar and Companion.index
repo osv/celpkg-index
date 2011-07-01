@@ -1,0 +1,22 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Black Widow Pulsar and Companion"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.0}
+$created 2010-04-20
+$modified 2010-04-26
+$description Pulsar System PSR B1957+20 (i.e QX Sge) nicknamed the "Black Widow".
+$description his is the pulsar system PSR B1957+20 (i.e QX Sge) nicknamed the "Black Widow". The neutron star is known to host a very low-mass companion with no more than 0.022 Solar masses (i.e roughly 22 Jupiter masses) that is not a low-mass shrunken white dwarf of 25 Jupiter masses but quite a brown dwarf with very "bloated" radius (up to 3 Jupiter radii, or 0.3 Solar radii). As stated by Reynolds et al. (2007).
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1464"
+$license "© 2010 Edasich"
+$author {Edasich} 
+$distfile {
+    -name "The_Black_Widow_Pulsar.zip" -size 257573 -md5 f20f64265cc06f8b87eca0a86a7fd723
+    -url http://www.celestiamotherlode.net/creators/edasich/The_Black_Widow_Pulsar.zip }
+$unpack {
+    -file "The_Black_Widow_Pulsar.zip" -type zip
+    -dir "extras/Black Widow Pulsar and Companion" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Black_Widow_Pulsar_and_C_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Black_Widow_Pulsar_and_C_1__.jpg }
+$end

@@ -1,0 +1,23 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "OGLE-2003-BLG-235 & Exoplanet"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.0}
+$created 2010-03-24
+$modified 2010-03-26
+$description Star OGLE-2003-BLG-235 and it's known exoplanet.
+$conflicts OGLE2003-BLG-235
+$description OGLE-2003-BLG-235/MOA 2003-BLG-53 was a gravitational microlensing event which occurred in the constellation of Sagittarius during July 2003. The event was observed both as part of the Optical Gravitational Lensing Experiment (OGLE) and by the Microlensing Observations in Astrophysics group (MOA), hence the double designation.[1] The source star in the gravitational lens is a main sequence star of spectral type G located around 8.8 kiloparsecs (29,000 light years) away in the galactic bulge. The lens star is an orange dwarf star of spectral type K, which is accompanied by a giant planet.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1445"
+$license "Public Domain"
+$author {Brad} 
+$distfile {
+    -name "OGLE-2003-BLG-235.zip" -size 1544 -md5 8dda1061c6ccf255881a07b2f6044f00
+    -url http://www.celestiamotherlode.net/creators/Brad/OGLE-2003-BLG-235.zip }
+$unpack {
+    -file "OGLE-2003-BLG-235.zip" -type zip
+    -dir "extras/OGLE-2003-BLG-235 & Exoplanet" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_OGLE_2003_BLG_235__Exop_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_OGLE_2003_BLG_235__Exop_1__.jpg }
+$end

@@ -1,0 +1,26 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "White Dwarf Sirius-B"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+# default version!
+$version 1.0
+$created 2006-10-27
+$modified 2008-01-29
+$description Generic White Dwarf texture for Type WD stellar remnants stars.
+$description Originally designed for Sirius B, this add-on may still be used as it was intended. However, with the release of Celestia 1.5.0, you may now specify default star textures based on the types of stars which can now be found within your celestia.cfg file in the main Celestia directory. Please disregard the SSC file included in this package unless you wish this add-on to modify only Sirius B. Instead, simply copy this texture to your Celestia\textures\medres directory, and then modify your celestia.cfg file to point to the new texture under the WD header found within the CFG file. Now, whenever you go to any White Dwarf (WD) star, you will see the new White Dwarf texture rather than the Celestia default texture.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1011"
+$license "Free and open distribution without restriction. Simply include the author in the credits if you use the add-on as a component to other Celestia add-ons."
+$author {Frank Gregorio} 
+$distfile {
+    -name "white_dwarf.zip" -size 67999 -md5 86484565c99bef4c65a1ecaafb861de7
+    -url http://www.celestiamotherlode.net/creators/fsgregs/white_dwarf.zip }
+$unpack {
+    -file "white_dwarf.zip" -type zip
+    -dir "extras/White Dwarf Sirius-B" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_White_Dwarf_Sirius_B_1__Frank_Gregorio.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_White_Dwarf_Sirius_B_1__Frank_Gregorio.jpg }
+$install
+    {"Thumbs.db" -skip}
+    {}
+$end

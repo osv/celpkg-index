@@ -1,0 +1,30 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "55_Cnc binary"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.1}
+$created 2011-05-06
+$modified 2011-05-08
+$description This add-on contains data to update the Celestia default Rho1 Cnc system to a binary system.
+The new binary system is: RHO1 Cnc A & RHO1 Cnc B
+
+The definition of the barycenter RHO1 Cnc replaces the old star definition.
+The definitions of the RHO1 Cnc exoplanets now refer to the A star.
+The values of mass and radius of the planet 'e' have been corrected.
+
+Rev. 1.1 - 04/30/2011
+Updated data according to The Extrasolar Planets Encyclopaedia, as of 04/30/2011.
+http://exoplanet.eu/catalog.php
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1553"
+$license "Free for non commercial use"
+$author {Luigi C.} 
+$distfile {
+    -name "55_Cnc_binary.zip" -size 1703 -md5 654fc761b7f1b00169c0bcc1182e8e6d
+    -url http://www.celestiamotherlode.net/creators/luigi_c/55_Cnc_binary.zip }
+$unpack {
+    -file "55_Cnc_binary.zip" -type zip
+    -dir "extras/55_Cnc binary" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_55_Cnc_binary_1__Luigi_C.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_55_Cnc_binary_1__Luigi_C.jpg }
+$end

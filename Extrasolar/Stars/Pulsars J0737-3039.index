@@ -1,0 +1,29 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Pulsars J0737-3039"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.0}
+$created 2006-09-19
+$modified 2008-01-31
+$description Fictional representation of two very REAL pulsars.
+$description This small add-on is a representation of two real pulsars located at about 1800 LY from our Sun and moving at a fast rate around their common barycenter (2 hours 27 min). They are called PSR 0737-3039. Since their discovery in 2004, they became famous among astronomers and astrophysicists, because of their ultra-relativistic behavior. This add-on is made from the recent data given to Cham by one of the discoverers (Micheal Kramer). Read Cham's installation instructions in his Readme.txt file. 
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1001"
+$license "Free to use, but only if it's related to Celestia and education. Can NOT be used for any commercial activity."
+$author {Cham} 
+$distfile {
+    -name "PSR_J0737-3039.zip" -size 1647781 -md5 fd077b8e6ca0cc2d2752580e543ac7ab
+    -url http://www.celestiamotherlode.net/creators/cham/PSR_J0737-3039.zip }
+$unpack {
+    -file "PSR_J0737-3039.zip" -type zip
+    -dir "extras/Pulsars J0737-3039" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Pulsars_J0737_3039_1__Cham.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Pulsars_J0737_3039_1__Cham.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Pulsars_J0737_3039_2__Cham.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Pulsars_J0737_3039_2__Cham.jpg }
+$install
+    {"__MACOSX*" -deny}
+    {".DS_Store" -skip}
+    {}
+$end

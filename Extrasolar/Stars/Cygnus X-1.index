@@ -1,0 +1,26 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Cygnus X-1"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {2.0}
+$created 2011-05-02
+$modified 2011-05-03
+$description This add-on fixes the data of the star HD 226868 (HIP 98298) and adds the data of the compact companion Cygnus X-1.
+Cygnus X-1 (abbreviated Cyg X-1) is a well known galactic X-ray source in the constellation Cygnus. It was discovered in 1964 during a rocket flight and is one of the strongest X-ray sources seen from Earth.
+Cygnus X-1 was the first X-ray source widely accepted to be a black hole candidate. It is now estimated to have a mass about 8.7 times the mass of the Sun, and has been shown to be too compact to be any known kind of normal star or other likely object besides a black hole.
+V2.0 - 26/03/2011
+The binary system data are taken from actual estimates and calculation results, but the black hole is shown by means of a fictitious 3D model. The black hole model has been taken from the "Black Abyss - CygnusX1" add-on, by Martin Charest (Cham). Textures and models are those of Cham's add-on, with some fixes to the file names in order to work with Linux also.
+$conflicts HD226868
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1552"
+$license "Free for non commercial use"
+$author {Luigi C.} 
+$distfile {
+    -name "Cygnus_X-1_2_0.zip" -size 8783129 -md5 b8542ada59a47b1838785ad111ea1da0
+    -url http://www.celestiamotherlode.net/creators/luigi_c/Cygnus_X-1_2_0.zip }
+$unpack {
+    -file "Cygnus_X-1_2_0.zip" -type zip
+    -dir "extras/Cygnus X-1" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Cygnus_X_1_1__Luigi_C.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Cygnus_X_1_1__Luigi_C.jpg }
+$end

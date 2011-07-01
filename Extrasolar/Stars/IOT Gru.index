@@ -1,0 +1,22 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "IOT Gru"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {2.0}
+$created 2011-03-21
+$modified 2011-03-21
+$description This add-on provides some fixed data for the IOT Gru binary star system.
+$description This add-on replaces the default definition of the IOT Gru (HIP 114421) star, and fixes the barycenter coordinates and some stellar parameters of the IOT Gru system defined inside the "Stellar Degenerates" add-on.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1545"
+$license "Public Domain"
+$author {Luigi C.} 
+$distfile {
+    -name "IOT_Gru_2.0.zip" -size 1484 -md5 8ea6471c2f346cf5f14f0e84a607bced
+    -url http://www.celestiamotherlode.net/creators/luigi_c/IOT_Gru_2.0.zip }
+$unpack {
+    -file "IOT_Gru_2.0.zip" -type zip
+    -dir "extras/2009 Exoplanets" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_IOT_Gru_1__Luigi_C.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_IOT_Gru_1__Luigi_C.jpg }
+$end

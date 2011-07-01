@@ -1,0 +1,23 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Association Cyg OB 2"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+# default version!
+$version 1.0
+$created 2005-02-06
+$modified 2008-01-29
+$description Includes Cyg OB 2 and some Luminous Blue Variable star candidates. Requires Celestia 1.4.0 or later.
+$description The Readme file is in Spanish. To install, simply create a new folder in your Celestia\extras directory called CygOB2. Also, create a "data" directory inside of this folder, then copy the DSC file to the CygOB2 directory, and copy all of the STC files to your new Celestia\extras\CygOB2\data directory. Use the ENTER-TYPE NAME-ENTER method to type in "Cyg OB 2 Core" in order to locate and view this add-on within Celestia. Provides a nice Globular cluster populated with real stars.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=657"
+$license "unknown"
+$author {Miguel} 
+$distfile {
+    -name "Ass. Cyg OB 2.zip" -size 75321 -md5 b232dda3882ec7e0378933e06f221ad2
+    -url http://www.celestiamotherlode.net/creators/miguel/Ass.%20Cyg%20OB%202.zip }
+$unpack {
+    -file "Ass. Cyg OB 2.zip" -type zip
+    -dir "extras/Association Cyg OB 2" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Association_Cyg_OB_2_1__Miguel.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Association_Cyg_OB_2_1__Miguel.jpg }
+$end

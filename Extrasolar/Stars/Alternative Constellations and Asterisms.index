@@ -1,0 +1,26 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Alternative Constellations and Asterisms"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.1}
+$created 2010-11-15
+$modified 2011-02-08
+$description Contains the original and some alternative Constellations and Asterisms.
+This Celestia Add-on contains the original and some alternative Constellations and Asterisms. The Constellations are organized in 4 different series and can be recognized by their series number added to the Constellation name (#1, #2, #3, #4).
+Besides these 4 series of Constellations, creative individual Constellations are also added and can be recognized by their series number #5 or #6 added to the Constellation name. This Celestia Add-on also contains some well known Asterisms and some CELX scripts, that can be used to individually show and/or clear specific (series of) Constellations and Asterisms.
+V1.1: The Constellation series are extended with a complete new implementation of the Chinese Constellations and the Indigenous Brazilian Constellations.
+The Constellation series are extended with a complete new implementation of the Chinese Constellations (#7) and the Indigenous Brazilian Constellations (#8).
+This add-on overwrites some celestia system files so read the README before installing this add-on (editing of the celestia start.cel is needed)!
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1524"
+$license "Included in the read-me"
+$author {Marco Klunder} 
+$distfile {
+    -name "Asterisms_2011.zip" -size 16376827 -md5 dedb7805a77f668d1928f5819bc301cb
+    -url http://www.celestiamotherlode.net/creators/marco_klunder/Asterisms_2011.zip }
+$unpack {
+    -file "Asterisms_2011.zip" -type zip}
+$backup data/asterisms.dat
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Asterisms_2010_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Asterisms_2010_1__.jpg }
+$end

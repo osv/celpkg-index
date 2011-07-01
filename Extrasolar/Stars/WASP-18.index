@@ -1,0 +1,22 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "WASP-18"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.0}
+$created 2009-11-28
+$modified 2009-11-29
+$description The transiting extrasolar planet host WASP-18 + planet.
+$conflicts WASP18
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1375"
+$license "© Edasich"
+$author {Edasich} 
+$distfile {
+    -name "WASP-18.zip" -size 7310116 -md5 5bbf0bd67f9b40a98457b32c7ca4ffeb
+    -url http://www.celestiamotherlode.net/creators/edasich/WASP-18.zip }
+$unpack {
+    -file "WASP-18.zip" -type zip
+    -dir "extras/WASP-18" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_WASP_18_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_WASP_18_1__.jpg }
+$end

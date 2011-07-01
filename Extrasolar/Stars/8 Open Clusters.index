@@ -1,0 +1,25 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "8 Open Clusters"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.0}
+$created 2009-12-21
+$modified 2009-12-21
+$description Eight Open clusters.
+$description 8 Open clusters including Pismis 24, 1806-20, and Trumpler 14. The stars Eta Carinae AB, HD 93129 AB, LBV 1806-20, the Pistol Star, and IRS 7 are also included. Requires Celestia 1.6.0 (or later).
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1380"
+$license "Freeware"
+$author {Friendship7} 
+$distfile {
+    -name "Starclusters.zip" -size 158394 -md5 10a9b4471c44938d99e7426457dbd6dc
+    -url http://www.celestiamotherlode.net/creators/friendship7/Starclusters.zip }
+$unpack {
+    -file "Starclusters.zip" -type zip
+    -dir "extras/8 Open Clusters" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_8_Open_Clusters_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_8_Open_Clusters_1__.jpg }
+$install
+    {"Thumbs.db" -skip}
+    {}
+$end

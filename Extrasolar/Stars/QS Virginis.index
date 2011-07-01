@@ -1,0 +1,24 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "QS Virginis"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.0}
+$created 2009-11-15
+$modified 2009-11-22
+$description The cataclysmic variable QS Vir and its extrasolar planetary companion.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1370"
+$license "©2009 Edasich"
+$author {Edasich} 
+$distfile {
+    -name "QS_Virginis.zip" -size 796522 -md5 3aae6a8c2d3cf65f7232106fc1fdef17
+    -url http://www.celestiamotherlode.net/creators/edasich/QS_Virginis.zip }
+$unpack {
+    -file "QS_Virginis.zip" -type zip
+    -dir "extras/QS Virginis" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_QS_Virginis_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_QS_Virginis_1__.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_QS_Virginis_2__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_QS_Virginis_2__.jpg }
+$end

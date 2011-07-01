@@ -1,0 +1,24 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "GJ 1214 & Exoplanet"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.0}
+$created 2010-03-24
+$modified 2010-03-26
+$description Star GJ 1214 and it's exoplanet.
+GJ 1214 (Gliese-Jahreiss 1214) is a dim M4.5 red dwarf in the constellation Ophiuchus with an apparent magnitude of 14.7. It is located at a distance of approximately 40 light years from Earth. It is about one-fifth as large as the Sun with a surface temperature estimated to be 4,900 °F (2700 °C). Its brightness is only 0.3% that of the Sun.
+The estimate for the stellar radius is 15% larger than predicted by theoretical models. In mid-December 2009, a team of Harvard-Smithsonian astronomers announced the discovery of a companion extrasolar planet, GJ 1214 b, potentially composed largely of water and having the mass and diameter of a Super-Earth.
+$conflicts GJ1214
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1449"
+$license "Public Domain"
+$author {Brad} 
+$distfile {
+    -name "GJ_1214.zip" -size 1475 -md5 817b9505d27d8d49f8bfaca0065f3139
+    -url http://www.celestiamotherlode.net/creators/Brad/GJ_1214.zip }
+$unpack {
+    -file "GJ_1214.zip" -type zip
+    -dir "extras/GJ 1214 & Exoplanet" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_GJ_1214__Exoplanet_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_GJ_1214__Exoplanet_1__.jpg }
+$end

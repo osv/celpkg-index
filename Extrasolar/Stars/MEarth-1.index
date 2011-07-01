@@ -1,0 +1,26 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "MEarth-1"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.0}
+$created 2010-01-05
+$modified 2010-01-05
+$description The transitioning super-Earth from the MEarth program GJ 1214 b.
+$conflicts GJ1214
+$description This is the well-known transiting Super-Earth GJ 1214 b from MEarth program. A snapshot of this planet has also been uploaded by me at the Wikipedia page for http://it.wikipedia.org/wiki/GJ_1214_b
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1385"
+$license "© Edasich"
+$author {Edasich} 
+$distfile {
+    -name "MEarth-1.zip" -size 944914 -md5 a5fa69ba6101703493725cd096d1e4be
+    -url http://www.celestiamotherlode.net/creators/edasich/MEarth-1.zip }
+$unpack {
+    -file "MEarth-1.zip" -type zip
+    -dir "extras/MEarth-1" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_MEarth_1_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_MEarth_1_1__.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_MEarth_1_2__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_MEarth_1_2__.jpg }
+$end

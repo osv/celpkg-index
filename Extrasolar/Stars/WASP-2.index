@@ -1,0 +1,28 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "WASP-2"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.0}
+$created 2011-04-26
+$modified 2011-04-26
+$description Wasp-2b was one of the first discoveries of the Wide Angle Search for Planets survey for transiting exoplanets. This add-on contains an astrophysically accurate simulation (as far as possible) of the system, with some additional notes.
+$conflicts WASP2 WASP2B
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1551"
+$license "Permission is given to distribute these files freely."
+$author {ProfRob} 
+$distfile {
+    -name "wasp2.zip" -size 140006 -md5 e5a1467933cd1dd09f419729ef5c73a2
+    -url http://www.celestiamotherlode.net/creators/profRob/wasp2.zip }
+$unpack {
+    -file "wasp2.zip" -type zip
+    -dir "extras/WASP-2" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_WASP_2_1__ProfRob.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_WASP_2_1__ProfRob.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_WASP_2_2__ProfRob.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_WASP_2_2__ProfRob.jpg }
+$install
+    {"Thumbs.db" -skip}
+    {}
+$end

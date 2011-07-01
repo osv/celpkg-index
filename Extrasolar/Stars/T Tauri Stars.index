@@ -1,0 +1,21 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "T Tauri Stars"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.0}
+$created 2009-11-28
+$modified 2009-11-29
+$description Several young T Tauri-type stars from star forming regions of Taurus-Auriga and others.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1374"
+$license "© Edasich"
+$author {Edasich} 
+$distfile {
+    -name "T_Tauri_Stars.zip" -size 18460 -md5 656b7e95b0bfaad0652f1956d5a91ffc
+    -url http://www.celestiamotherlode.net/creators/edasich/T_Tauri_Stars.zip }
+$unpack {
+    -file "T_Tauri_Stars.zip" -type zip
+    -dir "extras/T Tauri Stars" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_T_Tauri_Stars_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_T_Tauri_Stars_1__.jpg }
+$end

@@ -1,0 +1,32 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Flare texture Replacement"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+# default version!
+$version 1.0
+$created 2005-01-05
+$modified 2008-04-17
+$description Another flare texture. Causes bright stars to look like the + found in some HST photos. For pre-1.50 Versions of Celestia only.
+Yet another alternative star flare texture. Simply copy the flare.jpg file to your Celestia\textures directory. Make certain that you back up or RENAME your current flare.jpg texture though, just in case you change your mind later.
+NOTE: The star flare textures are no longer used in versions of Celestia after 1.4.1.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=624"
+$license "unknown"
+$author {McWgogs} 
+$distfile {
+    -name "flare.zip" -size 21152 -md5 e6c1b2360a5a27b623dabb7f41c4970b
+    -url http://www.celestiamotherlode.net/creators/mcwgogs/flare.zip }
+$unpack {
+    -file "flare.zip" -type zip
+    -dir "textures" }
+$backup "textures/flare.jpg"
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/dataplots_Star_flare_texture_2__McWgogs.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/dataplots_Star_flare_texture_2__McWgogs.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Star_flare_texture_1__McWgogs.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Star_flare_texture_1__McWgogs.jpg }
+$install
+ {screenshot.png -skip}
+ {}
+$require celestia.cfg
+$end

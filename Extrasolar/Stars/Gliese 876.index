@@ -1,0 +1,32 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Gliese 876"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.1}
+$created 2011-05-29
+$modified 2011-05-29
+$description Artists Concept
+The planets are real but there is almost NO KNOWN information about them.
+This add-on is an example of using the tutorials posted on shatters to make maps for planets (making a planet - ...) forum: http://www.shatters.net/forum/viewforum.php?f=21
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1558"
+$license "Creative Commons"
+$author {John van Vliet} 
+$distfile {
+    -name "Gliese_876.zip" -size 42771113 -md5 30046eb0fdd6dc4e6549ea004013c4d0
+    -url http://www.celestiamotherlode.net/creators/johnvanvliet/Gliese_876.zip }
+$unpack {
+    -file "Gliese_876.zip" -type zip
+}
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Gliese_876_1__John_van_Vliet.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Gliese_876_1__John_van_Vliet.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Gliese_876_2__John_van_Vliet.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Gliese_876_2__John_van_Vliet.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Gliese_876_3__John_van_Vliet.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Gliese_876_3__John_van_Vliet.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Gliese_876_4__John_van_Vliet.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Gliese_876_4__John_van_Vliet.jpg }
+$end

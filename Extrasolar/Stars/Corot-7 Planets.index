@@ -1,0 +1,29 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Corot-7 Planets"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.0}
+$created 2010-06-09
+$modified 2010-06-10
+$description The two rocky planets of Corot-7.
+$conflicts COROT7
+$description The former is the well-known transiting rocky planet Corot-7 b and the latter is an 8.4 Earth masses "Super-Earth" found by radial velocity analysis (non-transiting planet).
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1483"
+$license "© 2010 Edasich"
+$author {Edasich} 
+$distfile {
+    -name "Corot-7_Planets.zip" -size 6290419 -md5 d3598781f6e3ff7c2f90bf02883c89f1
+    -url http://www.celestiamotherlode.net/creators/edasich/Corot-7_Planets.zip }
+$unpack {
+    -file "Corot-7_Planets.zip" -type zip
+    -dir "extras/Corot-7 Planets" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Corot_7_Planets_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Corot_7_Planets_1__.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Corot_7_Planets_2__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Corot_7_Planets_2__.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Corot_7_Planets_3__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Corot_7_Planets_3__.jpg }
+$end

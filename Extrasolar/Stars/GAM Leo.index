@@ -1,0 +1,24 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "GAM Leo"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.0}
+$created 2011-05-13
+$modified 2011-05-15
+$description This add-on is an update of the Gamma Leonis star system.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1554"
+$license "Free for non commercial use"
+$author {Luigi C.} 
+$distfile {
+    -name "GAM_Leo.zip" -size 2022 -md5 a74ef6eac17dfb12c766e496166c273b
+    -url http://www.celestiamotherlode.net/creators/luigi_c/GAM_Leo.zip }
+$unpack {
+    -file "GAM_Leo.zip" -type zip
+    -dir "extras/GAM Leo" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_GAM_Leo_1__Luigi_C.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_GAM_Leo_1__Luigi_C.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_GAM_Leo_2__Luigi_C.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_GAM_Leo_2__Luigi_C.jpg }
+$end

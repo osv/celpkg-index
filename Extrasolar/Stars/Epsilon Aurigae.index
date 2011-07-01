@@ -1,0 +1,29 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Epsilon Aurigae"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.0}
+$created 2010-04-05
+$modified 2010-04-05
+$description The eclipsing binary Epsilon Aurigae system, with dust disk around (invisible?) secondary omponent.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1454"
+$license "This add-on may be freely used for Celestia"
+$author {Edasich} 
+$distfile {
+    -name "Epsilon_Aurigae.zip" -size 5486709 -md5 67d523596818c388e5a33c063681b55d
+    -url http://www.celestiamotherlode.net/creators/edasich/Epsilon_Aurigae.zip }
+$unpack {
+    -file "Epsilon_Aurigae.zip" -type zip
+    -dir "extras/Epsilon Aurigae" }
+# damn windows
+$renamework {
+    "extras/Epsilon Aurigae/Eps Aur/textures/medres/Proto.PNG"
+    "extras/Epsilon Aurigae/Eps Aur/textures/medres/PROTO.PNG"
+}
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Epsilon_Aurigae_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Epsilon_Aurigae_1__.jpg }
+$install
+    {"Thumbs.db" -skip}
+    {}
+$end

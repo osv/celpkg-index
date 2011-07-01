@@ -1,0 +1,26 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "2009 Exoplanets"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.0}
+$created 2010-04-02
+$modified 2010-04-17
+$description 71 exoplanets discovered in 2009.
+This add on also includes the stars for a few of them. Please note that none of these were included in the Celestia program, which is why Brad made an add on for them.
+Currently as of March 2010 there are 443 Exoplanets that have been discovered.
+If you combine the total of the exoplants that came with Celestia 1.6V (333), this add on (71) and the ones included with my 2010 add on (19) you will get a total of 423.
+I have made six more add ons for a few discovered before 2009. That would put the total too 429. There are a few I have come across on Celestia Motherloade
+So grand total should be around 437, I guess that covers most of them.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1451"
+$license "Public Domain"
+$author {Brad} 
+$distfile {
+    -name "2009_Exoplanets.zip" -size 50726 -md5 adff71da625a7e21dc69ea428e3d2956
+    -url http://www.celestiamotherlode.net/creators/Brad/2009_Exoplanets.zip }
+$unpack {
+    -file "2009_Exoplanets.zip" -type zip
+    -dir "extras/2009 Exoplanets" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_2009_Exoplanets_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_2009_Exoplanets_1__.jpg }
+$end

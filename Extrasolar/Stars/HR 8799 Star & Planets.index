@@ -1,0 +1,23 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "HR 8799 Star & Planets"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.0}
+$created 2010-03-24
+$modified 2010-03-26
+$description Star HR 8799 and it's three Exoplanets.
+$conflicts HR8799
+$description HR 8799 is a young (~60 million year old) main sequence star located 129 light years (39 parsecs) away from Earth in the constellation of Pegasus, with roughly 1.5 times the Sun's mass and 4.9 times its luminosity. It is part of a system that also contains a debris disk and at least three massive planets (which, along with Fomalhaut b, were the first extrasolar planets whose orbital motion was confirmed via direct imaging).
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1444"
+$license "Public Domain"
+$author {Brad} 
+$distfile {
+    -name "HR_8799.zip" -size 2268 -md5 8b395b821afd530004d024c608fcdb25
+    -url http://www.celestiamotherlode.net/creators/Brad/HR_8799.zip }
+$unpack {
+    -file "HR_8799.zip" -type zip
+    -dir "extras/HR 8799 Star & Planets" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_HR_8799_Star__Planets_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_HR_8799_Star__Planets_1__.jpg }
+$end

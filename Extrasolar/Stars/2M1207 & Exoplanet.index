@@ -1,0 +1,21 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "2M1207 & Exoplanet"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.0}
+$created 2010-04-02
+$modified 2010-04-17
+$description Sstar 2M1207 and it's known exoplanet.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1453"
+$license "Public Domain"
+$author {Brad} 
+$distfile {
+    -name "2M1207.zip" -size 1373 -md5 39d2676588bae7a66c96283e5fe10696
+    -url http://www.celestiamotherlode.net/creators/Brad/2M1207.zip }
+$unpack {
+    -file "2M1207.zip" -type zip
+    -dir "extras/2M1207 & Exoplanet" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_2M1207__Exoplanet_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_2M1207__Exoplanet_1__.jpg }
+$end

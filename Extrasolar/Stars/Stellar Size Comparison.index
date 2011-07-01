@@ -1,0 +1,27 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Stellar Size Comparison"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.0}
+$created 2011-02-08
+$modified 2011-03-18
+$description A comparison of stars arranged by size from VY Canis Majoris the humble Neutron Star.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1533"
+$license "You need not ask to use the data files, but if you do please give credit to whom it belongs."
+$author {Splinterfrag} 
+$distfile {
+    -name "Size_Comparison.zip" -size 171148 -md5 0fac3908e4fbdafa7b3c843a5abf3415
+    -url http://www.celestiamotherlode.net/creators/splinterfrag/Size_Comparison.zip }
+$unpack {
+    -file "Size_Comparison.zip" -type zip
+    -dir "extras/Stellar Size Comparison" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Stellar_Size_Comparison_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Stellar_Size_Comparison_1__.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Stellar_Size_Comparison_2__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Stellar_Size_Comparison_2__.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Stellar_Size_Comparison_1__Splinterfrag.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Stellar_Size_Comparison_1__Splinterfrag.jpg }
+$end

@@ -1,0 +1,46 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "2010 Exoplanets II"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.0}
+$created 2010-10-29
+$modified 2010-10-30
+$description This add-on contains 38 new exoplanets discovered in April-Oct 2010.
+This add-on contains the extrasolar planets discovered from April-Oct 2010. Included are:
+2MASS J04414489+2301513
+CoRot-7 d / CoRot-8 / CoRot-10 to 14
+Gliese 876 e / Gliese 581 g
+HAT-P-15 b
+HAT-P-17 b
+HAT-P-20 b
+HAT-P-21 b
+HAT-P-22 b
+HAT-P-23 b
+HAT-P-24 b
+HD 10180 b-h
+HD 15082 b
+HD 38801 b
+HIP 104202 b & c
+HD 109246 b
+HD 145457 b
+HIP 57050 b
+WASP-21
+WASP-22
+WASP-24
+WASP-25
+WASP-26
+WASP-28
+WASP-29
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1516"
+$license "Public Domain"
+$author {Brad} 
+$distfile {
+    -name "2010_Exoplanets_II.zip" -size 31004 -md5 2548c0031d782c05f2630c79b494db80
+    -url http://www.celestiamotherlode.net/creators/Brad/2010_Exoplanets_II.zip }
+$unpack {
+    -file "2010_Exoplanets_II.zip" -type zip
+    -dir "extras/2010 Exoplanets II" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_2010_Exoplanets_II_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_2010_Exoplanets_II_1__.jpg }
+$end

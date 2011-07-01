@@ -1,0 +1,22 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "HIP 107089 b"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.0}
+$created 2010-10-29
+$modified 2010-10-30
+$description This add-on contains HIP 107089 b, discovered in 2009.
+$conflicts HIP107089
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1517"
+$license "Public Domain"
+$author {Brad} 
+$distfile {
+    -name "HIP_107089.zip" -size 1072 -md5 e4818e095f5b1c2849431ed80881555e
+    -url http://www.celestiamotherlode.net/creators/Brad/HIP_107089.zip }
+$unpack {
+    -file "HIP_107089.zip" -type zip
+    -dir "extras/HIP 107089 b" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_HIP_107089_b_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_HIP_107089_b_1__.jpg }
+$end

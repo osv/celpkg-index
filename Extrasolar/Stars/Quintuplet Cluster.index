@@ -1,0 +1,23 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Quintuplet Cluster"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.0}
+$created 2009-11-15
+$modified 2009-11-15
+$description A star cluster near the center of the galaxy.
+A collection of stars in the Quintuplet Cluster. All stars are set at a distance of 27000 light years from Earth. Includes the Pistol star and 3 other LBVs.
+NOTE: This addon was created using Celestia 1.6.0.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1369"
+$license "Freeware"
+$author {Friendship7} 
+$distfile {
+    -name "Quintuplet_stars.zip" -size 1323 -md5 b1e845202c7476ee51bab2506344035c
+    -url http://www.celestiamotherlode.net/creators/friendship7/Quintuplet_stars.zip }
+$unpack {
+    -file "Quintuplet_stars.zip" -type zip
+    -dir "extras/Quintuplet Cluster" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Quintuplet_Cluster_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Quintuplet_Cluster_1__.jpg }
+$end

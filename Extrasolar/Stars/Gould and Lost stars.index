@@ -1,0 +1,28 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Gould and Lost stars"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {0.1}
+$created 2011-02-18
+$modified 2011-02-19
+$description Gould designations for southern stars, with other minor corrections and enhancements, including many "Lost Star" designations as per Wagman's book.
+This add-on provides Gould designations for southern stars as assigned by Benjamin Gould in his Uranometria Argentina of 1879. Those Gould designations already in Celestia masquerading as Flamsteed numbers (e.g. 82 Eridani, 41 Arae) are corrected.
+In addition, Morton Wagman's "Lost Stars" has been consulted for additions and corrections to designations created by Bayer, Flamsteed, Lacaille, and Baily. A few additional historical designations close to the South Pole have been included. Primarily, those designations that are historically valid but dropped by Gould because the star didn't meet his magnitude cut-off limit, are reinstated. Version 0.1 is updated for the following 9 constellations: 1. Octans; 2. Mensa; 3. Hydrus; 4. Chamaeleon; 5. Apus; 6. Pavo; 7. Indus; 8. Tucana; 9. Volans.
+Other minor corrections (e.g. spelling of star names) have also been made. Chinese names have been removed.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1537"
+$license "This add-on and accompanying documents were created by Richard (richardontheweb@gmail.com) for use with Celestia. © 2011 - All rights reserved."
+$author {richard} 
+$require celestia.cfg
+$distfile {
+    -name "gould.zip" -size 64604 -md5 a4f05a5f31c2b26464cbf2b716f6cf8a
+    -url http://www.celestiamotherlode.net/creators/richard/gould.zip }
+$unpack {
+    -file "gould.zip" -type zip
+    -dir "extras" }
+$xpatch {
+    -file celestia.cfg -body {script variable {Configuration StarNameDatabase} set {"extras/gould/starnames.dat"}} 
+}
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Gould_and_Lost_stars_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Gould_and_Lost_stars_1__.jpg }
+$end

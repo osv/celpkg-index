@@ -1,0 +1,23 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "WASP-17 & Exoplanet"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.0}
+$created 2010-03-24
+$modified 2010-03-26
+$description WASP-17 and it's exoplanet.
+$conflicts WASP17
+$description WASP-17 is an F-type main sequence star approximately 1,000 light-years away in the constellation Scorpius. As of 2009, an extrasolar planet has been confirmed to orbit the star. The planet is thought to orbit in a retrograde orbit (opposite the star's rotation).
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1447"
+$license "Public Domain"
+$author {Brad} 
+$distfile {
+    -name "Wasp-17.zip" -size 1390 -md5 a37200838c203af8154dcb30acd28074
+    -url http://www.celestiamotherlode.net/creators/Brad/Wasp-17.zip }
+$unpack {
+    -file "Wasp-17.zip" -type zip
+    -dir "extras/WASP-17 & Exoplanet" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_WASP_17__Exoplanet_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_WASP_17__Exoplanet_1__.jpg }
+$end

@@ -1,0 +1,259 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Johan Hevelius' Constellations"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1}
+$created 2005-09-18
+$modified 2008-01-29
+$description Johann Hevelius' Uranographia (1690) images,translated into Celestia.
+$description Some of Johann's beautiful constellations, mapped onto the inner surface of a 10 light-year radius, and invisible sphere. You must turn on the Nebulae rendering via Celestia's "View Options" menu in order to view these constellations. Please be aware, however, that once enabled, these constellations may obscure your actual representations of some nebulae within Celestia. To install, simply copy the selected add-on (Download only one please) to your Celestia\extras directory.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=834"
+$license "Public domain."
+$author {Jestr}
+$choice {vers "Hires dds" "Texture resolution" {"Hires dds" "Hires png" "Lores dds" "Lores png"}}
+$distfile {if {$opt(vers) eq "Hires dds"}} {
+    {
+	-name "HeveliusConstellations_DDS.zip" -size 19962871 -md5 10586f08a6791be604ba65d792a960b1
+	-url http://celestiamotherlode.net/creators/jestr/HeveliusConstellations_DDS.zip }}
+$unpack {if {$opt(vers) eq "Hires dds"}} {
+    {
+	-file "HeveliusConstellations_DDS.zip" -type zip
+	-dir "extras/JHC" }}
+$renamework {if {$opt(vers) eq "Hires dds"}} {
+    {"extras/JHC/HeveliusConstellations_DDS/models/constellations.3DS"
+    "extras/JHC/HeveliusConstellations_DDS/models/constellations.3ds"}
+    {"extras/JHC/HeveliusConstellations_DDS/textures/medres/aquarius.dds"
+	"extras/JHC/HeveliusConstellations_DDS/textures/medres/AQUARIUS.DDS"}
+    {"extras/JHC/HeveliusConstellations_DDS/textures/medres/auriga.dds"
+	"extras/JHC/HeveliusConstellations_DDS/textures/medres/AURIGA.DDS"}
+    {"extras/JHC/HeveliusConstellations_DDS/textures/medres/bootes.dds"
+	"extras/JHC/HeveliusConstellations_DDS/textures/medres/BOOTES.DDS"}
+    {"extras/JHC/HeveliusConstellations_DDS/textures/medres/cancer.dds"
+	"extras/JHC/HeveliusConstellations_DDS/textures/medres/CANCER.DDS"}
+    {"extras/JHC/HeveliusConstellations_DDS/textures/medres/canis.dds"
+	"extras/JHC/HeveliusConstellations_DDS/textures/medres/CANIS.DDS"}
+    {"extras/JHC/HeveliusConstellations_DDS/textures/medres/cassiope.dds"
+	"extras/JHC/HeveliusConstellations_DDS/textures/medres/CASSIOPE.DDS"}
+    {"extras/JHC/HeveliusConstellations_DDS/textures/medres/corona.dds"
+	"extras/JHC/HeveliusConstellations_DDS/textures/medres/CORONA.DDS"}
+    {"extras/JHC/HeveliusConstellations_DDS/textures/medres/corvus.dds"
+	"extras/JHC/HeveliusConstellations_DDS/textures/medres/CORVUS.DDS"}
+    {"extras/JHC/HeveliusConstellations_DDS/textures/medres/gemini.dds"
+	"extras/JHC/HeveliusConstellations_DDS/textures/medres/GEMINI.DDS"}
+    {"extras/JHC/HeveliusConstellations_DDS/textures/medres/hercules.dds"
+	"extras/JHC/HeveliusConstellations_DDS/textures/medres/HERCULES.DDS"}
+    {"extras/JHC/HeveliusConstellations_DDS/textures/medres/leo.dds"
+	"extras/JHC/HeveliusConstellations_DDS/textures/medres/LEO.DDS"}
+    {"extras/JHC/HeveliusConstellations_DDS/textures/medres/lyra.dds"
+	"extras/JHC/HeveliusConstellations_DDS/textures/medres/LYRA.DDS"}
+    {"extras/JHC/HeveliusConstellations_DDS/textures/medres/orion.dds"
+	"extras/JHC/HeveliusConstellations_DDS/textures/medres/ORION.DDS"}
+    {"extras/JHC/HeveliusConstellations_DDS/textures/medres/pegasus.dds"
+	"extras/JHC/HeveliusConstellations_DDS/textures/medres/PEGASUS.DDS"}
+    {"extras/JHC/HeveliusConstellations_DDS/textures/medres/perseus.dds"
+	"extras/JHC/HeveliusConstellations_DDS/textures/medres/PERSEUS.DDS"}
+    {"extras/JHC/HeveliusConstellations_DDS/textures/medres/sagittar.dds"
+	"extras/JHC/HeveliusConstellations_DDS/textures/medres/SAGITTAR.DDS"}
+    {"extras/JHC/HeveliusConstellations_DDS/textures/medres/scorpius.dds"
+	"extras/JHC/HeveliusConstellations_DDS/textures/medres/SCORPIUS.DDS"}
+    {"extras/JHC/HeveliusConstellations_DDS/textures/medres/serpens.dds"
+	"extras/JHC/HeveliusConstellations_DDS/textures/medres/SERPENS.DDS"}
+    {"extras/JHC/HeveliusConstellations_DDS/textures/medres/taurus.dds"
+	"extras/JHC/HeveliusConstellations_DDS/textures/medres/TAURUS.DDS"}
+    {"extras/JHC/HeveliusConstellations_DDS/textures/medres/triangle.dds"
+	"extras/JHC/HeveliusConstellations_DDS/textures/medres/TRIANGLE.DDS"}
+    {"extras/JHC/HeveliusConstellations_DDS/textures/medres/ursamajr.dds"
+	"extras/JHC/HeveliusConstellations_DDS/textures/medres/URSAMAJR.DDS"}
+    {"extras/JHC/HeveliusConstellations_DDS/textures/medres/virgo.dds"
+	"extras/JHC/HeveliusConstellations_DDS/textures/medres/VIRGO.DDS"}
+}
+
+$distfile {if {$opt(vers) eq "Hires png"}} {
+    {
+	-name "HeveliusConstellations_PNG.zip" -size 65888610 -md5 51c4a35b821581066006acecde02b1ee
+	-url http://celestiamotherlode.net/creators/jestr/HeveliusConstellations_PNG.zip }}
+$renamework {if {$opt(vers) eq "Hires png"}} {
+    {"extras/JHC/HeveliusConstellations_PNG/models/constellations.3DS"
+	"extras/JHC/HeveliusConstellations_PNG/models/constellations.3ds"}
+    {"extras/JHC/HeveliusConstellations_PNG/textures/medres/andrmeda.png"
+	"extras/JHC/HeveliusConstellations_PNG/textures/medres/ANDRMEDA.PNG"}
+    {"extras/JHC/HeveliusConstellations_PNG/textures/medres/aquarius.png"
+	"extras/JHC/HeveliusConstellations_PNG/textures/medres/AQUARIUS.PNG"}
+    {"extras/JHC/HeveliusConstellations_PNG/textures/medres/auriga.png"
+	"extras/JHC/HeveliusConstellations_PNG/textures/medres/AURIGA.PNG"}
+    {"extras/JHC/HeveliusConstellations_PNG/textures/medres/bootes.png"
+	"extras/JHC/HeveliusConstellations_PNG/textures/medres/BOOTES.PNG"}
+    {"extras/JHC/HeveliusConstellations_PNG/textures/medres/cancer.png"
+	"extras/JHC/HeveliusConstellations_PNG/textures/medres/CANCER.PNG"}
+    {"extras/JHC/HeveliusConstellations_PNG/textures/medres/canis.png"
+	"extras/JHC/HeveliusConstellations_PNG/textures/medres/CANIS.PNG"}
+    {"extras/JHC/HeveliusConstellations_PNG/textures/medres/cassiope.png"
+	"extras/JHC/HeveliusConstellations_PNG/textures/medres/CASSIOPE.PNG"}
+    {"extras/JHC/HeveliusConstellations_PNG/textures/medres/corona.png"
+	"extras/JHC/HeveliusConstellations_PNG/textures/medres/CORONA.PNG"}
+    {"extras/JHC/HeveliusConstellations_PNG/textures/medres/corvus.png"
+	"extras/JHC/HeveliusConstellations_PNG/textures/medres/CORVUS.PNG"}
+    {"extras/JHC/HeveliusConstellations_PNG/textures/medres/gemini.png"
+	"extras/JHC/HeveliusConstellations_PNG/textures/medres/GEMINI.PNG"}
+    {"extras/JHC/HeveliusConstellations_PNG/textures/medres/hercules.png"
+	"extras/JHC/HeveliusConstellations_PNG/textures/medres/HERCULES.PNG"}
+    {"extras/JHC/HeveliusConstellations_PNG/textures/medres/leo.png"
+	"extras/JHC/HeveliusConstellations_PNG/textures/medres/LEO.PNG"}
+    {"extras/JHC/HeveliusConstellations_PNG/textures/medres/lyra.png"
+	"extras/JHC/HeveliusConstellations_PNG/textures/medres/LYRA.PNG"}
+    {"extras/JHC/HeveliusConstellations_PNG/textures/medres/orion.png"
+	"extras/JHC/HeveliusConstellations_PNG/textures/medres/ORION.PNG"}
+    {"extras/JHC/HeveliusConstellations_PNG/textures/medres/pegasus.png"
+	"extras/JHC/HeveliusConstellations_PNG/textures/medres/PEGASUS.PNG"}
+    {"extras/JHC/HeveliusConstellations_PNG/textures/medres/perseus.png"
+	"extras/JHC/HeveliusConstellations_PNG/textures/medres/PERSEUS.PNG"}
+    {"extras/JHC/HeveliusConstellations_PNG/textures/medres/sagittar.png"
+	"extras/JHC/HeveliusConstellations_PNG/textures/medres/SAGITTAR.PNG"}
+    {"extras/JHC/HeveliusConstellations_PNG/textures/medres/scorpius.png"
+	"extras/JHC/HeveliusConstellations_PNG/textures/medres/SCORPIUS.PNG"}
+    {"extras/JHC/HeveliusConstellations_PNG/textures/medres/serpens.png"
+	"extras/JHC/HeveliusConstellations_PNG/textures/medres/SERPENS.PNG"}
+    {"extras/JHC/HeveliusConstellations_PNG/textures/medres/taurus.png"
+	"extras/JHC/HeveliusConstellations_PNG/textures/medres/TAURUS.PNG"}
+    {"extras/JHC/HeveliusConstellations_PNG/textures/medres/triangle.png"
+	"extras/JHC/HeveliusConstellations_PNG/textures/medres/TRIANGLE.PNG"}
+    {"extras/JHC/HeveliusConstellations_PNG/textures/medres/ursamajr.png"
+	"extras/JHC/HeveliusConstellations_PNG/textures/medres/URSAMAJR.PNG"}
+    {"extras/JHC/HeveliusConstellations_PNG/textures/medres/virgo.png"
+	"extras/JHC/HeveliusConstellations_PNG/textures/medres/VIRGO.PNG"}
+}
+$unpack {if {$opt(vers) eq "Hires png"}} {
+    {
+	-file "HeveliusConstellations_PNG.zip" -type zip
+	-dir "extras/JHC" }}
+$distfile {if {$opt(vers) eq "Lores dds"}} {
+    {
+	-name "HeveliusConstellations_lores_DDS.zip" -size 6955335 -md5 7aa2c2f321a7cbd9e586b5a62b0c5d0c
+	-url http://celestiamotherlode.net/creators/jestr/HeveliusConstellations_lores_DDS.zip }}
+$unpack {if {$opt(vers) eq "Lores dds"}} {
+    {
+	-file "HeveliusConstellations_lores_DDS.zip" -type zip
+	-dir "extras/JHC" }}
+
+$renamework {if {$opt(vers) eq "Lores dds"}} {
+    {"extras/JHC/HeveliusConstellations_DDS_lores/models/constellations.3DS"
+	"extras/JHC/HeveliusConstellations_DDS_lores/models/constellations.3ds"}
+    {"extras/JHC/HeveliusConstellations_DDS_lores/textures/medres/andrmeda.dds"
+	"extras/JHC/HeveliusConstellations_DDS_lores/textures/medres/ANDRMEDA.DDS"}
+    {"extras/JHC/HeveliusConstellations_DDS_lores/textures/medres/aquarius.dds"
+	"extras/JHC/HeveliusConstellations_DDS_lores/textures/medres/AQUARIUS.DDS"}
+    {"extras/JHC/HeveliusConstellations_DDS_lores/textures/medres/auriga.dds"
+	"extras/JHC/HeveliusConstellations_DDS_lores/textures/medres/AURIGA.DDS"}
+    {"extras/JHC/HeveliusConstellations_DDS_lores/textures/medres/bootes.dds"
+	"extras/JHC/HeveliusConstellations_DDS_lores/textures/medres/BOOTES.DDS"}
+    {"extras/JHC/HeveliusConstellations_DDS_lores/textures/medres/cancer.dds"
+	"extras/JHC/HeveliusConstellations_DDS_lores/textures/medres/CANCER.DDS"}
+    {"extras/JHC/HeveliusConstellations_DDS_lores/textures/medres/canis.dds"
+	"extras/JHC/HeveliusConstellations_DDS_lores/textures/medres/CANIS.DDS"}
+    {"extras/JHC/HeveliusConstellations_DDS_lores/textures/medres/cassiope.dds"
+	"extras/JHC/HeveliusConstellations_DDS_lores/textures/medres/CASSIOPE.DDS"}
+    {"extras/JHC/HeveliusConstellations_DDS_lores/textures/medres/corona.dds"
+	"extras/JHC/HeveliusConstellations_DDS_lores/textures/medres/CORONA.DDS"}
+    {"extras/JHC/HeveliusConstellations_DDS_lores/textures/medres/corvus.dds"
+	"extras/JHC/HeveliusConstellations_DDS_lores/textures/medres/CORVUS.DDS"}
+    {"extras/JHC/HeveliusConstellations_DDS_lores/textures/medres/gemini.dds"
+	"extras/JHC/HeveliusConstellations_DDS_lores/textures/medres/GEMINI.DDS"}
+    {"extras/JHC/HeveliusConstellations_DDS_lores/textures/medres/hercules.dds"
+	"extras/JHC/HeveliusConstellations_DDS_lores/textures/medres/HERCULES.DDS"}
+    {"extras/JHC/HeveliusConstellations_DDS_lores/textures/medres/leo.dds"
+	"extras/JHC/HeveliusConstellations_DDS_lores/textures/medres/LEO.DDS"}
+    {"extras/JHC/HeveliusConstellations_DDS_lores/textures/medres/lyra.dds"
+	"extras/JHC/HeveliusConstellations_DDS_lores/textures/medres/LYRA.DDS"}
+    {"extras/JHC/HeveliusConstellations_DDS_lores/textures/medres/orion.dds"
+	"extras/JHC/HeveliusConstellations_DDS_lores/textures/medres/ORION.DDS"}
+    {"extras/JHC/HeveliusConstellations_DDS_lores/textures/medres/pegasus.dds"
+	"extras/JHC/HeveliusConstellations_DDS_lores/textures/medres/PEGASUS.DDS"}
+    {"extras/JHC/HeveliusConstellations_DDS_lores/textures/medres/perseus.dds"
+	"extras/JHC/HeveliusConstellations_DDS_lores/textures/medres/PERSEUS.DDS"}
+    {"extras/JHC/HeveliusConstellations_DDS_lores/textures/medres/sagittar.dds"
+	"extras/JHC/HeveliusConstellations_DDS_lores/textures/medres/SAGITTAR.DDS"}
+    {"extras/JHC/HeveliusConstellations_DDS_lores/textures/medres/scorpius.dds"
+	"extras/JHC/HeveliusConstellations_DDS_lores/textures/medres/SCORPIUS.DDS"}
+    {"extras/JHC/HeveliusConstellations_DDS_lores/textures/medres/serpens.dds"
+	"extras/JHC/HeveliusConstellations_DDS_lores/textures/medres/SERPENS.DDS"}
+    {"extras/JHC/HeveliusConstellations_DDS_lores/textures/medres/taurus.dds"
+	"extras/JHC/HeveliusConstellations_DDS_lores/textures/medres/TAURUS.DDS"}
+    {"extras/JHC/HeveliusConstellations_DDS_lores/textures/medres/triangle.dds"
+	"extras/JHC/HeveliusConstellations_DDS_lores/textures/medres/TRIANGLE.DDS"}
+    {"extras/JHC/HeveliusConstellations_DDS_lores/textures/medres/ursamajr.dds"
+	"extras/JHC/HeveliusConstellations_DDS_lores/textures/medres/URSAMAJR.DDS"}
+    {"extras/JHC/HeveliusConstellations_DDS_lores/textures/medres/virgo.dds"
+	"extras/JHC/HeveliusConstellations_DDS_lores/textures/medres/VIRGO.DDS"}
+}
+$distfile {if {$opt(vers) eq "Lores png"}} {
+    {
+	-name "HeveliusConstellations_lores_PNG.zip" -size 25842673 -md5 81374305aaffcfcf35073e866ed5a54f
+	-url http://celestiamotherlode.net/creators/jestr/HeveliusConstellations_lores_PNG.zip }}
+$unpack {if {$opt(vers) eq "Lores png"}} {
+    {
+	-file "HeveliusConstellations_lores_PNG.zip" -type zip
+	-dir "extras/JHC" }}
+
+$renamework {if {$opt(vers) eq "Lores png"}} {
+    {"extras/JHC/HeveliusConstellations_PNG_lores/models/constellations.3DS"
+	"extras/JHC/HeveliusConstellations_PNG_lores/models/constellations.3ds"}
+    {"extras/JHC/HeveliusConstellations_PNG_lores/textures/medres/andrmeda.png"
+	"extras/JHC/HeveliusConstellations_PNG_lores/textures/medres/ANDRMEDA.PNG"}
+    {"extras/JHC/HeveliusConstellations_PNG_lores/textures/medres/aquarius.png"
+	"extras/JHC/HeveliusConstellations_PNG_lores/textures/medres/AQUARIUS.PNG"}
+    {"extras/JHC/HeveliusConstellations_PNG_lores/textures/medres/auriga.png"
+	"extras/JHC/HeveliusConstellations_PNG_lores/textures/medres/AURIGA.PNG"}
+    {"extras/JHC/HeveliusConstellations_PNG_lores/textures/medres/bootes.png"
+	"extras/JHC/HeveliusConstellations_PNG_lores/textures/medres/BOOTES.PNG"}
+    {"extras/JHC/HeveliusConstellations_PNG_lores/textures/medres/cancer.png"
+	"extras/JHC/HeveliusConstellations_PNG_lores/textures/medres/CANCER.PNG"}
+    {"extras/JHC/HeveliusConstellations_PNG_lores/textures/medres/canis.png"
+	"extras/JHC/HeveliusConstellations_PNG_lores/textures/medres/CANIS.PNG"}
+    {"extras/JHC/HeveliusConstellations_PNG_lores/textures/medres/cassiope.png"
+	"extras/JHC/HeveliusConstellations_PNG_lores/textures/medres/CASSIOPE.PNG"}
+    {"extras/JHC/HeveliusConstellations_PNG_lores/textures/medres/corona.png"
+	"extras/JHC/HeveliusConstellations_PNG_lores/textures/medres/CORONA.PNG"}
+    {"extras/JHC/HeveliusConstellations_PNG_lores/textures/medres/corvus.png"
+	"extras/JHC/HeveliusConstellations_PNG_lores/textures/medres/CORVUS.PNG"}
+    {"extras/JHC/HeveliusConstellations_PNG_lores/textures/medres/gemini.png"
+	"extras/JHC/HeveliusConstellations_PNG_lores/textures/medres/GEMINI.PNG"}
+    {"extras/JHC/HeveliusConstellations_PNG_lores/textures/medres/hercules.png"
+	"extras/JHC/HeveliusConstellations_PNG_lores/textures/medres/HERCULES.PNG"}
+    {"extras/JHC/HeveliusConstellations_PNG_lores/textures/medres/leo.png"
+	"extras/JHC/HeveliusConstellations_PNG_lores/textures/medres/LEO.PNG"}
+    {"extras/JHC/HeveliusConstellations_PNG_lores/textures/medres/lyra.png"
+	"extras/JHC/HeveliusConstellations_PNG_lores/textures/medres/LYRA.PNG"}
+    {"extras/JHC/HeveliusConstellations_PNG_lores/textures/medres/orion.png"
+	"extras/JHC/HeveliusConstellations_PNG_lores/textures/medres/ORION.PNG"}
+    {"extras/JHC/HeveliusConstellations_PNG_lores/textures/medres/pegasus.png"
+	"extras/JHC/HeveliusConstellations_PNG_lores/textures/medres/PEGASUS.PNG"}
+    {"extras/JHC/HeveliusConstellations_PNG_lores/textures/medres/perseus.png"
+	"extras/JHC/HeveliusConstellations_PNG_lores/textures/medres/PERSEUS.PNG"}
+    {"extras/JHC/HeveliusConstellations_PNG_lores/textures/medres/sagittar.png"
+	"extras/JHC/HeveliusConstellations_PNG_lores/textures/medres/SAGITTAR.PNG"}
+    {"extras/JHC/HeveliusConstellations_PNG_lores/textures/medres/scorpius.png"
+	"extras/JHC/HeveliusConstellations_PNG_lores/textures/medres/SCORPIUS.PNG"}
+    {"extras/JHC/HeveliusConstellations_PNG_lores/textures/medres/serpens.png"
+	"extras/JHC/HeveliusConstellations_PNG_lores/textures/medres/SERPENS.PNG"}
+    {"extras/JHC/HeveliusConstellations_PNG_lores/textures/medres/taurus.png"
+	"extras/JHC/HeveliusConstellations_PNG_lores/textures/medres/TAURUS.PNG"}
+    {"extras/JHC/HeveliusConstellations_PNG_lores/textures/medres/triangle.png"
+	"extras/JHC/HeveliusConstellations_PNG_lores/textures/medres/TRIANGLE.PNG"}
+    {"extras/JHC/HeveliusConstellations_PNG_lores/textures/medres/ursamajr.png"
+	"extras/JHC/HeveliusConstellations_PNG_lores/textures/medres/URSAMAJR.PNG"}
+    {"extras/JHC/HeveliusConstellations_PNG_lores/textures/medres/virgo.png"
+	"extras/JHC/HeveliusConstellations_PNG_lores/textures/medres/VIRGO.PNG"}
+}
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Johan_Hevelius_Constell_1__Jestr.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Johan_Hevelius_Constell_1__Jestr.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Johan_Hevelius_Constell_2__Jestr.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Johan_Hevelius_Constell_2__Jestr.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Johan_Hevelius_Constell_3__Jestr.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Johan_Hevelius_Constell_3__Jestr.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Johan_Hevelius_Constell_4__Jestr.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Johan_Hevelius_Constell_4__Jestr.jpg }
+$end

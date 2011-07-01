@@ -1,0 +1,26 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Magnetic Dwarfs"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {2.0}
+$created 2007-05-08
+$modified 2009-04-13
+$description This addon shows "fictious" representations of some real magnetic white dwarf binaries with their magnetic fields displayed.
+$description This is an add-on which shows five "fictious" magnetic white dwarf binaries with their magnetic field lines displayed in full 3D. It's actually a pretext to show the principle of the superposition of magnetic fields, in the case of two dipolar magnetic fields. Some charged particle paths are also shown and corresponds to real trajectories found in the magnetic fields, taking into account their relativistic effects. To install, simply copy the extracted folder to your Celestia\extras directory, and then use the ENTER-TYPE NAME-ENTER method to locate and view these objects. Type in "Magnetic Dwarf" to search for and view these add-ons.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1053"
+$license "Free to use and edit.  Non-commercial activities only."
+$author {Cham} 
+$distfile {
+    -name "Magnetic_dwarfs-V2.zip" -size 23067676 -md5 97b1712fff321ca1b518de0c856288a3
+    -url http://www.celestiamotherlode.net/creators/cham/Magnetic_dwarfs-V2.zip }
+$unpack {
+    -file "Magnetic_dwarfs-V2.zip" -type zip
+    -dir "extras/Magnetic Dwarfs" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Magnetic_Dwarfs_1__Cham.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Magnetic_Dwarfs_1__Cham.jpg }
+$install
+    {"__MACOSX*" -deny}
+    {".DS_Store" -skip}
+    {}
+$end

@@ -1,0 +1,23 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "51Pegasi b"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.0}
+$created 2011-02-01
+$modified 2011-02-02
+$description A new map for the exoplanet 51Pegasi/b.
+It's the first discovered exoplanet orbiting a sun-like star. Discovered by M. Mayor and D. Queloz (Observatoire de Genève).
+Note: For computers with built-in 3d chips (this is almost all laptops) and low end computers the 4k 51pegasi-b_clouds.png might be to big when combined with the second cloud 51pegasi-b_clouds_wave.png. Read the ssc file and the README!
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1531"
+$license "Copyright by MiR"
+$author {MiR} 
+$distfile {
+    -name "51Pegasi_1.zip" -size 58260072 -md5 d7c3f6d8e1c73e99c1c9ff5803bbc552
+    -url http://www.celestiamotherlode.net/creators/mir/51Pegasi_1.zip }
+$unpack {
+    -file "51Pegasi_1.zip" -type zip
+    -dir "extras/51Pegasi b" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_51Pegasi_b_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_51Pegasi_b_1__.jpg }
+$end

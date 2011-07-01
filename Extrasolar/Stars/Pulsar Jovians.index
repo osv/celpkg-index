@@ -1,0 +1,24 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Pulsar Jovians"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.0}
+$created 2010-04-09
+$modified 2010-04-15
+$description A couple of (putative) Jovian planets orbiting two neutron stars in Sagittarius.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1457"
+$license "© Edasich"
+$author {Edasich} 
+$distfile {
+    -name "Pulsar_Jovians.zip" -size 5123747 -md5 60628a338d6566e73056d4de77c70714
+    -url http://www.celestiamotherlode.net/creators/edasich/Pulsar_Jovians.zip }
+$unpack {
+    -file "Pulsar_Jovians.zip" -type zip
+    -dir "extras/Pulsar Jovians" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Pulsar_Jovians_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Pulsar_Jovians_1__.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Pulsar_Jovians_2__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Pulsar_Jovians_2__.jpg }
+$end

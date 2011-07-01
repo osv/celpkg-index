@@ -1,0 +1,26 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "SMC"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.0}
+$created 2009-09-24
+$modified 2009-09-24
+$description This add-on adds a whopping 500,000 stars to the Small Magellanic Cloud (SMC.)
+The Small Magellanic Cloud (or the SMC) is a dwarf galaxy. It has a diameter of about 7,000 light-years and contains several hundred million stars.
+Some speculate that the SMC was once a barred spiral galaxy that was disrupted by the Milky Way to become somewhat irregular. It still contains a central bar structure.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1356"
+$license "This add-on may be freely distributed for Celestia as long as proper credit is given."
+$author {gradius_fanatic} 
+$distfile {
+    -name "SMC.zip" -size 19841998 -md5 95fb040696f7ed6fe056ef208ea7bc11
+    -url http://www.celestiamotherlode.net/creators/gradius_fanatic/SMC.zip }
+$unpack {
+    -file "SMC.zip" -type zip
+    -dir "extras/SMC" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_SMC_2__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_SMC_2__.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_SMC_3__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_SMC_3__.jpg }
+$end

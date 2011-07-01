@@ -1,0 +1,23 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "OGLE-2005-BLG-390L & Exoplanet"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.0}
+$created 2010-03-24
+$modified 2010-03-26
+$description Star OGLE-2005-BLG-390L and it's known exoplanet.
+$conflicts OGLE2005-BLG-390L
+$description OGLE-2005-BLG-390L is a star thought to be a spectral type M - red dwarf star (95% probability, 4% probability it is a white dwarf, <1% probability it is a neutron star or black hole). This dim magnitude 16 galactic bulge star is located in the Scorpius constellation at the far distance of about 21,500 light years.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1446"
+$license "Public Domain"
+$author {Brad} 
+$distfile {
+    -name "OGLE-2005-BLG-390L.zip" -size 1553 -md5 d7150b0078e579dab3b593338765bb9a
+    -url http://www.celestiamotherlode.net/creators/Brad/OGLE-2005-BLG-390L.zip }
+$unpack {
+    -file "OGLE-2005-BLG-390L.zip" -type zip
+    -dir "extras/OGLE-2005-BLG-390L & Exoplanet" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_OGLE_2005_BLG_390L__Exo_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_OGLE_2005_BLG_390L__Exo_1__.jpg }
+$end

@@ -1,0 +1,26 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "HD 149026 b"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.0}
+$created 2010-11-01
+$modified 2010-11-01
+$description The transiting exoplanet HD 149026 b.
+$conflicts HD149026
+$description The transiting exoplanet HD 149026 b, a "hot Saturn" with great amounts of rocky material in its core and very low albedo (<0.3).
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1519"
+$license "(c) Edasich"
+$author {Edasich} 
+$distfile {
+    -name "HD_149026_b.zip" -size 1865193 -md5 4019a46a9233b5ca84a09a68688de55e
+    -url http://www.celestiamotherlode.net/creators/edasich/HD_149026_b.zip }
+$unpack {
+    -file "HD_149026_b.zip" -type zip
+    -dir "extras/HD 149026 b" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_HD_149026_b_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_HD_149026_b_1__.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_HD_149026_b_2__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_HD_149026_b_2__.jpg }
+$end

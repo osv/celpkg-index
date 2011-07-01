@@ -1,0 +1,35 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Generic Dwarf Textures"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {2.0}
+$created 2007-01-18
+$modified 2009-07-24
+$description Generic Brown and Red  Dwarf textures.
+$description With the release of Celestia 1.5.0, you may now specify default star textures based on the types of stars which can now be found within your celestia.cfg file in the main Celestia directory. Simply copy these texture to your Celestia\textures\medres directory, and then modify your celestia.cfg file to point to the new textures under the L and T headers found within the CFG file. Now, whenever you go to any small dwarf (L or T) star, you will see the new Red Dwarf textures rather than the Celestia default texture.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1030"
+$license "This file is free for use with Celestia."
+$author {gradius_fanatic} 
+$require celestia.cfg
+$options {tdwarf yes "Install T dwarf texture "}
+$options {ldwarf yes "Install L dwarf texture "}
+$distfile {
+    -name "browndwarf 2.0.zip" -size 3794519 -md5 9605facde2ec627fc37cc2ff593c5367
+    -url http://www.celestiamotherlode.net/creators/gradius_fanatic/browndwarf%202.0.zip }
+$unpack {
+    -file "browndwarf 2.0.zip" -type zip
+    -dir "textures/hires" }
+$xpatch {if {$opt(tdwarf)}} {
+    { -file celestia.cfg -body {script variable {Configuration StarTextures T} set {"tdwarf.jpg"}} } }
+$xpatch {if {$opt(ldwarf)}} {
+    { -file celestia.cfg -body {script variable {Configuration StarTextures L} set {"ldwarf.jpg"}} } }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Browndwarf_1__gradius_fanatic.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Browndwarf_1__gradius_fanatic.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Browndwarf_2__gradius_fanatic.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Browndwarf_2__gradius_fanatic.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Generic_Dwarf_Textures_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Generic_Dwarf_Textures_1__.jpg }
+$end

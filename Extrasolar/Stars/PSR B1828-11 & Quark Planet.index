@@ -1,0 +1,26 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "PSR B1828-11 & Quark Planet"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.0}
+$created 2010-04-09
+$modified 2010-04-15
+$description Putative quark planet orbiting the pulsar PSR B1828-11 in Scutum.
+This is the putative quark planet orbiting the pulsar PSR B1828-11 in Scutum. Orbital parameters have been deducted from paper of Liu et al. (2008). -> http://arxiv.org/abs/astro-ph/0611729.
+The planet has roughly the radius of Pluto and the mass and 15 percent of the Moon's mass. Orbital radius for the planet should span between 10e06-10e09 cm, whereas orbital period is roughly deducted from semimajor axis converted first in kilometers, then in Solar radii and Astronomical Units at last.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1460"
+$license "© Edasich"
+$author {Edasich} 
+$distfile {
+    -name "PSR_B1828-11.zip" -size 5599514 -md5 ad1c1be4ecde3528b7d872cbcf88dfd5
+    -url http://www.celestiamotherlode.net/creators/edasich/PSR_B1828-11.zip }
+$unpack {
+    -file "PSR_B1828-11.zip" -type zip
+    -dir "extras/PSR B1828-11 & Quark Planet" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_PSR_B1828_11__Quark_Pla_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_PSR_B1828_11__Quark_Pla_1__.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_PSR_B1828_11__Quark_Pla_2__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_PSR_B1828_11__Quark_Pla_2__.jpg }
+$end

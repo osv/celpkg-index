@@ -1,0 +1,32 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Milky Way Centre"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {4.0}
+$created 2011-03-11
+$modified 2011-03-29
+$description This add-on provides some objects related to the Milky Way centre.
+This add-on contains the following stellar objects:
+- "Milky Way black hole:Sagittarius A*:Sgr A*" the supermassive black hole at the centre of the Milky Way
+- S-stars orbiting around the supermassive black hole.
+
+Rev. 4.0 - 24/03/2011
+The model of the black hole has been taken from the Black Hole 108 Nebula add-on by Frank Gregorio.
+A simple barycenter has been adopted instead of the neutron star.
+The medres texture "black_hole-black.jpg" is the same used in the Black Hole 108 Nebula add-on.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1543"
+$license "Public domain"
+$author {Luigi C.} 
+$distfile {
+    -name "MilkyWayCentre_4_0.zip" -size 4256 -md5 44e171e4fc206ac74a7a168fc4ccf146
+    -url http://www.celestiamotherlode.net/creators/luigi_c/MilkyWayCentre_4_0.zip }
+$unpack {
+    -file "MilkyWayCentre_4_0.zip" -type zip
+    -dir "extras/Milky Way Centre" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Milky_Way_Centre_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Milky_Way_Centre_1__.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Milky_Way_Centre_1__Luigi_C.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Milky_Way_Centre_1__Luigi_C.jpg }
+$end

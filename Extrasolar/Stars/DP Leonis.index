@@ -1,0 +1,25 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "DP Leonis"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.0}
+$created 2010-01-01
+$modified 2010-01-03
+$description DP Leonis A and its newly discovered planetary companion.
+$description The cataclysmic variable DP Leonis A and its planetary companion are presented here.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1382"
+$license "©2009 Edasich"
+$author {Edasich} 
+$distfile {
+    -name "DP_Leo.zip" -size 788500 -md5 44c71e6b41c83d242ada3919ee4ccbb9
+    -url http://www.celestiamotherlode.net/creators/edasich/DP_Leo.zip }
+$unpack {
+    -file "DP_Leo.zip" -type zip
+    -dir "extras/DP Leonis" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_DP_Leonis_2__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_DP_Leonis_2__.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_DP_Leonis_3__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_DP_Leonis_3__.jpg }
+$end

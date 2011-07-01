@@ -1,0 +1,37 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "TrES Transiting Planets"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.0}
+$created 2010-07-28
+$modified 2010-07-29
+$description The four transiting exoplanets detected by the Trans-Atlantic Exoplanet Survey.
+$description Four worlds in epistellar orbits and with (assumed) very low albedo. It's rarely known that three of the 4 exoplanet host stars (respectively TrES-1, 2 and 4) also host stellar companions in wide orbits.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1501"
+$license "This add-on may be freely used for Celestia."
+$author {Edasich} 
+$distfile {
+    -name "TrES_Transiting_Planets.zip" -size 1107564 -md5 3093686caf39e68465986805bb5ad962
+    -url http://www.celestiamotherlode.net/creators/edasich/TrES_Transiting_Planets.zip }
+$unpack {
+    -file "TrES_Transiting_Planets.zip" -type zip
+    -dir "extras/TrES Transiting Planets" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_TrES_Transiting_Planets_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_TrES_Transiting_Planets_1__.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_TrES_Transiting_Planets_2__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_TrES_Transiting_Planets_2__.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_TrES_Transiting_Planets_3__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_TrES_Transiting_Planets_3__.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_TrES_Transiting_Planets_4__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_TrES_Transiting_Planets_4__.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_TrES_Transiting_Planets_5__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_TrES_Transiting_Planets_5__.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_TrES_Transiting_Planets_6__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_TrES_Transiting_Planets_6__.jpg }
+$end

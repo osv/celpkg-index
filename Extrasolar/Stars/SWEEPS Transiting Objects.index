@@ -1,0 +1,25 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "SWEEPS Transiting Objects"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.0}
+$created 2010-01-26
+$modified 2010-01-26
+$description The transiting exoplanet candidates discovered via the SWEEPS survey.
+$description This add-on contains 16 stars monitored by the SWEEPS Transiting Planet Survey, along with their accompanying planets.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1409"
+$license "This add-on may be freely used for Celestia."
+$author {Edasich} 
+$distfile {
+    -name "SWEEPS_Transiting_Planets.zip" -size 717082 -md5 7adfddaad3e0d94aaa89629041bfa304
+    -url http://www.celestiamotherlode.net/creators/edasich/SWEEPS_Transiting_Planets.zip }
+$unpack {
+    -file "SWEEPS_Transiting_Planets.zip" -type zip
+    -dir "extras/SWEEPS Transiting Objects" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_SWEEPS_Transiting_Object_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_SWEEPS_Transiting_Object_1__.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_SWEEPS_Transiting_Object_2__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_SWEEPS_Transiting_Object_2__.jpg }
+$end

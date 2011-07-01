@@ -1,0 +1,26 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Ursa Minor Dwarf Galaxy Stars"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.0}
+$created 2009-08-24
+$modified 2009-08-25
+$description Explore the Ursa Minor Dwarf Galaxy with 10.000 stars.
+This addon will install about 10.000 stars at the Ursa Minor Dwarf Galaxy. The Ursa Minor Dwarf dwarf elliptical galaxy was discovered by A.G. Wilson of the Lowell Observatory in 1954 and it is part of the Ursa Minor constellation and a satellite galaxy to the Milky Way. The galaxy consists mainly of older stars and there appears to be little to no ongoing star formation in the Ursa Minor Dwarf galaxy. This addon will allow you to explore this galaxy with plenty of stars inside it. Just read the "readme" file.
+You must have the 1.6.0. version of Celestia to see the stars.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1350"
+$license "Feel free to use this addon as you like. If you want to use it for new addons, please sent me a message to let me know and don't forget me at the credits. Stealing somebody's hard work is not a good idea."
+$author {Spaceman} 
+$distfile {
+    -name "Ursa_Minor_Dwarf_Galaxy_Stars.zip" -size 521947 -md5 934322a9328527e3adb78c98863613ea
+    -url http://www.celestiamotherlode.net/creators/spaceman/Ursa_Minor_Dwarf_Galaxy_Stars.zip }
+$unpack {
+    -file "Ursa_Minor_Dwarf_Galaxy_Stars.zip" -type zip
+    -dir "extras/Ursa Minor Dwarf Galaxy Stars" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Ursa_Minor_Dwarf_Galaxy_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Ursa_Minor_Dwarf_Galaxy_1__.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Ursa_Minor_Dwarf_Galaxy_2__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Ursa_Minor_Dwarf_Galaxy_2__.jpg }
+$end

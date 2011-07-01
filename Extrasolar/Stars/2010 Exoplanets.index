@@ -1,0 +1,41 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "2010 Exoplanets"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.0}
+$created 2010-04-02
+$modified 2010-04-17
+$description 19 new exoplanets discovered in early 2010 (Jan-March 2010).
+Exoplanets included in this add on:
+47 Ursae Majoris d
+COROT-9b
+HAT-P-14
+HD 4313 b
+HD 9446 b
+HD 9446 c
+HD 86226 b
+HD 95089 b
+HD 129445 b
+HD 136418 b
+HD 152079 b
+HD 156668 b
+HD 164604 b
+HD 175167 b
+HD 180902 b
+HD 181342 b
+HD 206610 b
+HD 212771 b
+HIP 79431 b
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1450"
+$license "Public Domain"
+$author {Brad} 
+$distfile {
+    -name "2010_Exoplanets.zip" -size 13845 -md5 d4e64e1f73dc14caceb78e34f06af919
+    -url http://www.celestiamotherlode.net/creators/Brad/2010_Exoplanets.zip }
+$unpack {
+    -file "2010_Exoplanets.zip" -type zip
+    -dir "extras/2010 Exoplanets" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_2010_Exoplanets_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_2010_Exoplanets_1__.jpg }
+$end

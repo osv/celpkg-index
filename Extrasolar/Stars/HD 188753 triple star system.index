@@ -1,0 +1,24 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "HD 188753 triple star system"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {2.0}
+$created 2011-03-09
+$modified 2011-03-09
+$description This add-on provides revised STC and SSC files for the triple star system HD 188753 and related planets.
+This add-on provides revised STC and SSC files for the following stars and relevant transiting exoplanets candidates announced in the 2005 by the Polish astronomer working in the United States, Dr. Maciej Konacki:
+HD 188753 A + planet Ab, HD 188753 B, HD 188753 C.
+$conflicts HD188753
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1542"
+$license "Public domain"
+$author {Luigi C.} 
+$distfile {
+    -name "HD188753_2_0.zip" -size 1794 -md5 c280479d8a41e79ef07be1dbcaa6ba3b
+    -url http://www.celestiamotherlode.net/creators/luigi_c/HD188753_2_0.zip }
+$unpack {
+    -file "HD188753_2_0.zip" -type zip
+    -dir "extras/HD 188753 triple star system" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_HD_188753_triple_star_sy_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_HD_188753_triple_star_sy_1__.jpg }
+$end

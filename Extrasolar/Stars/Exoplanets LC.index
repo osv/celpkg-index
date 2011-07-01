@@ -1,0 +1,26 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Exoplanets LC"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+$version {1.3}
+$created 2011-03-29
+$modified 2011-04-25
+$depend "HR 8799 Star & Planets"
+$depend "T Tauri Stars"
+$description This add-on contains data for some stars and related exoplanets.
+This add-on is an integration to other Celestia add-ons which have been already published on Celestia Motherlode and thereby it requires this add-ons:
+- HR 8799
+- T Tauri Stars
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1548"
+$license "Free for no-profit purposes"
+$author {Luigi C.} 
+$distfile {
+    -name "Exoplanets_LC_v1.3.zip" -size 10880 -md5 5ca610a80e3e61c11305dc83e6028288
+    -url http://www.celestiamotherlode.net/creators/luigi_c/Exoplanets_LC_v1.3.zip }
+$unpack {
+    -file "darkerstartextures.zip" -type zip
+    -dir "extras/Exoplanets LC" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Exoplanets_LC_1__Luigi_C.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Exoplanets_LC_1__Luigi_C.jpg }
+$end

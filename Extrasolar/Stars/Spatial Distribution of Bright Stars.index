@@ -1,0 +1,24 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Spatial Distribution of Bright Stars"
+$category {Extrasolar/Stars} {Experimental/Robot/Extrasolar/Stars}
+# default version!
+$version 1.0
+$created 2004-11-04
+$modified 2008-01-31
+$description Star Catalog file displaying the spatial distribution of bright stars.
+$description To install, copy all contents to your Celestia\extras directory. Also, please view Selden's various ReadMe files (which are included in this package) for more information. Please note that this add-on will automatically change your view of Celestia, once it has been installed. Using Javascript functions, it predefines the Celestial Universe so that you will be viewing Selden's displays. You will have to REMOVE the add-on from your extras file in order to remove the views.
+$www "http://www.lepp.cornell.edu/~seb/celestia/catalogs.html#3.5.11"
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=580"
+$license "unknown"
+$author {Selden Ball} 
+$distfile {
+    -name "hip-obm-stars.zip" -size 269155 -md5 28d0fe409519f21a8d97b7a77bec704a
+    -url http://www.celestiamotherlode.net/creators/selden/hip-obm-stars.zip }
+$unpack {
+    -file "hip-obm-stars.zip" -type zip
+    -dir "extras/Spatial Distribution of Bright Stars" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/extrasolar_stars_Spatial_Distribution_of_1__Selden_Ball.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/extrasolar_stars_Spatial_Distribution_of_1__Selden_Ball.jpg }
+$end
