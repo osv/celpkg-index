@@ -1,0 +1,24 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "MyCn18 - Hourglass Nebula"
+$category {Extrasolar/Other Nebulae} {Experimental/Robot/Extrasolar/Other Nebulae}
+# default version!
+$version 1.0
+$created 2004-11-04
+$modified 2008-01-21
+$description The Hourglass Nebula as represented with a 1K Billboard.
+$conflicts MYCN18
+$description This add-on displays the Hourglass Planetary Nebula in Celestia. To install, simply copy all contents to your Celestia\extras directory. Use the ENTER-TYPE NAME-ENTER method to type in "MyCn18" in order to locate and view this object in Celestia. For more information concerning this object, please visit the Hubble web site http://hubblesite.org/newscenter/archive/releases/1996/07
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=546"
+$license "unknown"
+$author {Dave Mc} 
+$distfile {
+    -name "MyCn18.zip" -size 2593562 -md5 18abf7f90bd51267d5943386bf7893c1
+    -url http://celestiamotherlode.net/creators/davemc/MyCn18.zip }
+$unpack {
+    -file "MyCn18.zip" -type zip
+    -dir "extras/MyCn18 - Hourglass Nebula" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/extrasolar/MyCn18__davemc.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/extrasolar/MyCn18__davemc.jpg }
+$end

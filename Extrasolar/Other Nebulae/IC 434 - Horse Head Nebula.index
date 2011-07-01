@@ -1,0 +1,24 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "IC 434 - Horse Head Nebula"
+$category {Extrasolar/Other Nebulae} {Experimental/Robot/Extrasolar/Other Nebulae}
+# default version!
+$version 1.0
+$created 2004-11-04
+$modified 2008-01-21
+$description The IC434 Horse Head Nebula with NGC 2023 and NGC 2024 Nebulae. Represented via 1K Billboard.
+$conflicts IC434 NGC2023 NGC2024
+$description This add-on includes the Horse Head Nebula, along with NGC 2023 and NGC 2024. To install, simply copy all contents to your Celestia\extras directory. Use the ENTER-TYPE NAME-ENTER method and type in IC434 to locate and view this add-on within Celestia. 
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=542"
+$license "unknown"
+$author {Praesepe} 
+$distfile {
+    -name "IC434.zip" -size 769606 -md5 395f62ebf136a665da11f63152d19dff
+    -url http://celestiamotherlode.net/creators/praesepe/IC434.zip }
+$unpack {
+    -file "IC434.zip" -type zip
+    -dir "extras/IC 434 - Horse Head Nebula" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/extrasolar/IC434_NGC2024_NGC2023_HorseHeadNebula__Praesepe.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/extrasolar/IC434_NGC2024_NGC2023_HorseHeadNebula__Praesepe.jpg }
+$end

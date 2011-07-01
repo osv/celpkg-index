@@ -1,0 +1,22 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "NGC 6751"
+$category {Extrasolar/Other Nebulae} {Experimental/Robot/Extrasolar/Other Nebulae}
+$version {1.0}
+$created 2009-02-09
+$modified 2009-02-09
+$conflicts NGC6751
+$description This add-on represents the planetary nebula NGC 6751 using two fully-3D cmod files.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1294"
+$license "This file may be freely used with Celestia."
+$author {gradius_fanatic} 
+$distfile {
+    -name "ngc6751.zip" -size 4074859 -md5 aa907d5ef62c13bb9a62a6a82619b495
+    -url http://www.celestiamotherlode.net/creators/gradius_fanatic/ngc6751.zip }
+$unpack {
+    -file "ngc6751.zip" -type zip
+    -dir "extras/NGC 6751" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/nonmessiernebulae_NGC_6751_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/nonmessiernebulae_NGC_6751_1__.jpg }
+$end

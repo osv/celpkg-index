@@ -1,0 +1,26 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Hanny's Voorwerp"
+$category {Extrasolar/Other Nebulae} {Experimental/Robot/Extrasolar/Other Nebulae}
+$version {1.0}
+$created 2009-02-09
+$modified 2009-02-09
+$description This add-on represents the Reflection Nebula near IC 2497 using a billboard model.
+$conflicts IC2497
+$description Hanny's Voorwerp is a cloud of gas that seems to be the light-echo of a long dead quasar. It was discovered in an image of IC 2497 in a project known as Galaxy Zoo.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1293"
+$license "This add-on is free to use. It can also be used for other add-ons."
+$author {Michael} 
+$distfile {
+    -name "Hanny__s_Voorwerp.zip" -size 17998 -md5 0fc11b2c63a1e14f7a43283380deb587
+    -url http://www.celestiamotherlode.net/creators/michael/Hanny__s_Voorwerp.zip }
+$unpack {
+    -file "Hanny__s_Voorwerp.zip" -type zip
+    -dir "extras/Hanny's Voorwerp" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/nonmessiernebulae_Hanny_s_Voorwerp_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/nonmessiernebulae_Hanny_s_Voorwerp_1__.jpg }
+$install
+    {"Thumbs.db" -skip}
+    {}
+$end

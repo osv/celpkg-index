@@ -1,0 +1,24 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "IC 4406 - Retina Nebula"
+$category {Extrasolar/Other Nebulae} {Experimental/Robot/Extrasolar/Other Nebulae}
+# default version!
+$version 1.0
+$created 2004-11-04
+$modified 2008-01-21
+$description The Retina Nebula represented via 2K Billboard.
+$conflicts IC4406
+$description This add-on represents IC 4406 (the Retina Nebula). Please use the ENTER-TYPE NAME-ENTER method to type in either "IC 4406" or "Retina Nebula" in order to locate and view this add-on within Celestia. For more detailed information you can visit the Wiki page for this Planetary Nebula http://en.wikipedia.org/wiki/IC_4406. 
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=543"
+$license "unknown"
+$author {AstroBoy} 
+$distfile {
+    -name "IC4406_RetinaNebula.zip" -size 1787501 -md5 2fe5dec286169b18659518280464ae65
+    -url http://www.celestiamotherlode.net/creators/astroboy/IC4406_RetinaNebula.zip }
+$unpack {
+    -file "IC4406_RetinaNebula.zip" -type zip
+    -dir "extras/IC 4406 - Retina Nebula" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/extrasolar/IC_4406_Retina_Nebula__AstroBoy.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/extrasolar/IC_4406_Retina_Nebula__AstroBoy.jpg }
+$end

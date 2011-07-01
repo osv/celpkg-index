@@ -1,0 +1,24 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "NGC 6543 Cat's Eye Nebula"
+$category {Extrasolar/Other Nebulae} {Experimental/Robot/Extrasolar/Other Nebulae}
+# default version!
+$version 1.0
+$created 2004-11-04
+$modified 2008-01-22
+$description The NGC 6543 Planetary Nebula represented via a 1K Billboard.
+$conflicts NGC6543
+$description Another representation of the Cat's Eye Nebula. To install, simply copy all contents to your Celestia\extras directory. Use the ENTER-TYPE NAME-ENTER method to type in "NGC 6543" in order to locate and view this add-on in Celestia. Please note that this version of the Cat's Eye Nebula offers a different perspective on the center of the nebula.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=557"
+$license "unknown"
+$author {Jestr} 
+$distfile {
+    -name "NGC6543.zip" -size 754034 -md5 2c2236c24524203ef8e3d1bb1458c319
+    -url http://celestiamotherlode.net/creators/jestr/NGC6543.zip }
+$unpack {
+    -file "NGC6543.zip" -type zip
+    -dir "extras/NGC 6543 Cat's Eye Nebula" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/nonmessiernebulae_NGC_6543_1__Jestr.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/nonmessiernebulae_NGC_6543_1__Jestr.jpg }
+$end

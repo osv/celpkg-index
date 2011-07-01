@@ -1,0 +1,24 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "PK 164+31.1 Nebula"
+$category {Extrasolar/Other Nebulae} {Experimental/Robot/Extrasolar/Other Nebulae}
+$version {1.0}
+$created 2009-02-03
+$modified 2009-02-03
+$description 3D planetary nebula called PK 164+31.1
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1289"
+$license "This addon may be freely distributed for celestia."
+$author {gradius_fanatic} 
+$distfile {
+    -name "pk164+31.1.zip" -size 1449263 -md5 6cf1962cc28f8b82404c8b05e6e40055
+    -url http://www.celestiamotherlode.net/creators/gradius_fanatic/pk164+31.1.zip }
+$unpack {
+    -file "pk164+31.1.zip" -type zip
+    -dir "PK 164+31.1 Nebula" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/nonmessiernebulae_PK_164_31_1_Nebula_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/nonmessiernebulae_PK_164_31_1_Nebula_1__.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/nonmessiernebulae_PK_164_31_1_Nebula_2__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/nonmessiernebulae_PK_164_31_1_Nebula_2__.jpg }
+$end

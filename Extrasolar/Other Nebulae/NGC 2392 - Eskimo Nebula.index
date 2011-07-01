@@ -1,0 +1,27 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "NGC 2392 - Eskimo Nebula"
+$category {Extrasolar/Other Nebulae} {Experimental/Robot/Extrasolar/Other Nebulae}
+# default version!
+$version 1.0
+$created 2004-11-04
+$modified 2008-01-22
+$description Provides a less than perfect, but fully 3D representation of the Eskimo Nebula. 
+$conflicts NGC2392
+$description The Eskimo Nebula is also know as the Clownface Nebula. To install, simply copy all contents to your Celestia\extras directory. Use the ENTER-TYPE NAME-ENTER method to type in either "NGC 2392" or "Eskimo Nebula" in order to locate and view this add-on within Celestia. For more information on this fascinating area, please view the Wiki web site page located http://en.wikipedia.org/wiki/Eskimo_Nebula
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=554"
+$license "unknown"
+$author {AstroBoy} 
+$distfile {
+    -name "NGC2392_EskimoNebula.zip" -size 2760645 -md5 36b726a5b6963827ea9d5df3aa26946c
+    -url http://www.celestiamotherlode.net/creators/astroboy/NGC2392_EskimoNebula.zip }
+$unpack {
+    -file "NGC2392_EskimoNebula.zip" -type zip
+    -dir "extras/NGC 2392 - Eskimo Nebula" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/extrasolar/NGC_2392_Eskimo_Nebula__AstroBoy.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/extrasolar/NGC_2392_Eskimo_Nebula__AstroBoy.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/nonmessiernebulae_NGC_2392__Eskimo_Nebula_1__AstroBoy.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/nonmessiernebulae_NGC_2392__Eskimo_Nebula_1__AstroBoy.jpg }
+$end

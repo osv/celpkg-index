@@ -1,0 +1,24 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "NGC 2818"
+$category {Extrasolar/Other Nebulae} {Experimental/Robot/Extrasolar/Other Nebulae}
+$version {1.0}
+$created 2009-02-06
+$modified 2009-02-09
+$description This is a fully-3D representation of the planetary nebula, NGC 2818.
+
+Please view the ReadMe.txt file included in this add-on for installation instructions.
+This is a beautiful planetary nebula, located about 10,400 light years away in the neighborhood of the southern constellation Pyxis (the Compass).
+$conflicts NGC2818
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1291"
+$author {Bob Hegwood} 
+$distfile {
+    -name "NGC2818.zip" -size 1079773 -md5 90e41527d1f991b49ab6eab2384b21b7
+    -url http://www.celestiamotherlode.net/creators/bhegwood/NGC2818.zip }
+$unpack {
+    -file "NGC2818.zip" -type zip
+    -dir "extras/NGC 2818" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/nonmessiernebulae_NGC_2818_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/nonmessiernebulae_NGC_2818_1__.jpg }
+$end

@@ -1,0 +1,24 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "NGC 7293 - Helix Nebula"
+$category {Extrasolar/Other Nebulae} {Experimental/Robot/Extrasolar/Other Nebulae}
+# default version!
+$version 1.0
+$created 2004-11-04
+$modified 2008-01-22
+$description The NGC 7293 Helix Nebula, represented via 1K Billboard.
+$conflicts NGC7293
+$description Another representation of the Helix Nebula NGC 7293. Also includes the central star. To install, simply copy all contents to your Celestia\extras directory. Use the ENTER-TYPE NAME-ENTER method to type in either "NGC 7293" or "Helix Nebula" in order to locate and view the nebula from within Celestia. For more information on this nebula, please visit the Wiki page located http://en.wikipedia.org/wiki/Helix_Nebula
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=559"
+$license "unknown"
+$author {AstroBoy} 
+$distfile {
+    -name "NGC7293_HelixNebula.zip" -size 1538627 -md5 101bc9c4ac2fd60b9e28f2ecddb0737a
+    -url http://www.celestiamotherlode.net/creators/astroboy/NGC7293_HelixNebula.zip }
+$unpack {
+    -file "NGC7293_HelixNebula.zip" -type zip
+    -dir "extras/NGC 7293 - Helix Nebula" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/extrasolar/NGC_7293_Helix_Nebula__AstroBoy.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/extrasolar/NGC_7293_Helix_Nebula__AstroBoy.jpg }
+$end

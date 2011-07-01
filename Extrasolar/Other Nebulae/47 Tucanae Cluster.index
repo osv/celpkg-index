@@ -1,0 +1,22 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "47 Tucanae Cluster"
+$category {Extrasolar/Other Nebulae} {Experimental/Robot/Extrasolar/Other Nebulae}
+$version {1.0}
+$created 2010-06-29
+$modified 2010-06-30
+$description The well-known globular cluster 47 Tucanae (NGC 104).
+$description Besides the globular cluster, there are several detached eclipsing binary systems generated with an STC file.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1490"
+$license "This add-on may be freely used for Celestia."
+$author {Edasich} 
+$distfile {
+    -name "47_Tucanae_Cluster.zip" -size 2128752 -md5 45281835263ccb2a46c90b54fcc79e4d
+    -url http://www.celestiamotherlode.net/creators/edasich/47_Tucanae_Cluster.zip }
+$unpack {
+    -file "47_Tucanae_Cluster.zip" -type zip
+    -dir "extras/47 Tucanae Cluster" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/nonmessiernebulae_47_Tucanae_Cluster_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/nonmessiernebulae_47_Tucanae_Cluster_1__.jpg }
+$end

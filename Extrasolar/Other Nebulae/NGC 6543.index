@@ -1,0 +1,26 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "NGC 6543"
+$category {Extrasolar/Other Nebulae} {Experimental/Robot/Extrasolar/Other Nebulae}
+$version {1.0}
+$created 2009-11-11
+$modified 2009-11-12
+$description NGC 6543, the Cat's Eye nebula in 3D
+$conflicts NGC6543
+$description So many photos of NGC 6543 only focus on the inner part of the nebula, which is an injustice to it if you ask me... this addon includes both the inner and outer parts of the nebula with 3D models.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1366"
+$license "This file may be freely used for celestia"
+$author {gradius_fanatic} 
+$distfile {
+    -name "ngc6543.zip" -size 12400445 -md5 cb581d78ce5eb2d86d2f37159d64bbe9
+    -url http://www.celestiamotherlode.net/creators/gradius_fanatic/ngc6543.zip }
+$unpack {
+    -file "ngc6543.zip" -type zip
+    -dir "extras/NGC 6543" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/nonmessiernebulae_NGC_6543_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/nonmessiernebulae_NGC_6543_1__.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/nonmessiernebulae_NGC_6543_2__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/nonmessiernebulae_NGC_6543_2__.jpg }
+$end

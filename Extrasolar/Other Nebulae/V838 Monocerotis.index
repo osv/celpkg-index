@@ -1,0 +1,23 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "V838 Monocerotis"
+$category {Extrasolar/Other Nebulae} {Experimental/Robot/Extrasolar/Other Nebulae}
+# default version!
+$version 1.0
+$created 2004-11-04
+$modified 2008-01-23
+$description Th V838 Monocerotis supernova remnant is represented using a 1K Billboard.
+$description To install this add-on, simply copy all contents to your Celestia\extras directory. Use the ENTER-TYPE NAME-ENTER method to type in "V838" in order to locate and view within Celestia. For more information, please view the Wiki page located http://en.wikipedia.org/wiki/V838_Monocerotis
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=563"
+$license "unknown"
+$author {Meegja} 
+$distfile {
+    -name "V838Mon_Nova.zip" -size 706595 -md5 2e2e44bbe6dc61f018b74a5db8a93744
+    -url http://www.celestiamotherlode.net/creators/meegja/V838Mon_Nova.zip }
+$unpack {
+    -file "V838Mon_Nova.zip" -type zip
+    -dir "extras/V838 Monocerotis" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/extrasolar/V_838_MonsterNova__meegia.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/extrasolar/V_838_MonsterNova__meegia.jpg }
+$end

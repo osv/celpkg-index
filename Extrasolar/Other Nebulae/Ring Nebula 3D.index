@@ -1,0 +1,27 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Ring Nebula 3D"
+$category {Extrasolar/Other Nebulae} {Experimental/Robot/Extrasolar/Other Nebulae}
+$version {1.0}
+$created 2009-08-24
+$modified 2009-08-27
+$description This is a true 3D representation of the Ring Nebula.
+
+You can view this nebula from inside and out, and this version is more pleasing than a 2D billboard model, at least to myself.
+To install, simply extract the zip file to your extras directory. To view the Ring Nebula, simply use the ENTER-TYPE NAME-ENTER method to get to the "Ring Nebula."
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1349"
+$license "Free for non-commercial use."
+$author {Bob Hegwood} 
+$distfile {
+    -name "RingNebula.zip" -size 1312020 -md5 59cb26a07bf71afdd092f8eb989d0be7
+    -url http://www.celestiamotherlode.net/creators/bhegwood/RingNebula.zip }
+$unpack {
+    -file "RingNebula.zip" -type zip
+    -dir "extras/Ring Nebula 3D" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/nonmessiernebulae_Ring_Nebula_3D_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/nonmessiernebulae_Ring_Nebula_3D_1__.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/nonmessiernebulae_Ring_Nebula_3D_2__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/nonmessiernebulae_Ring_Nebula_3D_2__.jpg }
+$end

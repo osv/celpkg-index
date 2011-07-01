@@ -1,0 +1,33 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "NGC 7635 - Bubble Nebula"
+$category {Extrasolar/Other Nebulae} {Experimental/Robot/Extrasolar/Other Nebulae}
+# default version!
+$version 1.0
+$created 2004-11-04
+$modified 2009-05-18
+$description The NGC 7635 Bubble Nebula represented via fully 3D model. Download BOTH parts.
+$conflicts NGC7635
+$description This add-on displays the NGC 7635 Bubble Nebula using a 3D model. To install, unzip these folders (Both of them) to a temporary directory, and then copy the two main folders to your Celestia\extras directory. If you try to extract these packages directory to Celestia's extras folder, you may run into trouble because of an unnecessary extras folder within the packages. Once installed, use the ENTER-TYPE NAME-ENTER method to type "Bubble" within Celestia to locate and view this add-on.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=560"
+$license "unknown"
+$author {MindToAsk} 
+$distfile {
+    -name "BubbleNebula1.zip" -size 96468 -md5 f94bd08cb157d300a5d99b5fc3d15c8e
+    -url http://www.celestiamotherlode.net/creators/mindtoask/BubbleNebula1.zip }
+$unpack {
+    -file "BubbleNebula1.zip" -type zip
+    -dir "extras/NGC 7635 - Bubble Nebula" }
+$distfile {
+    -name "BubbleNebula2.zip" -size 216204 -md5 848539937d4142fb7777c037289b29d6
+    -url http://www.celestiamotherlode.net/creators/mindtoask/BubbleNebula2.zip }
+$unpack {
+    -file "BubbleNebula2.zip" -type zip
+    -dir "extras/NGC 7635 - Bubble Nebula" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/extrasolar/NGC_7635_Bubble_Nebula__MindToAsk.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/extrasolar/NGC_7635_Bubble_Nebula__MindToAsk.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/nonmessiernebulae_NGC_7635__Bubble_Nebula_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/nonmessiernebulae_NGC_7635__Bubble_Nebula_1__.jpg }
+$end

@@ -1,0 +1,27 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "RCW 79"
+$category {Extrasolar/Other Nebulae} {Experimental/Robot/Extrasolar/Other Nebulae}
+# default version!
+$version 1.0
+$created 2006-01-07
+$modified 2008-01-23
+$description RCW 79 Nebula represented using a fully 3D 2K model.
+$conflicts RCW79
+$description The RCW 79 Nebula is a 70 LY diameter bubble of gas and dust, blown by the winds and radiation from hot young stars. These stars have also been included with the add-on. To install, simply copy all contents to your Celestia\extras directory. Use the ENTER-TYPE NAME-ENTER method to type in "RCW 79" in order to locate and view this nebula.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=899"
+$license "unknown"
+$author {jll} 
+$distfile {
+    -name "RCW79_3D_V1.zip" -size 6506758 -md5 ed6b794a7dc300a8635704bfaebd25de
+    -url http://www.celestiamotherlode.net/creators/jll/RCW79_3D_V1.zip }
+$unpack {
+    -file "RCW79_3D_V1.zip" -type zip
+    -dir "extras/RCW 79" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/nonmessiernebulae_RCW_79_1__jll.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/nonmessiernebulae_RCW_79_1__jll.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/nonmessiernebulae_RCW_79_2__jll.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/nonmessiernebulae_RCW_79_2__jll.jpg }
+$end

@@ -1,0 +1,24 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "NGC 346"
+$category {Extrasolar/Other Nebulae} {Experimental/Robot/Extrasolar/Other Nebulae}
+# default version!
+$version 1.0
+$created 2005-01-24
+$modified 2008-01-22
+$description NGC 346 Nebula represented via 2K Billboard.
+$conflicts NGC346
+$description This add-on represents the Nebula NGC 346 which is a small part of the Small Magellanic Cloud. To install, simply copy all contents to your Celestia\extras directory. Use the ENTER-TYPE NAME-ENTER method to type in "NGC 346" in order to locate and view this add-on in Celestia.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=653"
+$license "unknown"
+$author {Cham} 
+$distfile {
+    -name "NGC 346.zip" -size 4596321 -md5 e634ad0e54e057d0845815b87c34466e
+    -url http://www.celestiamotherlode.net/creators/cham/NGC%20346.zip }
+$unpack {
+    -file "NGC 346.zip" -type zip
+    -dir "extras/NGC 346" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/nonmessiernebulae_NGC346_1__Cham.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/nonmessiernebulae_NGC346_1__Cham.jpg }
+$end

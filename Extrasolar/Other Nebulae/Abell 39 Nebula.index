@@ -1,0 +1,24 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Abell 39 Nebula"
+$category {Extrasolar/Other Nebulae} {Experimental/Robot/Extrasolar/Other Nebulae}
+# default version!
+$version 1.0
+$created 2004-11-04
+$modified 2008-01-21
+$description The Planetary Nebula Abel 39 displayed via 0.5K Billboard.
+$conflicts ABELL39
+$description This add-on offers a version of the Abell Planetary Nebula utilizing a 0.5K Billboard model. Simply extract all contents to your Celestia\extras directory to install. Then, use the ENTER-TYPE NAME-ENTER method to type in "Abell 39 Nebula" in order to locate and view the add-on.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=539"
+$license "unknown"
+$author {AstroBoy} 
+$distfile {
+    -name "Abell39.zip" -size 415188 -md5 03846b5df093a80220e5eebdee64d871
+    -url http://www.celestiamotherlode.net/creators/astroboy/Abell39.zip }
+$unpack {
+    -file "Abell39.zip" -type zip
+    -dir "extras/Abell 39 Nebula" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/extrasolar/Abell39_Nebula__AstroBoy.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/extrasolar/Abell39_Nebula__AstroBoy.jpg }
+$end

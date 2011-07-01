@@ -1,0 +1,26 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "IC434 and NGC2023"
+$category {Extrasolar/Other Nebulae} {Experimental/Robot/Extrasolar/Other Nebulae}
+$version {1.1}
+$created 2008-09-04
+$modified 2008-10-17
+$description This add-on includes models and textures for both the IC434 Nebula and the NGC2023 Nebula.
+$conflicts NGC2023 IC434
+$description This add-on includes revisions to Praesepe's original IC434 add-on, so you may wish to un-install that add-on if you already have it included in your extras directory. This add-on includes models and textures for BOTH of the nebulae which are located in the same general area of the sky.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1236"
+$license "Free for non-commercial use only."
+$author {gradius_fanatic} 
+$distfile {
+    -name "ic434-ngc2023.zip" -size 3431154 -md5 a0346a6d22c9bd697d1d16a39c5836c2
+    -url http://www.celestiamotherlode.net/creators/gradius_fanatic/ic434-ngc2023.zip }
+$unpack {
+    -file "ic434-ngc2023.zip" -type zip
+    -dir "extras/IC434 and NGC2023" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/nonmessiernebulae_IC434_and_NGC2023_1__gradius_fanatic.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/nonmessiernebulae_IC434_and_NGC2023_1__gradius_fanatic.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/nonmessiernebulae_IC434_and_NGC2023_3__gradius_fanatic.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/nonmessiernebulae_IC434_and_NGC2023_3__gradius_fanatic.jpg }
+$end

@@ -1,0 +1,24 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "He 2-138 Planetary Nebula"
+$category {Extrasolar/Other Nebulae} {Experimental/Robot/Extrasolar/Other Nebulae}
+$version {1.0}
+$created 2010-04-09
+$modified 2010-04-15
+$description The planetary nebula enshrouding the B-type subdwarf He 2-138.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1459"
+$license "This add-on may be freely used by Celestia users."
+$author {Edasich} 
+$distfile {
+    -name "He_2-138_Planetary_Nebula.zip" -size 1641619 -md5 088f2a36473d7e1a573a4b514348fe81
+    -url http://www.celestiamotherlode.net/creators/edasich/He_2-138_Planetary_Nebula.zip }
+$unpack {
+    -file "He_2-138_Planetary_Nebula.zip" -type zip
+    -dir "extras/He 2-138 Planetary Nebula" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/nonmessiernebulae_He_2_138_Planetary_Nebul_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/nonmessiernebulae_He_2_138_Planetary_Nebul_1__.jpg }
+$install
+    {"Thumbs.db" -skip}
+    {}
+$end

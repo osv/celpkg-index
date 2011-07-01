@@ -1,0 +1,30 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "NGC 3372 - Eta Carinae"
+$category {Extrasolar/Other Nebulae} {Experimental/Robot/Extrasolar/Other Nebulae}
+# default version!
+$version 1.0
+$created 2005-10-24
+$modified 2008-01-22
+$description The Eta Carinae Nebula, NGC 3372, is represented here with a fully 3D model, and from an entirely different perspective.
+$conflicts NGC3372
+$description This add-on offers an excellent display of the Eta Carinae Nebula (also known as the Homunculus Nebula) which is located around the super voluminous and highly luminous hyper-giant double star Eta Carinae. To install, simply copy all contents to your Celestia\extras directory. Use the ENTER-TYPE NAME-ENTER method to type in ETA Car in order to locate and view this add-on within Celestia. Please disregard the funny symbols you'll see while typing in this entry. It will take you to the Nebula. For more information concerning this fascinating object, please point your browser to the Wiki Page which is located http://en.wikipedia.org/wiki/Eta_Carinae
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=849"
+$license "unknown"
+$author {jll} 
+$distfile {
+    -name "NGC3372_EtaCarinae_3D.zip" -size 1948924 -md5 04a77b527da8ab7a9006bdf2e8b690fa
+    -url http://www.celestiamotherlode.net/creators/jll/NGC3372_EtaCarinae_3D.zip }
+$unpack {
+    -file "NGC3372_EtaCarinae_3D.zip" -type zip
+    -dir "extras/NGC 3372 - Eta Carinae" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/nonmessiernebulae_NGC3372_EtaCarinae_1__jll.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/nonmessiernebulae_NGC3372_EtaCarinae_1__jll.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/nonmessiernebulae_NGC3372_EtaCarinae_2__jll.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/nonmessiernebulae_NGC3372_EtaCarinae_2__jll.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/nonmessiernebulae_NGC3372_EtaCarinae_3__jll.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/nonmessiernebulae_NGC3372_EtaCarinae_3__jll.jpg }
+$end

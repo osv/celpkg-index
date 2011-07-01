@@ -1,0 +1,25 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Frosty Leo Nebula"
+$category {Extrasolar/Other Nebulae} {Experimental/Robot/Extrasolar/Other Nebulae}
+$version {1.0}
+$created 2010-02-05
+$modified 2010-02-05
+$description The planetary nebula IRAS 0371+1212 also known as the Frosty Leo Nebula. This is a planetary nebula with a dying K giant star as its central star. The Nebula shape has been reconstructed from infrared models.
+$description The planetary nebula IRAS 0371+1212 which is also known as the Frosty Leo Nebula.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1416"
+$license "This add-on may be freely used for Celestia."
+$author {Edasich} 
+$distfile {
+    -name "Frosty_Leo_Nebula.zip" -size 1936587 -md5 5d829f1eedccbd3b4b4088deb7bfeb6f
+    -url http://www.celestiamotherlode.net/creators/edasich/Frosty_Leo_Nebula.zip }
+$unpack {
+    -file "Frosty_Leo_Nebula.zip" -type zip
+    -dir "extras/Frosty Leo Nebula" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/nonmessiernebulae_Frosty_Leo_Nebula_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/nonmessiernebulae_Frosty_Leo_Nebula_1__.jpg }
+$install
+    {"Thumbs.db" -skip}
+    {}
+$end

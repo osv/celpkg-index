@@ -1,0 +1,33 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "M2-9 Planetary Nebula"
+$category {Extrasolar/Other Nebulae} {Experimental/Robot/Extrasolar/Other Nebulae}
+# default version!
+$version 1.0
+$created 2006-10-23
+$modified 2008-11-08
+$description A fully 3D model of the M2-9 Wings of a Butterfly Nebula.
+$description This add-on provides a very interesting perspective of the M2-9 Planetary Nebula. Utilizing 3D models and 2K textures, the author has created an exciting look at not only the Nebula itself, but the two stars revolving around each other at the center of the nebula. To install, simply copy all contents to your Celestia\extras directory. Use the ENTER-TYPE NAME-ENTER method to type in "M2-9" in order to locate and view this add-on within Celestia.
+
+NOTE:
+To see the stars at the center of this planetary nebula, select the M2-9 Barycenter from the Solar System Browser under Celestia's Navigation Menu, and then (G)o to it.
+$conflicts M2-9
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1009"
+$license "Free to use for non-commercial activities."
+$author {jll} 
+$distfile {
+    -name "M2-9_3D.zip" -size 6863037 -md5 288bd108fc7013ae0b104f568e48f91c
+    -url http://www.celestiamotherlode.net/creators/jll/M2-9_3D.zip }
+$unpack {
+    -file "M2-9_3D.zip" -type zip
+    -dir "extras/M2-9 Planetary Nebula" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/nonmessiernebulae_M2_9_Planetary_Nebula_1__jll.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/nonmessiernebulae_M2_9_Planetary_Nebula_1__jll.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/nonmessiernebulae_M2_9_Planetary_Nebula_2__jll.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/nonmessiernebulae_M2_9_Planetary_Nebula_2__jll.jpg }
+$install
+    {"Thumbs.db" -skip}
+    {}
+$end

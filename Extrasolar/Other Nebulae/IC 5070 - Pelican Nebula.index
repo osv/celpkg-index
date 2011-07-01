@@ -1,0 +1,27 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "IC 5070 - Pelican Nebula"
+$category {Extrasolar/Other Nebulae} {Experimental/Robot/Extrasolar/Other Nebulae}
+# default version!
+$version 1.0
+$created 2004-11-04
+$modified 2008-01-21
+$description The IC 5070 Pelican Nebula represented via 4K Billboard.
+$conflicts IC5070
+$description This add-on presents the Pelican nebula using a 4K 2D Billboard model. To install in Celestia, simply copy all contents to your Celestia\extras directory. Use the ENTER-TYPE NAME-ENTER method to type in "Pelican" in order to locate and view this add-in within Celestia. For more information, you may wish to view the NOAO reference which is located http://www.noao.edu/outreach/press/pr03/pr0308.html
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=544"
+$license "unknown"
+$author {MindToAsk} 
+$distfile {
+    -name "PelicanNebula.zip" -size 1396842 -md5 40f6e28233ec6b518ca771847f93597a
+    -url http://www.celestiamotherlode.net/creators/mindtoask/PelicanNebula.zip }
+$unpack {
+    -file "PelicanNebula.zip" -type zip
+    -dir "extras/IC 5070 - Pelican Nebula" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/extrasolar/IC_5070_Pelican_Nebula__MindToAsk.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/extrasolar/IC_5070_Pelican_Nebula__MindToAsk.jpg }
+$install
+    {"Thumbs.db" -skip}
+    {}
+$end

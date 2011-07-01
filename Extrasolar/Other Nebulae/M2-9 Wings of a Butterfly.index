@@ -1,0 +1,24 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "M2-9 Wings of a Butterfly"
+$category {Extrasolar/Other Nebulae} {Experimental/Robot/Extrasolar/Other Nebulae}
+# default version!
+$version 1.0
+$created 2004-11-04
+$modified 2008-01-21
+$description M2-9 Planetary Nebula represented via a 0.5K Billboard model.
+$conflicts M2-9
+$description The M2-9 Wings of a Butterfly (or Twin Jet) Nebula. To install this add-on, simply copy all contents to your Celestia\extras directory. Use the ENTER-TYPE NAME-ENTER method to type in "M2-9" as your destination in order to locate and view this add-on within Celestia. For more information, you may wish to view the Wiki page which is located http://en.wikipedia.org/wiki/Butterfly_Nebula
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=545"
+$license "unknown"
+$author {Dave Mc} 
+$distfile {
+    -name "M2-9.zip" -size 146555 -md5 ddc60ed7d184c6f4ce06a974901b0cfa
+    -url http://celestiamotherlode.net/creators/davemc/M2-9.zip }
+$unpack {
+    -file "M2-9.zip" -type zip
+    -dir "extras/M2-9 Wings of a Butterfly" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/extrasolar/M2-9__davemc.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/extrasolar/M2-9__davemc.jpg }
+$end

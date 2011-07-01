@@ -1,0 +1,26 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "NGC 1579"
+$category {Extrasolar/Other Nebulae} {Experimental/Robot/Extrasolar/Other Nebulae}
+$version {1.0}
+$created 2009-12-09
+$modified 2009-12-09
+$description NGC 1579 Nebula billboard display.
+
+Edasich released recently (November 2009) an "add-on with young T Tauri type" or similar stars. Among these, LkHA 101, a massive star in formation that illuminates the NGC 1579 nebula. As a complement, here is the nebula.
+
+Read readme.html file for more informations (extras/NGC 1579/).
+$conflicts NGC1579
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1378"
+$license "Free for non-commercial use."
+$author {Jogad} 
+$distfile {
+    -name "ngc1579.zip" -size 1220456 -md5 e8417c5840c8a75a05cf3130c11e5d4a
+    -url http://www.celestiamotherlode.net/creators/jogad/ngc1579.zip }
+$unpack {
+    -file "ngc1579.zip" -type zip
+    -dir "extras/NGC 1579" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/nonmessiernebulae_NGC_1579_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/nonmessiernebulae_NGC_1579_1__.jpg }
+$end

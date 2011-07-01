@@ -1,0 +1,24 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "NGC 7293 - Helix Nebula 2"
+$category {Extrasolar/Other Nebulae} {Experimental/Robot/Extrasolar/Other Nebulae}
+# default version!
+$version 1.0
+$created 2005-10-24
+$modified 2008-01-22
+$description The NGC 7293 Helix Nebula represented via fully 3D model.
+$conflicts NGC7293
+$description This add-on represents the NGC 7293 Helix Nebula. To install. simply copy all contents to your Celestia\extras directory, and then use the ENTER-TYPE NAME-ENTER method to type in "Helix Nebula" in order to locate and view this fascinating Planetary Nebula. As the comment below has stated, the model is comprised merely of two halves of the same mesh. However, it offers a MUCH better representation than a Billboard model. For more information on this nebula, please visit the Wiki page located http://en.wikipedia.org/wiki/Helix_Nebula
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=853"
+$license "unknown"
+$author {jll} 
+$distfile {
+    -name "NGC7293_HelixNebula_3D.zip" -size 1033883 -md5 5568603d80866cce014e4b7a8fc74a12
+    -url http://www.celestiamotherlode.net/creators/jll/NGC7293_HelixNebula_3D.zip }
+$unpack {
+    -file "NGC7293_HelixNebula_3D.zip" -type zip
+    -dir "extras/NGC 7293 - Helix Nebula 2" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/nonmessiernebulae_NGC7293_Helix_Nebula_1__jll.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/nonmessiernebulae_NGC7293_Helix_Nebula_1__jll.jpg }
+$end

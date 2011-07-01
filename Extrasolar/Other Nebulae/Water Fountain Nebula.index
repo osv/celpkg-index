@@ -1,0 +1,25 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Water Fountain Nebula"
+$category {Extrasolar/Other Nebulae} {Experimental/Robot/Extrasolar/Other Nebulae}
+$version {1.0}
+$created 2010-02-05
+$modified 2010-02-05
+$description The planetary nebula GLMP 480 (IRAS 16342-3814) also known as Water Fountain Nebula.
+$description This is the Water Fountain Nebula, a planetary nebula with a dying M giant as its central star. The Nebula's shape has been reconstructed from infrared models.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1415"
+$license "This add-on may be freely used for Celestia."
+$author {Edasich} 
+$distfile {
+    -name "Water_Fountain_Nebula.zip" -size 1054746 -md5 a931bcfb44523293db0bdd8b7b5d6bbf
+    -url http://www.celestiamotherlode.net/creators/edasich/Water_Fountain_Nebula.zip }
+$unpack {
+    -file "Water_Fountain_Nebula.zip" -type zip
+    -dir "extras/Water Fountain Nebula" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/nonmessiernebulae_Water_Fountain_Nebula_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/nonmessiernebulae_Water_Fountain_Nebula_1__.jpg }
+$install
+    {"Thumbs.db" -skip}
+    {}
+$end

@@ -1,0 +1,29 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Boomerang Nebula"
+$category {Extrasolar/Other Nebulae} {Experimental/Robot/Extrasolar/Other Nebulae}
+# default version!
+$version 1.0
+$created 2006-10-17
+$modified 2010-10-24
+$description The Boomerang (or Bow-Tie) Nebula represented via a fully 3D model.
+$description This add-on provides a speculative 3D model of the Boomerang (or Bow-Tie) Nebula which is based on the data found http://apod.nasa.gov/apod/ap030220.html To install, simply copy all contents to your Celestia\extras directory, then use the ENTER-TYPE NAME-ENTER method to type in "Boomerang" in order to locate and view this add-on. You may also wish to view the history of this object which is quite fascinating. Have a look http://en.wikipedia.org/wiki/Boomerang_Nebula for more information.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1007"
+$license "unknown"
+$author {sbowers} 
+$distfile {
+    -name "boomerang2.zip" -size 976524 -md5 5a042130a7cfd04f40ebc61c294b6721
+    -url http://www.celestiamotherlode.net/creators/sbowers/boomerang2.zip }
+$unpack {
+    -file "boomerang2.zip" -type zip
+    -dir "extras/Boomerang Nebula" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/nonmessiernebulae_Boomerang_Nebula_1__sbowers.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/nonmessiernebulae_Boomerang_Nebula_1__sbowers.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/nonmessiernebulae_Boomerang_Nebula_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/nonmessiernebulae_Boomerang_Nebula_1__.jpg }
+$install
+    {"Thumbs.db" -skip}
+    {}
+$end
