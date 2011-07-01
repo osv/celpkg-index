@@ -1,0 +1,50 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "110 Messier Objects"
+$category {Extrasolar/Messier Nebulae} {Experimental/Robot/Extrasolar/Messier Nebulae}
+# default version!
+$version 1.0
+$created 2004-11-04
+$modified 2008-01-20
+$description See Selden's Messier Catalogs http://www.lepp.cornell.edu/~seb/celestia/catalogs.html#3.5.5 for details.
+$description This add-on can be used to locate and mark selected Messier Objects. For those who do not know, Messier objects are a set of astronomical objects cataloged by the French astronomer Charles Messier in his catalog of Nebulae and Star Clusters first published in 1774. The original motivation behind the catalog was because Messier was a comet hunter, and was frustrated by objects which resembled, but were not, actual comets. He therefore compiled a list of these objects. Read Selden's text files and HTML files for more information.
+$www "http://www.lepp.cornell.edu/~seb/celestia/"
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=415"
+$license "unknown"
+$author {Selden Ball} 
+$choice {size v3a "Version" {v2 v2a v3a}}
+$distfile {if {$opt(size) eq "v2"}} {
+    {
+	-name "messier_all_v2.zip" -size 171732 -md5 9889c533a600b0560e4722360179c976
+	-url http://www.lepp.cornell.edu/~seb/celestia/messier_all_v2.zip }}
+$unpack {if {$opt(size) eq "v2"}} {
+    {
+	-file "messier_all_v2.zip" -type zip
+	-dir "extras/110 Messier Objects" }}
+$distfile {if {$opt(size) eq "v2a"}} {
+    {
+	-name "messier_all_v2a.zip" -size 193943 -md5 8c90e0117ab87a74db52031c0eca954a
+	-url http://www.lepp.cornell.edu/~seb/celestia/messier_all_v2a.zip }}
+$unpack {if {$opt(size) eq "v2a"}} {
+    {
+	-file "messier_all_v2a.zip" -type zip
+	-dir "extras/110 Messier Objects" }}
+$distfile {if {$opt(size) eq "v3a"}} {
+    {
+	-name "messier_all_v3a.zip" -size 833161 -md5 242f601e1348ef1fe73cebd8839e1113
+	-url http://www.lepp.cornell.edu/~seb/celestia/messier_all_v3a.zip }}
+$unpack {if {$opt(size) eq "v3a"}} {
+    {
+	-file "messier_all_v3a.zip" -type zip
+	-dir "extras/110 Messier Objects" }}
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/messiernebulae_110_Messier_Objects_1__Selden_Ball.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/messiernebulae_110_Messier_Objects_1__Selden_Ball.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/messiernebulae_110_Messier_Objects_2__Selden_Ball.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/messiernebulae_110_Messier_Objects_2__Selden_Ball.jpg }
+$install
+    {"~" -skip}
+    {"Thumbs.db" -skip}
+    {}
+$end

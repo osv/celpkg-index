@@ -1,0 +1,27 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "M16 - Eagle Nebula 3"
+$category {Extrasolar/Messier Nebulae} {Experimental/Robot/Extrasolar/Messier Nebulae}
+# default version!
+$version 1.0
+$created 2004-11-04
+$modified 2008-01-21
+$description M16 Eagle Nebula 4K Billboard.
+$conflicts M16
+$description This add-on offers yet another version of the Eagle Nebula utilizing a 4K Billboard model. Simply extract all contents to your Celestia\extras directory to install. Then, use the ENTER-TYPE NAME-ENTER method to type in Eagle Nebula in order to locate and view the add-on.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=420"
+$license "unknown"
+$author {MindToAsk} 
+$distfile {
+    -name "M16.zip" -size 1955140 -md5 25ac89b262e4f9080b58a6946f7b0094
+    -url http://www.celestiamotherlode.net/creators/mindtoask/M16.zip }
+$unpack {
+    -file "M16.zip" -type zip
+    -dir "extras/M16 - Eagle Nebula 3" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/extrasolar/M_16_EagleNebula__MindToAsk.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/extrasolar/M_16_EagleNebula__MindToAsk.jpg }
+$install
+    {"Thumbs.db" -skip}
+    {}
+$end

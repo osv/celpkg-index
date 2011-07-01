@@ -1,0 +1,37 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "M16 - Eagle Nebula"
+$category {Extrasolar/Messier Nebulae} {Experimental/Robot/Extrasolar/Messier Nebulae}
+# default version!
+$version 1.0
+$created 2004-11-04
+$modified 2008-01-21
+$description 3D montage of 6 stacked images. See Selden's ReadMe at http://www.lepp.cornell.edu/~seb/celestia/m16-v2-readme.html for details. Billboards.
+$conflicts M16
+$description This add-on provides a number of models and Billboard images for use in viewing the areas around the M16 Eagle Nebula. Use the ENTER-TYPE NAME-ENTER method to type in "Eagle", or any of the other names associated with this vast nebular region. Please note that these packages utilize DDS images, and that not all graphics cards can make use of these textures. Also, the Opaque package offers some rather more interesting views of this area, so you may wish to try both versions to see which you prefer.
+$www "http://www.lepp.cornell.edu/~seb/celestia/m16-v2-readme.html"
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=418"
+$license "unknown"
+$author {Selden Ball} 
+$choice {vers "Opaque Images" "Version of data" {"Transparent Images" "Opaque Images"}}
+$distfile {if {$opt(vers) eq "Transparent Images"}} {
+    {
+	-name "m16-v2.zip" -size 10494432 -md5 5608258c21903fbacf9868d30f924bce
+	-url http://www.celestiamotherlode.net/creators/selden/m16-v2.zip }}
+$unpack {if {$opt(vers) eq "Transparent Images"}} {
+    {
+	-file "m16-v2.zip" -type zip
+	-dir "extras/M16 - Eagle Nebula" }}
+
+$distfile {if {$opt(vers) eq "Opaque Images"}} {
+    {
+	-name "m16-v3.zip" -size 8519574 -md5 4c81aae09378320dd041f60b3eb572bc
+	-url http://www.celestiamotherlode.net/creators/selden/m16-v3.zip }}
+$unpack {if {$opt(vers) eq "Opaque Images"}} {
+    {
+	-file "m16-v3.zip" -type zip
+	-dir "extras/M16 - Eagle Nebula" }}
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/extrasolar/M_16-v2a__Selden.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/extrasolar/M_16-v2a__Selden.jpg }
+$end

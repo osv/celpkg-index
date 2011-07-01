@@ -1,0 +1,24 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "M8 NGC 6523"
+$category {Extrasolar/Messier Nebulae} {Experimental/Robot/Extrasolar/Messier Nebulae}
+# default version!
+$version 1.0
+$created 2004-11-04
+$modified 2011-06-04
+$description M8 Lagoon Nebula 1K Billboard.
+$conflicts M8 NGC6523
+$description This add-on provides a Billboard model for the M8 Lagoon Nebula. To install, simply copy the contents to your Celestia\extras directory. To view, use the ENTER-TYPE NAME-ENTER method to type in M8.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=417"
+$license "unknown"
+$author {Killeen} 
+$distfile {
+    -name "M8_LagoonNebula.zip" -size 1244448 -md5 8560b57e278e51183fb5f7f2015e0238
+    -url http://www.celestiamotherlode.net/creators/killeen/M8_LagoonNebula.zip }
+$unpack {
+    -file "M8_LagoonNebula.zip" -type zip
+    -dir "extras/M8 NGC 6523" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/extrasolar/M_8_Lagoon_Nebula__Killeen.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/extrasolar/M_8_Lagoon_Nebula__Killeen.jpg }
+$end

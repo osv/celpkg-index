@@ -1,0 +1,26 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "M1 Crab Nebula 3D"
+$category {Extrasolar/Messier Nebulae} {Experimental/Robot/Extrasolar/Messier Nebulae}
+$version {1.0}
+$created 2011-03-21
+$modified 2011-06-04
+$conflicts M1
+$description This add-on contains a fix/update for Bob Hegwood's former original "Crab Nebula" add-on.
+The Messier identifier "M1" has been added, some data has been corrected for the nebula and the related pulsar PSR B0531+21.
+The pulsar correction is related to the "atnf_pulsars_v2" add-on.
+Models and textures are the "Crab Nebula" add-on original ones by Bob Hegwood, I did not add, delete or change anything.
+A simple model for a hypothesized planetary companion of the pulsar is provided, to explain certain variations observed in pulsar timing.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1547"
+$license "Free for non commercial use."
+$author {Luigi C.} 
+$distfile {
+    -name "M1_Crab_Nebula.zip" -size 2091900 -md5 851a3514780b0545855ef76a89570611
+    -url http://www.celestiamotherlode.net/creators/luigi_c/M1_Crab_Nebula.zip }
+$unpack {
+    -file "M1_Crab_Nebula.zip" -type zip
+    -dir "extras/M1 Crab Nebula 3D" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/messiernebulae_Crab_Nebula_3D_fix_updat_1__Luigi_C.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/messiernebulae_Crab_Nebula_3D_fix_updat_1__Luigi_C.jpg }
+$end

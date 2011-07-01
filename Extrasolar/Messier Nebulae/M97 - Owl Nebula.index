@@ -1,0 +1,24 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "M97 - Owl Nebula"
+$category {Extrasolar/Messier Nebulae} {Experimental/Robot/Extrasolar/Messier Nebulae}
+# default version!
+$version 1.0
+$created 2004-11-04
+$modified 2008-01-21
+$description M97 Owl Nebula 0.25K Billboard.
+$conflicts M97
+$description This add-on displays a Billboard model of the M97 Owl Nebula. To install, simply copy all contents to your Celestia\extras directory. To view in Celestia, use the ENTER-TYPE NAME-ENTER method to type in "M97" (or "Owl Nebula") in order to locate and view the Nebula.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=428"
+$license "unknown"
+$author {AstroBoy} 
+$distfile {
+    -name "M97_OwlNebula.zip" -size 127437 -md5 7af9f922f332729fe77183d02059c236
+    -url http://www.celestiamotherlode.net/creators/astroboy/M97_OwlNebula.zip }
+$unpack {
+    -file "M97_OwlNebula.zip" -type zip
+    -dir "extras/M97 - Owl Nebula" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/extrasolar/M_97_TheOwlNebula__AstroBoy.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/extrasolar/M_97_TheOwlNebula__AstroBoy.jpg }
+$end

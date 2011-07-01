@@ -1,0 +1,24 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Trifid Nebula"
+$category {Extrasolar/Messier Nebulae} {Experimental/Robot/Extrasolar/Messier Nebulae}
+$version {1.1}
+$created 2009-02-09
+$modified 2009-02-26
+$description This is a revised and fully 3-D representation of Killeen's original M20 add-on.
+This add-on was originally created by Killen in Besancon, France.
+Bob and Gradius_Fanatic have modified the 3DS file so that the add-on now uses a fully-3D representation of the M20 Trifid planetary nebula via a CMOD file.
+$conflicts M20
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1295"
+$author {Bob Hegwood} Gradius_Fanatic
+$author {Gradius_Fanatic}
+$distfile {
+    -name "TrifidNebula.zip" -size 6764251 -md5 c65ba009e6b875d57cdc29e6fa9678ca
+    -url http://www.celestiamotherlode.net/creators/bhegwood/TrifidNebula.zip }
+$unpack {
+    -file "TrifidNebula.zip" -type zip
+    -dir "extras/Trifid Nebula" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/messiernebulae_Trifid_Nebula_2__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/messiernebulae_Trifid_Nebula_2__.jpg }
+$end

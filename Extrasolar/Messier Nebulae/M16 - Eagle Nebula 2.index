@@ -1,0 +1,24 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "M16 - Eagle Nebula 2"
+$category {Extrasolar/Messier Nebulae} {Experimental/Robot/Extrasolar/Messier Nebulae}
+# default version!
+$version 1.0
+$created 2004-11-04
+$modified 2008-01-21
+$description M16 Eagle Nebula 1K Billboard.
+$conflicts M16
+$description This add-on provides another version of the M16 Eagle Nebula in a 1K Billboard model. To install, simply copy the contents to your Celestia\extras directory. You can then use the ENTER-TYPE NAME-ENTER method to type in M16 in order to locate and view the add-on.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=419"
+$license "unknown"
+$author {AstroBoy} 
+$distfile {
+    -name "M16_EagleNebula.zip" -size 2113714 -md5 950f26e573004686f95f6a749386ff9c
+    -url http://www.celestiamotherlode.net/creators/astroboy/M16_EagleNebula.zip }
+$unpack {
+    -file "M16_EagleNebula.zip" -type zip
+    -dir "extras/M16 - Eagle Nebula 2" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/extrasolar/M_16_Eagle_Nebula__AstroBoy.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/extrasolar/M_16_Eagle_Nebula__AstroBoy.jpg }
+$end

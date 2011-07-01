@@ -1,0 +1,24 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "M57 NGC 6720"
+$category {Extrasolar/Messier Nebulae} {Experimental/Robot/Extrasolar/Messier Nebulae}
+# default version!
+$version 1.0
+$created 2004-11-04
+$modified 2008-01-21
+$description M57 Ring Nebula 1K Billboard.
+$conflicts M57 NGC6720
+$description This add-on displays a Billboard model of the M57 Ring Nebula. To install, simply copy all contents to your Celestia\extras directory. To view in Celestia, use the ENTER-TYPE NAME-ENTER method to type in "Ring Nebula" in order to locate and view the add-on.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=427"
+$license "unknown"
+$author {AstroBoy} 
+$distfile {
+    -name "NGC6720_RingNebula.zip" -size 1049789 -md5 8ad42cd531c4921ad473d96bfbd6d130
+    -url http://www.celestiamotherlode.net/creators/astroboy/NGC6720_RingNebula.zip }
+$unpack {
+    -file "NGC6720_RingNebula.zip" -type zip
+    -dir "extras/M57 NGC 6720" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/extrasolar/M_57_NGC6720_RingNebula__AstroBoy.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/extrasolar/M_57_NGC6720_RingNebula__AstroBoy.jpg }
+$end

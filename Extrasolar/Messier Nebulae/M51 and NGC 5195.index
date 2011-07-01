@@ -1,0 +1,24 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "M51 and NGC 5195"
+$category {Extrasolar/Messier Nebulae} {Experimental/Robot/Extrasolar/Messier Nebulae}
+# default version!
+$version 1.0
+$created 2004-11-04
+$modified 2008-01-21
+$description M51 Whirlpool Galaxy and NGC 5195 512-Byte and 256-Byte Billboards.
+$conflicts M51 NGC5195
+$description This add-on displays Billboard models of M51 and NGC 5195. To install, simply copy all contents to your Celestia\extras directory. To view in Celestia, use the ENTER-TYPE NAME-ENTER method to type in M51 in order to locate and view these objects. Please note that this is one of the FEW add-ons which actually correspond to Celestia's internal galaxy-rendering capabilities. Jestr's add-on lines up perfectly with the Celestia images.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=426"
+$license "unknown"
+$author {Jestr} 
+$distfile {
+    -name "M51-NGC5195.zip" -size 526419 -md5 5e14874f946b24c3bc206484c1452c4d
+    -url http://celestiamotherlode.net/creators/jestr/M51-NGC5195.zip }
+$unpack {
+    -file "M51-NGC5195.zip" -type zip
+    -dir "extras/M51 and NGC 5195" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/messiernebulae_M51__38_NGC_5195__Whi_1__Jestr.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/messiernebulae_M51__38_NGC_5195__Whi_1__Jestr.jpg }
+$end

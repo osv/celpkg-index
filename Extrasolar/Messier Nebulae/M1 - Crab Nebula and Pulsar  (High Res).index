@@ -1,0 +1,26 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "M1 - Crab Nebula and Pulsar  (High Res)"
+$category {Extrasolar/Messier Nebulae} {Experimental/Robot/Extrasolar/Messier Nebulae}
+$version {1.0}
+$created 2010-01-06
+$modified 2010-01-07
+$description Billboard of HD image of Crab Nebula.
+$conflicts M1
+$description Billboard of HD image of Crab Nebula with 3D surrounding stars, and spinning crab pulsar in center. M1 image taken by HST.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1390"
+$license "Released under free license."
+$author {Frank Gregorio} 
+$distfile {
+    -name "M1_crab_nebula.zip" -size 2603953 -md5 f3973545e368c60d5a578abfa3df584f
+    -url http://www.celestiamotherlode.net/creators/fsgregs/M1_crab_nebula.zip }
+$unpack {
+    -file "M1_crab_nebula.zip" -type zip
+    -dir "extras/M1 - Crab Nebula and Pulsar  (High Res)" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/messiernebulae_M1__Crab_Nebula_and_Pu_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/messiernebulae_M1__Crab_Nebula_and_Pu_1__.jpg }
+$install
+    {"Thumbs.db" -skip}
+    {}
+$end

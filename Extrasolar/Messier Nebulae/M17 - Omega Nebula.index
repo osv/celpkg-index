@@ -1,0 +1,24 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "M17 - Omega Nebula"
+$category {Extrasolar/Messier Nebulae} {Experimental/Robot/Extrasolar/Messier Nebulae}
+# default version!
+$version 1.0
+$created 2004-11-04
+$modified 2008-01-21
+$description M17 Omega Nebula 1K Billboard.
+$conflicts M17
+$description This add-on displays a Billboard model of the M17 Omega Nebula. To install, simply copy all contents to your Celestia\extras directory. To view in Celestia, use the ENTER-TYPE NAME-ENTER method to type in "M17" in order to locate and view the Nebula.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=421"
+$license "unknown"
+$author {AstroBoy} 
+$distfile {
+    -name "M17_OmegaNebula.zip" -size 1004756 -md5 45ebf88418eec417971eec96bcc8eaec
+    -url http://www.celestiamotherlode.net/creators/astroboy/M17_OmegaNebula.zip }
+$unpack {
+    -file "M17_OmegaNebula.zip" -type zip
+    -dir "extras/M17 - Omega Nebula" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/extrasolar/M_17_OmegaNebula__AstroBoy.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/extrasolar/M_17_OmegaNebula__AstroBoy.jpg }
+$end

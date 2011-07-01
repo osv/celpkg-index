@@ -1,0 +1,71 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Globular Clusters"
+$category {Extrasolar/Messier Nebulae} {Experimental/Robot/Extrasolar/Messier Nebulae}
+# default version!
+$version 1.0
+$created 2005-02-26
+$modified 2008-10-29
+$description 29 Messier Globular Clusters with real photos projected onto 3D models.
+This add-on adds twenty nine Globular Clusters to Celestia's galaxy renderings. Some of these clusters will show up within Celestia's internal galaxy renderings, but the models offer a nice way to look at the clusters with closer views. Please just view the readme.txt file for more information on installation and use.
+
+NOTE: Please be aware that this add-on is NOT needed with versions of Celestia after 1.5.1. These Globular Clusters are now included within Celestia's new and advanced Globular Cluster rendering techniques. If you do install this add-on in later versions of Celestia, please be aware also that you will end up with
+duplicate Messier Nebulae within Celestia.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=689"
+$license "unknown"
+$author {tirooly} 
+$options {m3 yes "M3 Optional HiRes"}
+$options {m5 yes "M5 Optional HiRes"}
+$options {m14 yes "M14 Optional HiRes"}
+$options {m19 yes "M19 Optional HiRes"}
+$options {m55 yes "M55 Optional HiRes"}
+$distfile {
+    -name "MGlobularClusters.zip" -size 4732324 -md5 f94e451cd7c5428fb3d0ecc3ba81b23a
+    -url http://www.celestiamotherlode.net/creators/tirooly/MGlobularClusters.zip }
+$unpack {
+    -file "MGlobularClusters.zip" -type zip
+    -dir "extras/Globular Clusters" }
+$distfile {if {$opt(m3)}} {
+    {
+	-name "M3-hirestexture.zip" -size 294268 -md5 61f3c2cc13094a30a34788d90aeb17b6
+	-url http://www.celestiamotherlode.net/creators/tirooly/M3-hirestexture.zip }}
+$unpack {if {$opt(m3)}} {
+    {
+	-file "M3-hirestexture.zip" -type zip
+	-dir "extras/Globular Clusters" }}
+$distfile {if {$opt(m5)}} {
+    {
+	-name "M5-hirestexture.zip" -size 274546 -md5 f60018202b2942b48fe9678f0c3a642f
+	-url http://www.celestiamotherlode.net/creators/tirooly/M5-hirestexture.zip }}
+$unpack {if {$opt(m5)}} {
+    {
+	-file "M5-hirestexture.zip" -type zip
+	-dir "extras/Globular Clusters" }}
+$distfile {if {$opt(m14)}} {
+    {
+	-name "M14-hires.zip" -size 775910 -md5 08d905596d5d0c73bf9eace3478a7ffe
+	-url http://www.celestiamotherlode.net/creators/tirooly/M14-hires.zip }}
+$unpack {if {$opt(m14)}} {
+    {
+	-file "M14-hires.zip" -type zip
+	-dir "extras/Globular Clusters" }}
+$distfile {if {$opt(m19)}} {
+    {
+	-name "M19-hirestexture.zip" -size 1403706 -md5 d0ab4ec6abc2b36cd66f1165733be304
+	-url http://www.celestiamotherlode.net/creators/tirooly/M19-hirestexture.zip }}
+$unpack {if {$opt(m19)}} {
+    {
+	-file "M19-hirestexture.zip" -type zip
+	-dir "extras/Globular Clusters" }}
+$distfile {if {$opt(m55)}} {
+    {
+	-name "M55-hirestexture.zip" -size 698030 -md5 e5fdb2453360a429d0ccba0e17d85cbc
+	-url http://www.celestiamotherlode.net/creators/tirooly/M55-hirestexture.zip }}
+$unpack {if {$opt(m55) eq "m55"}} {
+    {
+	-file "M55-hirestexture.zip" -type zip
+	-dir "extras/Globular Clusters" }}
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/messiernebulae_Globular_Clusters_1__tirooly.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/messiernebulae_Globular_Clusters_1__tirooly.jpg }
+$end

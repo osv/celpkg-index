@@ -1,0 +1,26 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "M42, M43 and NGC1977"
+$category {Extrasolar/Messier Nebulae} {Experimental/Robot/Extrasolar/Messier Nebulae}
+$version {1.0}
+$created 2009-03-04
+$modified 2009-03-05
+$description This is a 3D add-on for the nebulae M42, M43 and NGC 1977.
+$conflicts M42 M43 NGC1977
+$description Please note that the author suggests that a pretty fast computer is needed for this add-on! Please see the included read me file for installation instructions.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1299"
+$license "This add-on may be freely distributed for Celestia."
+$author {gradius_fanatic} 
+$distfile {
+    -name "m42_ngc1977.zip" -size 11172439 -md5 0b4b84b76a860bd41e9b2db821b80882
+    -url http://www.celestiamotherlode.net/creators/gradius_fanatic/m42_ngc1977.zip }
+$unpack {
+    -file "m42_ngc1977.zip" -type zip
+    -dir "extras/M42, M43 and NGC1977" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/messiernebulae_M42_M43_and_NGC1977_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/messiernebulae_M42_M43_and_NGC1977_1__.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/messiernebulae_M42_M43_and_NGC1977_2__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/messiernebulae_M42_M43_and_NGC1977_2__.jpg }
+$end
