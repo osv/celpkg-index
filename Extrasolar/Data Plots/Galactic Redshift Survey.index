@@ -1,0 +1,45 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Galactic Redshift Survey"
+$category {Extrasolar/Data Plots} {Experimental/Robot/Extrasolar/Data Plots}
+# default version!
+$version 1.0
+$created 2004-11-04
+$modified 2009-10-29
+$description Data plots displaying the 2dF Galactic Redshift Survey. Please http://www.lepp.cornell.edu/~seb/celestia/catalogs.html#3.5.7 for more information.
+$description Displays the location of up to 229,103 galaxies and quasars. To install, copy the contents of the selected version to your Celestia\extras directory. Also, please view Selden's ReadMe files (which are included in these packages) for more information. Please note that these add-ons will /automatically/ change your view of Celestia, once the selected version has been installed. Using Javascript functions, these add-ons predefine the Celestial Universe so that you will be viewing Selden's Redshift Survey displays. You will have to REMOVE the selected add-on from your extras file in order to remove these views. The Redshift Map was created from the data which can be viewed at http://magnum.anu.edu.au/~TDFgg/.
+$www "http://www.lepp.cornell.edu/~seb/celestia/catalogs.html#3.5.7"
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=566"
+$license "unknown"
+$author {Selden Ball} 
+$choice {size 300k "Version of data" {100k 300k}}
+$distfile {if {$opt(size) eq "100k"} {
+    {
+	-name "2df_100k-cmod.zip" -size 1718750 -md5 22ff6495c60322b963d7178ff3fe633d
+	-url http://www.celestiamotherlode.net/creators/selden/2df_100k-cmod.zip }}
+}
+$unpack {if {$opt(size) eq "100k"}} {
+    {
+	-file "2df_100k-cmod.zip" -type zip
+	-dir "extras/Galactic Redshift Survey" }
+}
+$distfile {if {$opt(size) eq "300k"}} {
+    {
+	-name "2df_300k.zip" -size 4116925 -md5 25603cb998d788fe8c238cb6d8fc19ea
+	-url http://www.celestiamotherlode.net/creators/selden/2df_300k.zip }
+}
+$unpack {if {$opt(size) eq "300k"}} {
+    {
+	-file "2df_300k.zip" -type zip
+	-dir "extras/Galactic Redshift Survey" }
+}
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/extrasolar/2DF_100K__Selden.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/extrasolar/2DF_100K__Selden.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/extrasolar/2DF_300K__Selden.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/extrasolar/2DF_300K__Selden.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/dataplots_Galactic_Redshift_Survey_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/dataplots_Galactic_Redshift_Survey_1__.jpg }
+$end

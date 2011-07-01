@@ -1,0 +1,25 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Parallax Error Displays"
+$category {Extrasolar/Data Plots} {Experimental/Robot/Extrasolar/Data Plots}
+# default version!
+$version 1.0
+$created 2004-11-04
+$modified 2008-01-25
+$description Data plots to display errors in the Hipparcos parallax measurements. See http://www.lepp.cornell.edu/~seb/celestia/catalogs.html#3.5.8 for more information.
+$description To install, simply copy all contents to your Celestia\extras file. To view these data plots, open the enclosed HTML file with your browser, and then allow it (your browser) to execute Celestia. 
+NOTE: This add-on may not work correctly within versions of Celestia after 1.4.1.
+$www "http://www.lepp.cornell.edu/~seb/celestia/catalogs.html#3.5.8"
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=568"
+$license "unknown"
+$author {Selden Ball} 
+$distfile {
+    -name "hip-errors.zip" -size 5076472 -md5 bc08aa3098e721ecea995bd1fc9a5372
+    -url http://www.celestiamotherlode.net/creators/selden/hip-errors.zip }
+$unpack {
+    -file "hip-errors.zip" -type zip
+    -dir "extras/Parallax Error Displays" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/extrasolar/HipparcosErrors_Red__Selden.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/extrasolar/HipparcosErrors_Red__Selden.jpg }
+$end

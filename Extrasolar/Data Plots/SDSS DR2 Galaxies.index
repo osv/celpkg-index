@@ -1,0 +1,42 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "SDSS DR2 Galaxies"
+$category {Extrasolar/Data Plots} {Experimental/Robot/Extrasolar/Data Plots}
+# default version!
+$version 1.0
+$created 2004-11-04
+$modified 2005-02-08
+$description Data plot. Sloan Digital Sky Survey, Data Release 2, data plot of up to 243,673 galaxies. Requires Celestia v1.3.2pre3 or later. http://www.lepp.cornell.edu/~seb/celestia/catalogs.html#3.5.12 for details.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=571"
+$www "http://www.lepp.cornell.edu/~seb/celestia/catalogs.html#3.5.12"
+$license "unknown"
+$author {Selden Ball} 
+$choice {ver "243,673" "Version (num of galaxies) " {"243,673" "78,055"}}
+$distfile {if {$opt(ver) eq "78,055"}} {
+    {
+	-name "sdss-2dr-galaxies.zip" -size 1408636 -md5 526aff11be1915bc09253880a1c0e78a
+	-url http://www.celestiamotherlode.net/creators/selden/sdss-2dr-galaxies.zip }
+}
+$unpack {if {$opt(ver) eq "78,055"}} {
+    {
+	-file "sdss-2dr-galaxies.zip" -type zip
+	-dir "extras/SDSS DR2 Galaxies" }
+}
+$distfile {if {$opt(ver) eq "243,673"}} {
+    {
+	-name "sdss-dr2-v2.zip" -size 4465637 -md5 2ceab6cc4b85beab87c0034398aee2ae
+	-url http://www.celestiamotherlode.net/creators/selden/sdss-dr2-v2.zip }
+}
+$unpack {if {$opt(ver) eq "243,673"}} {
+    {
+	-file "sdss-dr2-v2.zip" -type zip
+	-dir "extras/SDSS DR2 Galaxies" }
+}
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/extrasolar/SDSS_DR2_Galaxies_v1__Selden.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/extrasolar/SDSS_DR2_Galaxies_v1__Selden.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/extrasolar/SDSS_DR2_Galaxies_v2__Selden.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/extrasolar/SDSS_DR2_Galaxies_v2__Selden.jpg }
+$end
+{}}

@@ -1,0 +1,26 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "SIRAS PSCz Galaxies"
+$category {Extrasolar/Data Plots} {Experimental/Robot/Extrasolar/Data Plots}
+# default version!
+$version 1.0
+$created 2004-11-04
+$modified 2010-11-01
+$description Data plot. Displays the locations of 16,159 galaxies.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=573"
+$www "http://www.lepp.cornell.edu/~seb/celestia/catalogs.html#3.5.13"
+$license "unknown"
+$author {Selden Ball} 
+$distfile {
+    -name "iras-pscz.zip" -size 585882 -md5 1b008da9de4cecb7bfaf159d54a1feca
+    -url http://www.celestiamotherlode.net/creators/selden/iras-pscz.zip }
+$unpack {
+    -file "iras-pscz.zip" -type zip
+    -dir "extras/SIRAS PSCz Galaxies" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/extrasolar/IRAS_PSCz__Selden.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/extrasolar/IRAS_PSCz__Selden.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/dataplots_SIRAS_PSCz_Galaxies_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/dataplots_SIRAS_PSCz_Galaxies_1__.jpg }
+$end

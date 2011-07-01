@@ -1,0 +1,24 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "73 Planetary Nebulae"
+$category {Extrasolar/Data Plots} {Experimental/Robot/Extrasolar/Data Plots}
+# default version!
+$version 1.0
+$created 2004-11-04
+$modified 2008-01-25
+$description Deep Space Catalog file representing 73 different nebulae. Please see http://www.lepp.cornell.edu/~seb/celestia/catalogs.html#3.5.3 for more information.
+$description To install, copy all contents to your Celestia\extras directory. When Galaxy Rendering is turned on in Celestia, each of these Planetary Nebulae will be visible as a sphere of blue lines enclosing another sphere consisting of red lines. The size of the blue sphere corresponds to the cataloged size of the selected nebula. To view these objects, simply use the ENTER-TYPE NAME-ENTER method to type in the name of the nebula you wish to view. The example screen shot shows the nebula IC 4776.
+$www "http://www.lepp.cornell.edu/~seb/celestia/catalogs.html#3.5.3"
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=574"
+$license "unknown"
+$author {Selden Ball} 
+$distfile {
+    -name "planetary_nebulae.zip" -size 73595 -md5 6deae8dfd1e12ff04ffea4dc1c40f39a
+    -url http://www.lepp.cornell.edu/~seb/celestia/planetary_nebulae.zip }
+$unpack {
+    -file "planetary_nebulae.zip" -type zip
+    -dir "extras/73 Planetary Nebulae" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/dataplots_73_Planetary_Nebulae_1__Selden_Ball.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/dataplots_73_Planetary_Nebulae_1__Selden_Ball.jpg }
+$end

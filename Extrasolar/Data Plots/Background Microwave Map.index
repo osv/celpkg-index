@@ -1,0 +1,28 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Background Microwave Map"
+$category {Extrasolar/Data Plots} {Experimental/Robot/Extrasolar/Data Plots}
+# default version!
+$version 1.0
+$created 2004-11-04
+$modified 2008-01-25
+$description Data plots from the WMAP project. See http://www.lepp.cornell.edu/~seb/celestia/catalogs.html#3.5.9 for more information.
+$description To install, copy all contents to your Celestia\extras directory. Also, please view Selden's various ReadMe files (which are included in this package) for more information. Please note that this add-on will automatically change your view of Celestia, once it has been installed. Using Javascript functions, it predefines the Celestial Universe so that you will be viewing Selden's Background Radiation displays. You will have to REMOVE the add-on from your extras file in order to remove the views. The Microwave Sky Map was created by the NASA/WMAP Science Team, and you can view their web page http://map.gsfc.nasa.gov/m_or.html.
+$www "http://www.lepp.cornell.edu/~seb/celestia/catalogs.html#3.5.9"
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=569"
+$license "unknown"
+$author {Selden Ball} 
+$distfile {
+    -name "wmap.zip" -size 1251661 -md5 4d9c06482a03f95e02950d783d70dd4d
+    -url http://www.celestiamotherlode.net/creators/selden/wmap.zip }
+$unpack {
+    -file "wmap.zip" -type zip
+    -dir "extras/Background Microwave Map" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/extrasolar/WMAP_Background__Selden.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/extrasolar/WMAP_Background__Selden.jpg }
+$install
+    {"~" -skip}
+    {"Thumbs.db" -skip}
+    {}
+$end
