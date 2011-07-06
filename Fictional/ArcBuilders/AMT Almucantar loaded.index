@@ -1,0 +1,31 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "AMT Almucantar loaded"
+$category {Fictional/ArcBuilders} {Experimental/Robot/Fictional/ArcBuilders}
+# default version!
+$version 1.0
+$created 2005-09-06
+$modified 2008-04-13
+$description The AMT Almucantar, a cargo ship for the ArcBuilder Universe.
+The AMT Almucantar is an Amtech cargo ship, used primarily to haul asteroid ore from the Belt to Mars, Luna, and Earth. This add-on shows an idealized orbit from the belt to just within the orbit of Mars, and the ship itself is displayed with a full array of cargo containers attached. Special thanks go to Steve Bowers, who created this model based on my sketches, using Anim8or.
+
+NOTE: To view, use the ENTER-TYPE NAME-ENTER method to get to Almucantar Loaded, or if your looking at our own Solar System, you can also find the ship listed on the Solar System Browser under Celestia's Navigation Menu.
+$www "http://j.dollan.home.bresnan.net/ARCVesselindex.html"
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=832"
+$license "This add-on is meant to be used in conjunction with other ArcBuilder Universe add-ons.  You may use it in other Celestia formats, but if you publish any form of it on the 'Net or other mass media, please obtain permission from myself. Please do not modify the model without this same permission. The accompanying SSC file, however, you are free to modify as much as you want."
+$author {jmdollan} S. Bowers
+$author {S. Bowers}
+$distfile {
+    -name "Almucantar_Loaded.zip" -size 639450 -md5 efd902a51e109278d6f1ad4d3807a5a0
+    -url http://www.celestiamotherlode.net/creators/jmdollan/Almucantar_Loaded.zip }
+$unpack {
+    -file "Almucantar_Loaded.zip" -type zip
+}
+$renamework {"Celestia 1.4pre6/extras/ArcBuilders" extras/ArcBuilders}
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_AMT_Almucantar_loaded_1__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_AMT_Almucantar_loaded_1__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_AMT_Almucantar_loaded_2__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_AMT_Almucantar_loaded_2__jmdollan.jpg }
+$end

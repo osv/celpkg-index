@@ -1,0 +1,30 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Beta Comae Berenices"
+$category {Fictional/ArcBuilders} {Experimental/Robot/Fictional/ArcBuilders}
+# default version!
+$version 1.0
+$created 2004-11-04
+$modified 2008-04-13
+$description A system consisting of  7 worlds, centered on the primary planet of Phione IV, a Gaian planet.
+$description This is the Beta Comae Berenices System. "NOTE:" This zip file is put together in a strange way, but the add-on itself can be installed simply by extracting all contents to any separate, temporary folder of your choice. Then, you'll have to copy the Beta Comae Berenices folder to the extras directory in Celestia. To view, use the ENTER-TYPE NAME-ENTER method to get to Bet Com. Then, you'll be able to view the system using Celestia's built-in Solar System Browser under the Navigation Menu.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=378"
+$license "This add-on is intended for use with other ArcBuilder Universe add-ons. However you are free to use this add-on any way that you wish. Changes for distribution with other add-ons or applications requires permission from the author at maastrichian@bresnan.net. ArcBuilder Universe specific names and concepts are copyright by John M. Dollan."
+$author {jmdollan} 
+$distfile {
+    -name "Beta_Comae_Berenices_v01.zip" -size 3831508 -md5 82772efe26c5a71a22e101ec8fc4a214
+    -url http://celestiamotherlode.net/creators/jmdollan/Beta_Comae_Berenices_v01.zip }
+$unpack {
+    -file "Beta_Comae_Berenices_v01.zip" -type zip
+}
+$renamework {"Celestia/Celestia ArcBuilders 1.3.2p11/extras/ArcBuilders Universe/" extras/ArcB}
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/fictional/BetComBer01_jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/fictional/BetComBer01_jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/fictional/BetComBer02_jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/fictional/BetComBer02_jmdollan.jpg }
+$install
+    {"Thumbs.db" -skip}
+    {}
+$end

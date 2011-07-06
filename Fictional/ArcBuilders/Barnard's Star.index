@@ -1,0 +1,27 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Barnard's Star"
+$category {Fictional/ArcBuilders} {Experimental/Robot/Fictional/ArcBuilders}
+$version {0.1}
+$created 2007-06-11
+$modified 2008-04-12
+$description The Barnard's Star System for the ArcBuilder Universe.
+This system focuses on the world of Cicero, a rather warm, barren planet, and yet the most habitable world in the system. Also included are a couple of other minor worlds, and an asteroid belt. To install, please view the included Readme.txt file.
+
+NOTE: To view in Celestia, use the ENTER-TYPE NAME-ENTER method to get to Barnard's Star. Then, you'll be able to view the system using Celestia's built-in Solar System Browser under the Navigation Menu.
+$www "http://arcbuilder.home.bresnan.net/EPBarnardsStar01.html"
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1068"
+$author {jmdollan} 
+$distfile {
+    -name "Barnard's Star.zip" -size 60533803 -md5 3f2bf84ecff8907edaa2d1139bc337ab
+    -url http://www.celestiamotherlode.net/creators/jmdollan/Barnard's%20Star.zip }
+$unpack {
+    -file "Barnard's Star.zip" -type zip
+    -dir "extras/ArcB" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Barnard_s_Star_1__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Barnard_s_Star_1__jmdollan.jpg }
+$install
+    {"Thumbs.db" -skip}
+    {}
+$end

@@ -1,0 +1,35 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "System of Magni"
+$category {Fictional/ArcBuilders} {Experimental/Robot/Fictional/ArcBuilders}
+$version {0.1}
+$created 2006-11-20
+$modified 2008-04-13
+$description Fictional star system set near the Nebula IC 410, and designed for use with the ArcBuilder Universe.
+This is the home system of the Magni, a Galactic Civilization that was dubbed "Big Blue" by the scientists of the League of Worlds. This is, as far as is known to the League, the largest and most advanced civilization in the Milky Way. To install, please just extract the zip file to your extras folder.
+
+NOTE: To view in Celestia, use the ENTER-TYPE NAME-ENTER method to get to Magni Sun. Then, you'll be able to view the system using Celestia's built-in Solar System Browser under the Navigation Menu.
+$conflicts IC410
+$www "http://arcbuilder.home.bresnan.net/SISSBigBlue.html"
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1020"
+$license "This add-on is intended for use with other ArcBuilder Universe add-ons. However, you are free to use this add-on any way that you wish. Changes for distribution with other add-ons or applications requires permission from the author at maastrichian@bresnan.net."
+$author {jmdollan} 
+$distfile {
+    -name "System_of_Magni_v0.1.zip" -size 15132049 -md5 f3c77bf614bd5be45fddc1e5b98f9750
+    -url http://www.celestiamotherlode.net/creators/jmdollan/System_of_Magni_v0.1.zip }
+$unpack {
+    -file "107 Piscium.zip" -type zip
+    -dir "extras/ArcB" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_System_of_Magni_1__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_System_of_Magni_1__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_System_of_Magni_2__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_System_of_Magni_2__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_System_of_Magni_3__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_System_of_Magni_3__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_System_of_Magni_4__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_System_of_Magni_4__jmdollan.jpg }
+$end

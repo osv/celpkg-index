@@ -1,0 +1,37 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "AMT Dutchmann"
+$category {Fictional/ArcBuilders} {Experimental/Robot/Fictional/ArcBuilders}
+# default version!
+$version 1.0
+$created 2005-08-15
+$modified 2008-04-13
+$description The AMT exploratory vessel Dutchmann in orbit around Brost.
+The ship is placed within a highly eccentric orbit of the asteroid Brost, upon which the ruins of the AMT Dutchmann can be found as well. Please note that it is necessary to download the Brost add-on in order to display this model correctly. You can also adjust the SSC file to place the ship in orbit around any other body that you wish too. Also note that this add-on would not have been possible without the help of Steve Bowers, who created the 3DS model of the Dutchmann.
+
+NOTE: This zip file is put together in a strange way, but the add-on itself can be installed simply by extracting all contents to any separate, temporary folder of your choice. Then, you'll have to copy the zAMT Dutchmann folder to your extras directory in Celestia. To view, use the ENTER-TYPE NAME-ENTER method to get to Brost, and then right-click on the asteroid to select the AMT Dutchmann.
+$www "http://j.dollan.home.bresnan.net/ARCVesselindex.html"
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=815"
+$license "This add-on is intended for use with other ArcBuilder Universe add-ons. However you are free to use this add-on any way that you wish. Changes for distribution with other add-ons or applications requires permission from the author at maastrichian@bresnan.net. ArcBuilder Universe specific names and concepts are copyright by John M. Dollan."
+$author {jmdollan} S. Bowers
+$author {S. Bowers}
+$distfile {
+    -name "zAMT_Dutchmann.zip" -size 267313 -md5 b6ded91fed9f0d51772305a40836ad69
+    -url http://www.celestiamotherlode.net/creators/jmdollan/zAMT_Dutchmann.zip }
+$unpack {
+    -file "zAMT_Dutchmann.zip" -type zip
+}
+$renamework {"Celestia 1.4pre6/extras/ArcBuilders" extras/ArcBuilders}
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_AMT_Dutchmann_1__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_AMT_Dutchmann_1__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_AMT_Dutchmann_2__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_AMT_Dutchmann_2__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_AMT_Dutchmann_3__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_AMT_Dutchmann_3__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_AMT_Dutchmann_4__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_AMT_Dutchmann_4__jmdollan.jpg }
+$end

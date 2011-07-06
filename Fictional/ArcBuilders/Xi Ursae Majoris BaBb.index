@@ -1,0 +1,35 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Xi Ursae Majoris BaBb"
+$category {Fictional/ArcBuilders} {Experimental/Robot/Fictional/ArcBuilders}
+$version {1.0}
+$created 2007-02-12
+$modified 2008-04-13
+# TODO: problem with nearstars?
+$description The initial ArcBuilder Universe System V1.0.
+This is the "natural" setting for this system. Future updates will include the visual impact, as well as objects, that result from Human colonization.
+
+#IMPORTANT: In order to display this add-on correctly for the ArcBuilder setting, it was necessary to create a new Xi Ursae Majoris.stc file, which is included with this add-on. This necessitated the deletion of the pre-existing entry for this star from the nearstars.stc file, located in the Data directory of Celestia. You must either do this yourself, or you can simply copy the enclosed nearstars.stc file, that I have provided, into the Data folder. The deletion of Xi Ursae Majoris from the enclosed file IS THE ONLY CHANGE IN THAT FILE, and as of January of 2007 there should be no other changes to worry about.
+#To be absolutely safe, however, I highly recommend that you back up the nearstars.stc file that came with your Celestia installation. You can, of course, not utilize the edited nearstars.stc at all; this will not prevent you from viewing the fictional system. It will, however, create a second Xi Ursae Majoris System fairly close to the original.
+NOTE: Once installed, you can visit ArcBuilder System by using the ENTER-TYPE NAME-ENTER method to get to Gliese 423. You can then use Celestia's built-in Solar System Browser under the Navigation Menu to view the objects in this system.
+$www "http://arcbuilder.home.bresnan.net/EPXiUrsaeMajorisBaBb01.html"
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1033"
+$license "This add-on is intended for use with other ArcBuilder Universe add-ons. However you are free to use this add-on any way that you wish. Changes for distribution with other add-ons or applications requires permission from the author at maastrichian@bresnan.net. ArcBuilder Universe-specific names and concepts are copyright by John M. Dollan."
+$author {jmdollan} 
+$distfile {
+    -name "Xi_Ursae_Majoris_BaBb.zip" -size 28307949 -md5 47b4e413150796657429b4c0777c7020
+    -url http://www.celestiamotherlode.net/creators/jmdollan/Xi_Ursae_Majoris_BaBb.zip }
+$unpack {
+    -file "Xi_Ursae_Majoris_BaBb.zip" -type zip
+    -dir "extras/ArcB" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Xi_Ursae_Majoris_BaBb_Sy_1__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Xi_Ursae_Majoris_BaBb_Sy_1__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Xi_Ursae_Majoris_BaBb_Sy_2__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Xi_Ursae_Majoris_BaBb_Sy_2__jmdollan.jpg }
+$install
+    {"Thumbs.db" -skip}
+    {"nearstars.stc" -skip}
+    {}
+$end

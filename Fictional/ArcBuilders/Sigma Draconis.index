@@ -1,0 +1,36 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Sigma Draconis"
+$category {Fictional/ArcBuilders} {Experimental/Robot/Fictional/ArcBuilders}
+$version {1.0}
+$created 2004-11-04
+$modified 2008-04-13
+$description The Sigma Draconis System for the ArcBuilder Universe.
+This is the full system, with detail on the planets and major moons. Future upgrades will include information and visualizations of Earth colonies here, including their impact on planetary surfaces, orbiting stations, space vessels, etc. To install, please just extract the zip file to your extras folder.
+
+NOTE: To view in Celestia, use the ENTER-TYPE NAME-ENTER method to get to Sig Dra. Then, you'll be able to view the system using Celestia's built-in Solar System Browser under the Navigation Menu.
+$www "http://arcbuilder.home.bresnan.net/EPSigmaDraconis01.html"
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=384"
+$author {jmdollan} 
+$distfile {
+    -name "Sigma Draconis.zip" -size 18261492 -md5 323dc3355f1c437ff50cdf106a8f0dba
+    -url http://www.celestiamotherlode.net/creators/jmdollan/Sigma%20Draconis.zip }
+$unpack {
+    -file "Sigma Draconis.zip" -type zip
+    -dir "extras/ArcB" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Sigma_Draconis_System_1__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Sigma_Draconis_System_1__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Sigma_Draconis_System_2__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Sigma_Draconis_System_2__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Sigma_Draconis_System_3__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Sigma_Draconis_System_3__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Sigma_Draconis_System_4__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Sigma_Draconis_System_4__jmdollan.jpg }
+$install
+    {"Thumbs.db" -skip}
+    {}
+$end

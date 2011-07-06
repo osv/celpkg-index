@@ -1,0 +1,33 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "55 Cancri"
+$category {Fictional/ArcBuilders} {Experimental/Robot/Fictional/ArcBuilders}
+$version {0.1}
+$created 2007-04-23
+$modified 2008-04-12
+$description The 55 Cancri System for the ArcBuilder Universe.
+This system focuses on the main planet of Chinook, modeled after Barlowe's "Alien Planet", with permission. Also included are the known actual planets of the system, with new textures, based off of the work of the late John Whatmough. To install, please view the Readme.txt file which is included.
+
+NOTE: To view in Celestia, use the ENTER-TYPE NAME-ENTER method to get to HD 75732. Then, you'll be able to view the system using Celestia's built-in Solar System Browser under the Navigation Menu.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1046"
+$license "This add-on is intended for use with other ArcBuilder Universe add-ons. However you are free to use this add-on any way that you wish. Changes for distribution with other add-ons or applications requires permission from the author at maastrichian@bresnan.net. ArcBuilder Universe specific names and concepts are copyright by John M. Dollan."
+$author {jmdollan} 
+$distfile {
+    -name "55 Cancri.zip" -size 52406908 -md5 405ead4767838329170b42742572925a
+    -url http://www.celestiamotherlode.net/creators/jmdollan/55%20Cancri.zip }
+$unpack {
+    -file "55 Cancri.zip" -type zip
+    -dir "extras/ArcB" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_55_Cancri_1__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_55_Cancri_1__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_55_Cancri_2__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_55_Cancri_2__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_55_Cancri_3__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_55_Cancri_3__jmdollan.jpg }
+$install
+    {"Thumbs.db" -skip}
+    {}
+$end

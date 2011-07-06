@@ -1,0 +1,38 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Proxima Centauri V0.1"
+$category {Fictional/ArcBuilders} {Experimental/Robot/Fictional/ArcBuilders}
+# default version!
+$version 1.0
+$created 2006-03-13
+$modified 2008-04-12
+$description Proxima Centauri Solar System in the ArcBuilder Universe.
+Proxima Centauri is the red dwarf companion to Alpha Centauri A and B, and in the ArcBuilder setting possesses a marginally habitable world (named Bester) in a tight solar orbit. The Proxima Centauri add-on includes 4 planets, two moons, and a separate texture for the star itself. The primary planet, Bester, is a marginally habitable world in a tight solar orbit. Its day side is a desert, and its night side a frozen waste. Along the terminator, there are seas and simple forms of life... Just enough for colonists to eek a living from. To install, simply extract the zip file to your extras directory.
+
+NOTE: To view in Celestia, use the ENTER-TYPE NAME-ENTER method to get to Proxima Centauri. Then, you'll be able to view the system using Celestia's built-in Solar System Browser under the Navigation Menu.
+$www "http://arcbuilder.home.bresnan.net/ProximaCentauri01.html"
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=945"
+$license "This add-on is intended for use with other ArcBuilder Universe add-ons. However, you are free to use this add-on any way that you wish. Changes or distribution with other add-ons  requires permission from the author at j.dollan@bresnan.net."
+$author {jmdollan} 
+$distfile {
+    -name "ProximaCentauriv01.zip" -size 9041586 -md5 42f3ca129ab8e424aa2310f97df4c5b3
+    -url http://www.celestiamotherlode.net/creators/jmdollan/ProximaCentauriv01.zip }
+$unpack {
+    -file "ProximaCentauriv01.zip" -type zip
+    -dir "extras/ArcB" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Proxima_Centauri_v0_1_1__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Proxima_Centauri_v0_1_1__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Proxima_Centauri_v0_1_2__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Proxima_Centauri_v0_1_2__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Proxima_Centauri_v0_1_3__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Proxima_Centauri_v0_1_3__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Proxima_Centauri_v0_1_4__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Proxima_Centauri_v0_1_4__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Proxima_Centauri_v0_1_5__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Proxima_Centauri_v0_1_5__jmdollan.jpg }
+$end

@@ -1,0 +1,34 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Omicron2 Eridani"
+$category {Fictional/ArcBuilders} {Experimental/Robot/Fictional/ArcBuilders}
+$version {1.0}
+$created 2004-11-04
+$modified 2008-04-13
+$description An system of planets orbiting Omicron-2 Eridani A for the ArcBuilder Universe.
+This is the "natural" setting for this system. Future updates will include the visual impact, as well as objects, that result from Human colonization. To install, please just extract the zip file to your extras folder.
+
+NOTE: To view in Celestia, use the ENTER-TYPE NAME-ENTER method to get to Keid A. Then, you'll be able to view the system using Celestia's built-in Solar System Browser under the Navigation Menu.
+$www "http://arcbuilder.home.bresnan.net/EPOmicron2EridaniA01.html"
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=383"
+$license "This add-on is intended for use with other ArcBuilder Universe add-ons. However you are free to use this add-on any way that you wish. Changes for distribution with other add-ons or applications requires permission from the author at maastrichian@bresnan.net. ArcBuilder Universe-specific names and concepts are copyright by John M. Dollan."
+$author {jmdollan} 
+$distfile {
+    -name "Omicron-2 Eridani A.zip" -size 21592154 -md5 2506ab734019a23dd9b70cd76b15fcd3
+    -url http://www.celestiamotherlode.net/creators/jmdollan/Omicron-2%20Eridani%20A.zip }
+$unpack {
+    -file "Omicron-2 Eridani A.zip" -type zip
+    -dir "extras/ArchB" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Omicron2_Eridani_System_1__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Omicron2_Eridani_System_1__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Omicron2_Eridani_System_2__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Omicron2_Eridani_System_2__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Omicron2_Eridani_System_3__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Omicron2_Eridani_System_3__jmdollan.jpg }
+$install
+    {"Thumbs.db" -skip}
+    {}
+$end

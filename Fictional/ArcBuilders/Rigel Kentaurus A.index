@@ -1,0 +1,43 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Rigel Kentaurus A"
+$category {Fictional/ArcBuilders} {Experimental/Robot/Fictional/ArcBuilders}
+$version {0.1}
+$created 2004-11-04
+$modified 2008-04-13
+$description The Rigel Kentaurus A Solar System for the ArcBuilder Universe.
+Includes the worlds of Asbolos, Polyphonte, Ghellhonus, Teleboas, and a retinue of moons for these worlds. Also included are various cloud maps.
+
+NOTE: This zip file is put together in a strange way, but the add-on itself can be installed simply by extracting all contents to any separate, temporary folder of your choice. Then, you'll have to copy the Rigel Kentaurus A folder to the extras directory in Celestia. To view this add-on in Celestia, use the ENTER-TYPE NAME-ENTER method to get to Rigel Kentaurus A. Then, you'll be able to view the system using Celestia's built-in Solar System Browser under the Navigation Menu.
+$www "http://j.dollan.home.bresnan.net/ARCWorldsAlphaCentauriAIndex.html"
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=374"
+$author {jmdollan} 
+$distfile {
+    -name "Rigel_Kentaurus_A.zip" -size 14210402 -md5 c45b1fa5cdf140d7b06c736e10b4e5e2
+    -url http://www.celestiamotherlode.net/creators/jmdollan/Rigel_Kentaurus_A.zip }
+$unpack {
+    -file "Rigel_Kentaurus_A.zip" -type zip
+}
+$renamework {"Celestia 1.4pre6/extras/ArcBuilders/" "extras/ArcB"}
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Alpha_Centauri_System_R_1__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Alpha_Centauri_System_R_1__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Alpha_Centauri_System_R_2__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Alpha_Centauri_System_R_2__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Alpha_Centauri_System_R_3__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Alpha_Centauri_System_R_3__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Alpha_Centauri_System_R_4__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Alpha_Centauri_System_R_4__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Alpha_Centauri_System_R_5__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Alpha_Centauri_System_R_5__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Alpha_Centauri_System_R_6__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Alpha_Centauri_System_R_6__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Alpha_Centauri_System_R_7__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Alpha_Centauri_System_R_7__jmdollan.jpg }
+$end

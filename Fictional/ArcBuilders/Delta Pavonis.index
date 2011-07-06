@@ -1,0 +1,27 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Delta Pavonis"
+$category {Fictional/ArcBuilders} {Experimental/Robot/Fictional/ArcBuilders}
+$version {0.1}
+$created 2004-11-04
+$modified 2008-04-13
+$description The Delta Pvonis System for the ArcBuilder Universe.
+Includes a large solar system, with several terrestrial and gas worlds, as well as a large number of moons. The primary planet is Waterdon Prime. Also included are seven 3DS models for some smaller moons. To install, simply extract this package to your extras directory.
+
+NOTE: To view in Celestia, use the ENTER-TYPE NAME-ENTER method to get to DEL Pav. Then, you'll be able to view the system using Celestia's built-in Solar System Browser under the Navigation Menu. Please note also that you may wish to rename some of the 3DS file so that they use lower-case file name extensions. Some systems cannot use add-ons which utilize upper-case file names or extensions.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=379"
+$license "This add-on is intended to be used with other ArcBuilder Universe add-ons. However, you are free to use the add-on any way that you wish. Changes for distribution with other add-ons requires permission from me at j.dollan@bresnan.net."
+$author {jmdollan} 
+$distfile {
+    -name "Delta_Pavonis_v01.zip" -size 17084239 -md5 8faf4c81248e49f08b89dd1faee27e4f
+    -url http://www.celestiamotherlode.net/creators/jmdollan/Delta_Pavonis_v01.zip }
+$unpack {
+    -file "Delta_Pavonis_v01.zip" -type zip
+    -dir "extras/ArcB" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/fictional/Tiw__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/fictional/Tiw__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/fictional/WaterdonPrime1__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/fictional/WaterdonPrime1__jmdollan.jpg }
+$end

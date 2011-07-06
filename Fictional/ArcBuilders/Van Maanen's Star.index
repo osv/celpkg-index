@@ -1,0 +1,32 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Van Maanen's Star"
+$category {Fictional/ArcBuilders} {Experimental/Robot/Fictional/ArcBuilders}
+# default version!
+$version 1.0
+$created 2006-02-25
+$modified 2008-04-13
+$description Van Maanen's Star system for the ArcBuilder Universe.
+Van Maanen's Star is a white dwarf, and the closest such single star to Sol. In the ArcBuilder setting, it is orbited by the burnt out remains of a Gaian planet, named Absalom, which holds evidence for an ancient sapient species. Also present is a colonial ship, sent there as an Exile Colony, and which subsequently suffered a catastrophic failure.
+
+Then, you'll have to copy the van Maanen's Star folder to your extras directory in Celestia. To view, use the ENTER-TYPE NAME-ENTER method to get to Van Maanen's Star. Then, you'll be able to view this system using Celestia's built-in Solar System Browser under the Navigation Menu.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=925"
+$license "This add-on is designed for use with the ArcBuilder setting. Other usage is granted. Commercial use is forbidden. If you want to use this add-on, in whole or in part, with another add-on, please contact me."
+$author {jmdollan} 
+$distfile {
+    -name "vanMaanen__sStar.zip" -size 2672521 -md5 3efea797f47696c5d181216d56762876
+    -url http://www.celestiamotherlode.net/creators/jmdollan/vanMaanen__sStar.zip }
+$unpack {
+    -file "vanMaanen__sStar.zip" -type zip
+}
+$renamework {"Celestia/Celestia ArcBuilder Universe 1.4.0pre6/extras/ArcBuilders" "extras/ArcB"}
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Van_Maanen_s_Star_1__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Van_Maanen_s_Star_1__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Van_Maanen_s_Star_2__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Van_Maanen_s_Star_2__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Van_Maanen_s_Star_3__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Van_Maanen_s_Star_3__jmdollan.jpg }
+$end

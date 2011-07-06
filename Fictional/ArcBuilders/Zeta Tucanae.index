@@ -1,0 +1,30 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Zeta Tucanae"
+$category {Fictional/ArcBuilders} {Experimental/Robot/Fictional/ArcBuilders}
+# default version!
+$version 1.0
+$created 2004-11-04
+$modified 2008-04-13
+$description The Zeta Tucanae System for the ArcBuilder Universe.
+This add-on contains a large solar system with 9 planets; the primary being Cordillera, which is an EoArean world. To install, please just extract the zip file to your extras folder.
+
+NOTE: To view in Celestia, use the ENTER-TYPE NAME-ENTER method to get to Zet Tuc. Then, you'll be able to view the system using Celestia's built-in Solar System Browser under the Navigation Menu.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=387"
+$author {jmdollan} 
+$distfile {
+    -name "Zeta_Tucanae_v01.zip" -size 3589665 -md5 d87368dc6eb5a125333deba906aaa4fa
+    -url http://celestiamotherlode.net/creators/jmdollan/Zeta_Tucanae_v01.zip }
+$unpack {
+    -file "Zeta_Tucanae_v01.zip" -type zip
+    -dir "extras/ArcB" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/fictional/ZetTuc01_jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/fictional/ZetTuc01_jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/fictional/ZetTuc02_jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/fictional/ZetTuc02_jmdollan.jpg }
+$install
+    {"Thumbs.db" -skip}
+    {}
+$end

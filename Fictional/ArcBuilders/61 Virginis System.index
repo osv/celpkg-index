@@ -1,0 +1,30 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "61 Virginis System"
+$category {Fictional/ArcBuilders} {Experimental/Robot/Fictional/ArcBuilders}
+$version {1.0}
+$created 2004-11-04
+$modified 2008-04-13
+$description This is the primary planet, and its moon, for the 61 Virginis system.
+This is the "natural" setting for this system. Future updates will include the visual impact, as well as objects, that result from Human colonization. The primary world is Dradgeworld, an Earth-like world which is one of the primary planets of this fictional setting. To install, please view the included Readme.txt file.
+
+NOTE: To view in Celestia, use the ENTER-TYPE NAME-ENTER method to get to 61 Vir. Then, you'll be able to view the system using Celestia's built-in Solar System Browser under the Navigation Menu.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=372"
+$license "This add-on is intended for use with other ArcBuilder Universe add-ons. However you are free to use this add-on any way that you wish. Changes for distribution with other add-ons or applications requires permission from the author at maastrichian@bresnan.net. The ArcBuilder Universe specific names and concepts are copyright by John M. Dollan."
+$author {jmdollan} 
+$distfile {
+    -name "61_Virginis.zip" -size 35696228 -md5 fc0b1378419f015537804aa56f46ce50
+    -url http://www.celestiamotherlode.net/creators/jmdollan/61_Virginis.zip }
+$unpack {
+    -file "61_Virginis.zip" -type zip
+    -dir "extras/ArcB" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_61_Virginis_System_1__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_61_Virginis_System_1__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_61_Virginis_System_2__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_61_Virginis_System_2__jmdollan.jpg }
+$install
+    {"Thumbs.db" -skip}
+    {}
+$end

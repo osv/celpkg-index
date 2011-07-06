@@ -1,0 +1,52 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Nu Phoenicis"
+$category {Fictional/ArcBuilders} {Experimental/Robot/Fictional/ArcBuilders}
+$version {0.1}
+$created 2006-06-02
+$modified 2008-04-12
+$description The Nu Phoenicis System for the ArcBuilder Universe.
+This system contains 9 planets, centering on the habitable world of New Phoenix, an Earth-like world a little larger and a little more massive than our home planet. It's also home to one primitive sapient species, and contains the relics of an older, much more advanced species. To install, simply extract this package to your extras directory.
+
+NOTE: To view in Celestia, use the ENTER-TYPE NAME-ENTER method to get to Nu Phe. Then, you'll be able to view the system using Celestia's built-in Solar System Browser under the Navigation Menu.
+$www "http://arcbuilder.home.bresnan.net/NuPhoenicisNewPhoenix.html"
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=972"
+$license "This add-on is intended for use with other ArcBuilder Universe add-ons. However you are free to use this add-on any way that you wish. Changes for distribution with other add-ons or applications requires permission from the author at <j.dollan@bresnan.net>."
+$author {jmdollan} 
+$distfile {
+    -name "NuPhoenicisv0.1.zip" -size 8759706 -md5 e541276039dd36ab90fbf38d6d1410cd
+    -url http://www.celestiamotherlode.net/creators/jmdollan/NuPhoenicisv0.1.zip }
+$unpack {
+    -file "NuPhoenicisv0.1.zip" -type zip
+    -dir "extras/ArcB" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Nu_Phoenicis_1__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Nu_Phoenicis_1__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Nu_Phoenicis_2__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Nu_Phoenicis_2__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Nu_Phoenicis_3__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Nu_Phoenicis_3__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Nu_Phoenicis_4__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Nu_Phoenicis_4__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Nu_Phoenicis_5__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Nu_Phoenicis_5__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Nu_Phoenicis_6__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Nu_Phoenicis_6__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Nu_Phoenicis_7__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Nu_Phoenicis_7__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Nu_Phoenicis_8__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Nu_Phoenicis_8__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Nu_Phoenicis_9__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Nu_Phoenicis_9__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Nu_Phoenicis_10__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Nu_Phoenicis_10__jmdollan.jpg }
+$end

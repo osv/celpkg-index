@@ -1,0 +1,34 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "AX Microscopii"
+$category {Fictional/ArcBuilders} {Experimental/Robot/Fictional/ArcBuilders}
+$version {0.1}
+$created 2006-10-17
+$modified 2008-04-12
+$description A red dwarf hosting a local population center of the Tsubar'ey Galactic Civilization. This was the location of an Exile Colony.
+A typical red dwarf system, save that the close-in Jovian world is capable of supporting Jovian-based life. The main moon of this Jovian world was terraformed by the Tsubar'ey into a world capable of supporting Human life. That life was the Exile Colony sent there by the Dominion. To install, simply extract all contents to an AX Microscopii folder in the Celestia\extras directory.
+
+NOTE: To view in Celestia, use the ENTER-TYPE NAME-ENTER method to get to AX Mic. Then, you'll be able to view the system using Celestia's built-in Solar System Browser under the Navigation Menu. 
+$www "http://arcbuilder.home.bresnan.net/AXMicroscopii01.html"
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1003"
+$license "This add-on is intended for use with other ArcBuilder Universe add-ons. However you are free to use this add-on any way that you wish. Changes for distribution with other add-ons or applications requires permission from the author at maastrichian@bresnan.net."
+$author {jmdollan} 
+$distfile {
+    -name "AX_Microscopii_v0.1.zip" -size 17080598 -md5 aaa220a6c8f32a77823a16b16edfd646
+    -url http://www.celestiamotherlode.net/creators/jmdollan/AX_Microscopii_v0.1.zip }
+$unpack {
+    -file "AX_Microscopii_v0.1.zip" -type zip
+    -dir "extras/ArcB"}
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_AX_Microscopii_Version_0_1__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_AX_Microscopii_Version_0_1__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_AX_Microscopii_Version_0_2__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_AX_Microscopii_Version_0_2__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_AX_Microscopii_Version_0_3__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_AX_Microscopii_Version_0_3__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_AX_Microscopii_Version_0_4__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_AX_Microscopii_Version_0_4__jmdollan.jpg }
+$end

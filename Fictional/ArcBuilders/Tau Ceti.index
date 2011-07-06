@@ -1,0 +1,37 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Tau Ceti"
+$category {Fictional/ArcBuilders} {Experimental/Robot/Fictional/ArcBuilders}
+$version {1.0}
+$created 2004-11-04
+$modified 2008-04-13
+$description The Tau Ceti System for the ArcBuilder Universe.
+This system was one of the first to be colonized in the ArcBuilder setting, and possesses the indigenous intelligent species of the Igii. Contains several worlds, including the primary world of Glaucus (also named Igom). To install, please just extract the zip file to your extras folder.
+
+NOTE: To view in Celestia, use the ENTER-TYPE NAME-ENTER method to get to Tau Cet. Then, you'll be able to view the system using Celestia's built-in Solar System Browser under the Navigation Menu.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=385"
+$license "This add-on is intended for use with other ArcBuilder Universe add-ons.  However, you are free to use this add-on any way that you wish. Changes or distribution with other add-ons requires permission from the author at j.dollan@bresnan.net."
+$author {jmdollan} 
+$distfile {
+    -name "TauCeti_v1.0.zip" -size 14711253 -md5 252216d99ee1d6c363a7ac25a7ffb2d6
+    -url http://www.celestiamotherlode.net/creators/jmdollan/TauCeti_v1.0.zip }
+$unpack {
+    -file "TauCeti_v1.0.zip" -type zip
+    -dir "extras/ArcB"
+}
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Tau_Ceti_System_1__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Tau_Ceti_System_1__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Tau_Ceti_System_2__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Tau_Ceti_System_2__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Tau_Ceti_System_3__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Tau_Ceti_System_3__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Tau_Ceti_System_4__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Tau_Ceti_System_4__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Tau_Ceti_System_5__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Tau_Ceti_System_5__jmdollan.jpg }
+$end

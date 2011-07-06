@@ -1,0 +1,45 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Brost"
+$category {Fictional/ArcBuilders} {Experimental/Robot/Fictional/ArcBuilders}
+$version {1.0}
+$created 2005-06-02
+$modified 2008-04-13
+$description Brost is a Vulcanian asteroid, within the orbit of Mercury.
+There is a small shelter on the surface, built to protect the remains of the Dutchmann, an Amtech exploratory vessel that automatically landed on the asteroid after its crew had been killed in a ship-board accident. This add-on is a small setting piece for the Solar System, and should not interfere with any Solar System elements already in place in the default Celestia SSC files.
+
+NOTE: This zip file is put together in a strange way, but the add-on itself can be installed simply by extracting all contents to any separate, temporary folder of your choice. Then, you'll have to copy the Brost folder to the extras directory in Celestia. To view, use the ENTER-TYPE NAME-ENTER method to get to Brost, or if your looking at our own Solar System, you can also find the asteroid listed on the Solar System Browser under Celestia's Navigation Menu.
+$www "http://j.dollan.home.bresnan.net/ARCWorldsSolBrost01.html"
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=774"
+$license "This add-on is intended for use with other ArcBuilder Universe add-ons. However you are free to use this add-on any way that you wish. Changes for distribution with other add-ons or applications requires permission from the author at maastrichian@bresnan.net. ArcBuilder Universe specific names and concepts are copyright by John M. Dollan."
+$author {jmdollan} S. Bowers
+$author {S. Bowers}
+$distfile {
+    -name "Brost.zip" -size 3430440 -md5 99d8c2f9904967ba47f6df9d6dd7c8ef
+    -url http://www.celestiamotherlode.net/creators/jmdollan/Brost.zip }
+$unpack {
+    -file "Brost.zip" -type zip
+}
+$renamework {"Celestia 1.4pre6/extras/ArcBuilders" "extras/Arc"}
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Brost_1__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Brost_1__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Brost_2__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Brost_2__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Brost_3__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Brost_3__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Brost_4__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Brost_4__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Brost_5__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Brost_5__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Brost_6__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Brost_6__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Brost_7__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Brost_7__jmdollan.jpg }
+$end

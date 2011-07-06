@@ -1,0 +1,28 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Beta Canum Venaticorum"
+$category {Fictional/ArcBuilders} {Experimental/Robot/Fictional/ArcBuilders}
+$version {1.0}
+$created 2004-11-04
+$modified 2008-04-13
+$description This is an updated version of an older add-on, focusing on the planet of Retunda only, along with its minor moon Manchester.
+This is a simple version of a star system found in the ArcBuilder setting. It is an upgrade from an older and now incorrect version, although only the worlds of interest are included. Future releases will include other system bodies, as well as the Human colonist impact on the system. To install, simply extract this package to your extras directory.
+
+NOTE: To view in Celestia, use the ENTER-TYPE NAME-ENTER method to get to Bet CVn. Then, you'll be able to view the system using Celestia's built-in Solar System Browser under the Navigation Menu.
+$www "http://arcbuilder.home.bresnan.net/EPBetaCanumVenaticorum01.html"
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=377"
+$license "This add-on is intended for use with other ArcBuilder Universe add-ons. However you are free to use this add-on any way that you wish. Changes for distribution with other add-ons or applications requires permission from the author at maastrichian@bresnan.net. ArcBuilder Universe specific names and concepts are copyright by John M. Dollan."
+$author {jmdollan} 
+$distfile {
+    -name "Beta_Canum_Venaticorum.zip" -size 6156138 -md5 e8586a04156d0289567748d5fb551009
+    -url http://www.celestiamotherlode.net/creators/jmdollan/Beta_Canum_Venaticorum.zip }
+$unpack {
+    -file "Beta_Canum_Venaticorum.zip" -type zip
+    -dir "extras/ArcB" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Beta_Canum_Venaticorum_S_1__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Beta_Canum_Venaticorum_S_1__jmdollan.jpg }
+$install
+    {"Thumbs.db" -skip}
+    {}
+$end

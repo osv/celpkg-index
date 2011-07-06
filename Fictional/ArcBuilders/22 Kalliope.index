@@ -1,0 +1,32 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "22 Kalliope"
+$category {Fictional/ArcBuilders} {Experimental/Robot/Fictional/ArcBuilders}
+# default version!
+$version 1.0
+$created 2006-03-06
+$modified 2008-04-12
+$description An add-on for the ArcBuilder Universe.
+This is the ArcBuilder Universe version of the asteroid 22 Kalliope. The asteroid mesh is based on radar surveys, and has surface features meant to depict the ruins of an old mining outpost. Also present is a model of a control tower, the only visible surface indication of a colony located here. Thanks to Steve Bowers for the asteroid and tower models, and for the updated ssc file. To install, please view the included Readme.txt file.
+
+NOTE: To view in Celestia, use Celestia's built-in Solar System Browser under the Navigation Menu while in our own Solar System. Simply select the 22 Kalliope entry. Please also note that you may wish to rename some of the JPG files so that they use lower-case file name extensions. Some systems cannot use file names which contain upper-case extensions.
+$www "http://arcbuilder.home.bresnan.net/SolSystemKalliope.html"
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=932"
+$license "This add-on is meant for use with the ArcBuilder Universe setting add-ons, but may also be used in other personal projects."
+$author {jmdollan} 
+$distfile {
+    -name "22kalliopev1.2.zip" -size 1108437 -md5 8c26d5c824ef74e25cc21dec941d4508
+    -url http://www.celestiamotherlode.net/creators/jmdollan/22kalliopev1.2.zip }
+$unpack {
+    -file "22kalliopev1.2.zip" -type zip
+    -dir "extras/ArcB" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_22_Kalliope_1__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_22_Kalliope_1__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_22_Kalliope_2__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_22_Kalliope_2__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_22_Kalliope_3__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_22_Kalliope_3__jmdollan.jpg }
+$end

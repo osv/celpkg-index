@@ -1,0 +1,49 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "37 Geminorum"
+$category {Fictional/ArcBuilders} {Experimental/Robot/Fictional/ArcBuilders}
+$version {0.1}
+$created 2006-05-22
+$modified 2008-04-12
+$description The 37 Geminorum System for the ArcBuilder Universe, and ancient home of the ArcBuilders themselves.
+This add-on includes the worlds of Pictavia, Dal Riata, Alba, Cymbria, Caledoni, Khemet, Tharshesh, and Opar. Also present is a major asteroid belt. To install, please view the Readme.txt file which is included.
+
+NOTE: To view in Celestia, use the ENTER-TYPE NAME-ENTER method to get to 37 Gem. Then, you'll be able to view the system using Celestia's built-in Solar System Browser under the Navigation Menu.
+$www "http://arcbuilder.home.bresnan.net/37Geminorum01.html"
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=970"
+$license "This add-on is intended for use with other ArcBuilder Universe add-ons. However you are free to use this add-on any way that you wish. Changes for distribution with other add-ons or applications requires permission from the author at j.dollan@bresnan.net."
+$author {jmdollan} 
+$distfile {
+    -name "37_Geminorum_v0.1.zip" -size 24222572 -md5 d6705b00c936164cce8ad61f618b76a6
+    -url http://www.celestiamotherlode.net/creators/jmdollan/37_Geminorum_v0.1.zip }
+$unpack {
+    -file "37_Geminorum_v0.1.zip" -type zip
+    -dir "extras/ArcB" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_37_Geminorum_1__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_37_Geminorum_1__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_37_Geminorum_2__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_37_Geminorum_2__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_37_Geminorum_3__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_37_Geminorum_3__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_37_Geminorum_4__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_37_Geminorum_4__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_37_Geminorum_5__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_37_Geminorum_5__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_37_Geminorum_6__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_37_Geminorum_6__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_37_Geminorum_7__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_37_Geminorum_7__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_37_Geminorum_8__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_37_Geminorum_8__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_37_Geminorum_9__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_37_Geminorum_9__jmdollan.jpg }
+$end

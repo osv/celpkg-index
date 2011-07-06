@@ -1,0 +1,28 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "107 Piscium"
+$category {Fictional/ArcBuilders} {Experimental/Robot/Fictional/ArcBuilders}
+$version {0.1}
+$created 2007-05-11
+$modified 2008-04-12
+$description The 107 Piscium System for the ArcBuilder Universe.
+This system focuses on the habitable world of Kelari. However, three other worlds are present in close proximity; there are two pairs of worlds orbiting their barycenters, while all four orbit a single common barycenter. I have no idea if the system is feasible in reality. My purpose this time was to make a visually pleasing system. Future updates may well make it more realistic. To install, please view the included Readme.txt file.
+
+NOTE: To view in Celestia, use the ENTER-TYPE NAME-ENTER method to get to 107 Psc. Then, you'll be able to view the system using Celestia's built-in Solar System Browser under the Navigation Menu.
+$www "http://arcbuilder.home.bresnan.net/EP107Piscium01.html"
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1055"
+$license "This add-on is intended for use with other ArcBuilder Universe add-ons. However you are free to use this add-on any way that you wish. Changes for distribution with other add-ons or applications requires permission from the author at maastrichian@bresnan.net. ArcBuilder Universe specific names and concepts are copyright by John M. Dollan."
+$author {jmdollan} 
+$distfile {
+    -name "107 Piscium.zip" -size 30024565 -md5 54d11a89f453d47d27132c0d79245bd3
+    -url http://www.celestiamotherlode.net/creators/jmdollan/107%20Piscium.zip }
+$unpack {
+    -file "107 Piscium.zip" -type zip
+    -dir "extras/ArcB" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_107_Piscium_1__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_107_Piscium_1__jmdollan.jpg }
+$install
+    {"Thumbs.db" -skip}
+    {}
+$end

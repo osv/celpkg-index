@@ -1,0 +1,30 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Gamma Leporis B"
+$category {Fictional/ArcBuilders} {Experimental/Robot/Fictional/ArcBuilders}
+# default version!
+$version 1.0
+$created 2004-11-04
+$modified 2008-04-13
+$description The Gamma Leporis B System for the ArcBuilder Universe.
+This add-on contains a solar system made up of seven planets, a mixture of terrestrial and Jovian worlds. The primary planet is Kidian, an EoArean Type world. The package includes several 1k and 2k jpg textures, as well as some 2k cloud and ring PNG textures. To install, please just extract the zip file to your extras folder.
+
+NOTE: To view in Celestia, use the ENTER-TYPE NAME-ENTER method to get to Gamma Leporis B. Then, you'll be able to view the system using Celestia's built-in Solar System Browser under the Navigation Menu.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=381"
+$author {jmdollan} 
+$distfile {
+    -name "Gamma_Leporis_B.zip" -size 12547447 -md5 dac7388070e96a58653732eb982bb733
+    -url http://celestiamotherlode.net/creators/jmdollan/Gamma_Leporis_B.zip }
+$unpack {
+    -file "Gamma_Leporis_B.zip" -type zip
+    -dir "extras/ArcB" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/fictional/GammLepB01_jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/fictional/GammLepB01_jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/fictional/GammLepB02_jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/fictional/GammLepB02_jmdollan.jpg }
+$install
+    {"Thumbs.db" -skip}
+    {}
+$end

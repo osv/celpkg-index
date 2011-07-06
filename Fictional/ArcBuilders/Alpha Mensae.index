@@ -1,0 +1,29 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Alpha Mensae"
+$category {Fictional/ArcBuilders} {Experimental/Robot/Fictional/ArcBuilders}
+$version {1.0}
+$created 2007-05-24
+$modified 2008-04-12
+$description Alpha Mensae for the ArcBuilder Universe.
+$description This add-on provides a solar system for the star Alpha Mensai. To install, please view the included Readme.txt file. "NOTE:" To view in Celestia, use the ENTER-TYPE NAME-ENTER method to get to ALF Men. Then, you'll be able to view the system using Celestia's built-in Solar System Browser under the Navigation Menu.
+$www "http://arcbuilder.home.bresnan.net/EPAlphaMensae01.html"
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1056"
+$license "This add-on is intended for use with other ArcBuilder Universe add-ons. However you are free to use this add-on any way that you wish. Changes for distribution with other add-ons or applications requires permission from the author at maastrichian@bresnan.net. ArcBuilder Universe specific names and concepts are copyright by John M. Dollan."
+$author {jmdollan} 
+$distfile {
+    -name "Alpha Mensae.zip" -size 40683169 -md5 3c5bb472f3e96ae29682c4ab43eb9561
+    -url http://www.celestiamotherlode.net/creators/jmdollan/Alpha%20Mensae.zip }
+$unpack {
+    -file "Alpha Mensae.zip" -type zip
+    -dir "extras/ArcB" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Alpha_Mensae_1__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Alpha_Mensae_1__jmdollan.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_arcbuilder_Alpha_Mensae_2__jmdollan.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_arcbuilder_Alpha_Mensae_2__jmdollan.jpg }
+$install
+    {"Thumbs.db" -skip}
+    {}
+$end
