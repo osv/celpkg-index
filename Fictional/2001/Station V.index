@@ -10,8 +10,7 @@ $description Space Station V from 2001, A Space Odyssey.
 $description This add-on places the Space Station from 2001, A Space Odyssey in orbit around the Earth. Please note that this add-on does NOT include the Orion Space Plane.
 $www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=520"
 $license "unknown"
-$author {Jestr} Model created by Michael Powell.
-$author {Model created by Michael Powell.}
+$author {Jestr} {Michael Powell}
 $distfile {
     -name "StationV.zip" -size 542711 -md5 fded49f43a1ca73a420f95066eb4c2ec
     -url http://www.celestiamotherlode.net/creators/jestr/StationV.zip }

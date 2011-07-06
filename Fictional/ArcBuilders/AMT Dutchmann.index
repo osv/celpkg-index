@@ -13,7 +13,7 @@ NOTE: This zip file is put together in a strange way, but the add-on itself can 
 $www "http://j.dollan.home.bresnan.net/ARCVesselindex.html"
 $www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=815"
 $license "This add-on is intended for use with other ArcBuilder Universe add-ons. However you are free to use this add-on any way that you wish. Changes for distribution with other add-ons or applications requires permission from the author at maastrichian@bresnan.net. ArcBuilder Universe specific names and concepts are copyright by John M. Dollan."
-$author {jmdollan} S. Bowers
+$author {jmdollan}
 $author {S. Bowers}
 $distfile {
     -name "zAMT_Dutchmann.zip" -size 267313 -md5 b6ded91fed9f0d51772305a40836ad69
