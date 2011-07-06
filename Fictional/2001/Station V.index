@@ -1,0 +1,30 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Station V"
+$category {Fictional/2001} {Experimental/Robot/Fictional/2001}
+# default version!
+$version 1.0
+$created 2004-11-04
+$modified 2008-03-03
+$description Space Station V from 2001, A Space Odyssey.
+$description This add-on places the Space Station from 2001, A Space Odyssey in orbit around the Earth. Please note that this add-on does NOT include the Orion Space Plane.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=520"
+$license "unknown"
+$author {Jestr} Model created by Michael Powell.
+$author {Model created by Michael Powell.}
+$distfile {
+    -name "StationV.zip" -size 542711 -md5 fded49f43a1ca73a420f95066eb4c2ec
+    -url http://www.celestiamotherlode.net/creators/jestr/StationV.zip }
+$unpack {
+    -file "StationV.zip" -type zip
+    -dir "extras/2001" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/fictional/StationV_2001__jestr.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/fictional/StationV_2001__jestr.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_2001_Station_V_1__Jestr.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_2001_Station_V_1__Jestr.jpg }
+$install
+    {"Thumbs.db" -skip}
+    {}
+$end

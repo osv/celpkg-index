@@ -1,0 +1,37 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Discovery Spaceship"
+$category {Fictional/2001} {Experimental/Robot/Fictional/2001}
+# default version!
+$version 1.0
+$created 2004-11-04
+$modified 2010-10-20
+$description The Discovery spacecraft abandoned just off of Io.
+Jestr's add-on simply adds the Discovery spacecraft, from 2001
+- A Space Odyssey, to a point just off of Io. The spacecraft is
+abandoned and has been left in a slow (end over end) roll.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=517"
+$license "unknown"
+$author {Jestr} 
+$distfile {
+    -name "Discovery.zip" -size 1450439 -md5 84436e8a9b24e12764d6188954a37079
+    -url http://www.celestiamotherlode.net/creators/jestr/Discovery.zip }
+$unpack {
+    -file "Discovery.zip" -type zip
+    -dir "extras/2001" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/fictional/Discovery_2001__jestr.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/fictional/Discovery_2001__jestr.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_2001_Discovery_Spaceship_1__Jestr.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_2001_Discovery_Spaceship_1__Jestr.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_2001_Discovery_Spaceship_1__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_2001_Discovery_Spaceship_1__.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_2001_Discovery_Spaceship_2__.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_2001_Discovery_Spaceship_2__.jpg }
+$install
+    {"Thumbs.db" -skip}
+    {}
+$end

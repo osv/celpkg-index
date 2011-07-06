@@ -1,0 +1,36 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "The Earth in 2001"
+$category {Fictional/2001} {Experimental/Robot/Fictional/2001}
+# default version!
+$version 1.0
+$created 2008-11-29
+$modified 2008-11-30
+$description The antiquated "60's" Earth as seen in the film "2001: A Space Odyssey."
+In the movie 2001 "A Space Odyssey," the Earth, as seen from space, is different
+from the real photos. That is because, in 1968, when the film was directed by
+the great Stanley Kubrick, the only photos of the Earth from space are in gray
+scale. Only when the Apollo 11 mission took the first Earth color photos, was
+the Earth seen in true color.
+
+This add-on shows the relative fantasy space rendering, and not the real Earth
+image.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1268"
+$license "This add-on is free, but not for commercial use."
+$author {Hal Bowman} 
+$distfile {
+    -name "2001_earth_surface.zip" -size 6095200 -md5 cf96cd27902b6dcd73d18c8ec045c9f4
+    -url http://www.celestiamotherlode.net/creators/hal_bowman/2001_earth_surface.zip }
+$unpack {
+    -file "2001_earth_surface.zip" -type zip
+    -dir "extras/2001" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_2001_The_Earth_in_2001_1__Hal_Bowman.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_2001_The_Earth_in_2001_1__Hal_Bowman.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_2001_The_Earth_in_2001_2__Hal_Bowman.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_2001_The_Earth_in_2001_2__Hal_Bowman.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_2001_The_Earth_in_2001_3__Hal_Bowman.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_2001_The_Earth_in_2001_3__Hal_Bowman.jpg }
+$end

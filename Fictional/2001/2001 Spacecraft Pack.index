@@ -1,0 +1,34 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "2001 Spacecraft Pack"
+$category {Fictional/2001} {Experimental/Robot/Fictional/2001}
+$version {2.0}
+$created 2004-11-04
+$modified 2008-03-03
+$description Adds a variety of objects from "2001, a Space Odyssey."
+$description All of Frank's 2001 objects can be viewed in Celestia as long as your date in Celestia is after the beginning of the year in 2001. This package includes the Space Station with the Orion spacecraft about to dock, the Discovery abandoned at Io, the Monolith itself orbiting Jupiter, the Discovery Pod, and the Moon Shuttle in orbit around the Moon. Frank has also included a version of the Eagle, which was a fictional spacecraft from a popular television series.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=516"
+$license "Free distribution."
+$author {Frank Gregorio} 
+$distfile {
+    -name "2001_ships.zip" -size 9028179 -md5 2c351ee7024886bb2266161c269dbe43
+    -url http://www.celestiamotherlode.net/creators/fsgregs/2001_ships.zip }
+$unpack {
+    -file "2001_ships.zip" -type zip
+    -dir "extras/2001" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/fictional/OrionSpacePlane_2001__jestr.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/fictional/OrionSpacePlane_2001__jestr.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/fictional/Moonbus_2001__fsgregs.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/fictional/Moonbus_2001__fsgregs.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/fictional/Discovery_2001__fsgregs.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/fictional/Discovery_2001__fsgregs.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/fictional/Pod1_2001__fsgregs.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/fictional/Pod1_2001__fsgregs.jpg }
+$install
+    {"Thumbs.db" -skip}
+    {}
+$end

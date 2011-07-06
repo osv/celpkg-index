@@ -1,0 +1,39 @@
+# -*-coding: utf-8; mode: tcl -*-
+# Created by robot motherload-gen-index
+$addon "Discovery and its pod"
+$category {Fictional/2001} {Experimental/Robot/Fictional/2001}
+# default version!
+$version 1.0
+$created 2005-10-18
+$modified 2008-03-03
+$description High resolution models of the Discovery and its pod.
+$description Downloading these models is not recommended if you don't have FSAA (Full Scene AntiAliasing) enabled on your computer. The Discovery looks terrible without antialiasing. The models are highly polygonal so you need a strong video card.
+$www "http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=848"
+$license "Free for Celestia.  No commercial activities allowed."
+$author {Cham} 
+$distfile {
+    -name "Discovery_Pod.zip" -size 11551014 -md5 64ca058fd7380319e54779c38c4259e8
+    -url http://www.celestiamotherlode.net/creators/cham/Discovery_Pod.zip }
+$unpack {
+    -file "Discovery_Pod.zip" -type zip
+    -dir "extras/2001" }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_2001_Discovery_and_its_pod_1__Cham.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_2001_Discovery_and_its_pod_1__Cham.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_2001_Discovery_and_its_pod_2__Cham.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_2001_Discovery_and_its_pod_2__Cham.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_2001_Discovery_and_its_pod_3__Cham.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_2001_Discovery_and_its_pod_3__Cham.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_2001_Discovery_and_its_pod_4__Cham.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_2001_Discovery_and_its_pod_4__Cham.jpg }
+$screenshot {
+    http://www.celestiamotherlode.net/catalog/images/screenshots/various/fic_2001_Discovery_and_its_pod_5__Cham.jpg
+    http://www.celestiamotherlode.net/catalog/images/thumbs/various/fic_2001_Discovery_and_its_pod_5__Cham.jpg }
+$install
+    {"__MACOSX*" -deny}
+    {".DS_Store" -skip}
+    {}
+$end
